@@ -7715,3 +7715,75 @@ Alternately, you can install this by running `pip install pycaret[models]`
 2022-12-27 16:52:44,842:INFO:Scoring test/hold-out set
 2022-12-27 16:52:45,218:INFO:Visual Rendered Successfully
 2022-12-27 16:52:45,304:INFO:plot_model() successfully completed......................................
+2022-12-27 16:59:05,430:INFO:Initializing predict_model()
+2022-12-27 16:59:05,430:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f974b1337d0>, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='auto',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=42, verbose=0, warm_start=False), probability_threshold=None, encoded_labels=False, raw_score=False, drift_report=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x7f974a626a70>)
+2022-12-27 16:59:05,431:INFO:Checking exceptions
+2022-12-27 16:59:05,431:INFO:Preloading libraries
+2022-12-27 16:59:05,434:INFO:Set up data.
+2022-12-27 16:59:05,727:INFO:Set up index.
+2022-12-27 16:59:14,936:WARNING:/home/vscode/.local/lib/python3.7/site-packages/pycaret/internal/pipeline.py:225: UserWarning: Persisting input arguments took 2.80s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(transformer, X, y)
+
+2022-12-27 16:59:23,112:WARNING:/home/vscode/.local/lib/python3.7/site-packages/pycaret/internal/pipeline.py:225: UserWarning: Persisting input arguments took 2.65s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(transformer, X, y)
+
+2022-12-27 16:59:27,846:WARNING:/home/vscode/.local/lib/python3.7/site-packages/pycaret/internal/pipeline.py:225: UserWarning: Persisting input arguments took 1.49s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(transformer, X, y)
+
+2022-12-27 16:59:40,720:INFO:Initializing predict_model()
+2022-12-27 16:59:40,720:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f974b1337d0>, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='auto',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=42, verbose=0, warm_start=False), probability_threshold=None, encoded_labels=False, raw_score=False, drift_report=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x7f97845d0d40>)
+2022-12-27 16:59:40,720:INFO:Checking exceptions
+2022-12-27 16:59:40,720:INFO:Preloading libraries
+2022-12-27 16:59:40,722:INFO:Set up data.
+2022-12-27 16:59:40,845:INFO:Set up index.
+2022-12-27 16:59:51,366:WARNING:/home/vscode/.local/lib/python3.7/site-packages/pycaret/internal/pipeline.py:225: UserWarning: Persisting input arguments took 1.53s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(transformer, X, y)
+
+2022-12-27 17:00:49,674:INFO:Initializing predict_model()
+2022-12-27 17:00:49,675:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f974b1337d0>, estimator=ExtraTreesClassifier(bootstrap=False, ccp_alpha=0.0, class_weight=None,
+                     criterion='gini', max_depth=None, max_features='auto',
+                     max_leaf_nodes=None, max_samples=None,
+                     min_impurity_decrease=0.0, min_samples_leaf=1,
+                     min_samples_split=2, min_weight_fraction_leaf=0.0,
+                     n_estimators=100, n_jobs=-1, oob_score=False,
+                     random_state=42, verbose=0, warm_start=False), probability_threshold=None, encoded_labels=False, raw_score=False, drift_report=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x7f97845d0b00>)
+2022-12-27 17:00:49,675:INFO:Checking exceptions
+2022-12-27 17:00:49,675:INFO:Preloading libraries
+2022-12-27 17:00:49,677:INFO:Set up data.
+2022-12-27 17:00:49,821:INFO:Set up index.
