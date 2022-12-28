@@ -10910,3 +10910,9 @@ THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
 2022-12-28 13:25:19,503:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
 2022-12-28 13:25:19,584:INFO:Visual Rendered Successfully
 2022-12-28 13:25:19,654:INFO:plot_model() successfully completed......................................
+2022-12-28 14:07:26,366:WARNING:/home/vscode/.local/lib/python3.7/site-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 146 (\x92) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+
+2022-12-28 14:08:07,875:WARNING:/home/vscode/.local/lib/python3.7/site-packages/IPython/core/pylabtools.py:151: UserWarning: Glyph 146 (\x92) missing from current font.
+  fig.canvas.print_figure(bytes_io, **kw)
+
