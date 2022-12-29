@@ -18635,3 +18635,392 @@ THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
 2022-12-28 15:30:31,156:INFO:Scoring test/hold-out set
 2022-12-28 15:30:31,787:INFO:Visual Rendered Successfully
 2022-12-28 15:30:31,859:INFO:plot_model() successfully completed......................................
+2022-12-29 07:57:34,357:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 07:57:34,357:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 07:57:34,357:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 07:57:34,357:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 07:57:34,595:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2022-12-29 07:58:34,487:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 07:58:34,487:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 07:58:34,487:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 07:58:34,487:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 07:58:34,709:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2022-12-29 08:00:13,020:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 08:00:13,020:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 08:00:13,020:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 08:00:13,020:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 08:00:13,240:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2022-12-29 08:00:28,878:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 08:00:28,878:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 08:00:28,878:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 08:00:28,878:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 08:00:29,118:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2022-12-29 08:00:43,694:WARNING:/home/vscode/.local/lib/python3.7/site-packages/fast_ml/feature_engineering.py:382: FutureWarning: Series.dt.weekofyear and Series.dt.week have been deprecated.  Please use Series.dt.isocalendar().week instead.
+  df[pfx+f] = getattr(df[var].dt, f)
+
+2022-12-29 08:03:09,718:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 08:03:09,718:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 08:03:09,719:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 08:03:09,719:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 08:03:09,934:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2022-12-29 08:08:05,781:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 08:08:05,781:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 08:08:05,782:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 08:08:05,782:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 08:08:06,001:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2022-12-29 08:14:36,634:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 08:14:36,634:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 08:14:36,634:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 08:14:36,635:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2022-12-29 08:14:36,853:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2022-12-29 08:14:51,605:WARNING:/home/vscode/.local/lib/python3.7/site-packages/fast_ml/feature_engineering.py:382: FutureWarning: Series.dt.weekofyear and Series.dt.week have been deprecated.  Please use Series.dt.isocalendar().week instead.
+  df[pfx+f] = getattr(df[var].dt, f)
+
+2022-12-29 08:14:52,562:INFO:PyCaret ClassificationExperiment
+2022-12-29 08:14:52,562:INFO:Logging name: clf-default-name
+2022-12-29 08:14:52,562:INFO:ML Usecase: MLUsecase.CLASSIFICATION
+2022-12-29 08:14:52,562:INFO:version 3.0.0.rc6
+2022-12-29 08:14:52,562:INFO:Initializing setup()
+2022-12-29 08:14:52,562:INFO:self.USI: 15e5
+2022-12-29 08:14:52,563:INFO:self._variable_keys: {'memory', 'y_train', 'fold_generator', '_available_plots', 'USI', 'fold_groups_param', 'y_test', 'gpu_n_jobs_param', 'X_train', 'is_multiclass', 'logging_param', 'exp_name_log', 'seed', 'fix_imbalance', 'log_plots_param', 'n_jobs_param', 'fold_shuffle_param', 'html_param', 'y', 'X_test', 'X', '_ml_usecase', 'target_param', 'idx', 'exp_id', 'data', 'pipeline', 'gpu_param'}
+2022-12-29 08:14:52,563:INFO:Checking environment
+2022-12-29 08:14:52,563:INFO:python_version: 3.7.16
+2022-12-29 08:14:52,563:INFO:python_build: ('default', 'Dec  8 2022 03:54:13')
+2022-12-29 08:14:52,563:INFO:machine: x86_64
+2022-12-29 08:14:52,563:INFO:platform: Linux-5.15.0-56-generic-x86_64-with-debian-11.6
+2022-12-29 08:14:52,563:INFO:Memory: svmem(total=16720441344, available=8856911872, percent=47.0, used=7322574848, free=3803316224, active=4269268992, inactive=7627313152, buffers=277524480, cached=5317025792, shared=186032128, slab=563183616)
+2022-12-29 08:14:52,564:INFO:Physical Core: 6
+2022-12-29 08:14:52,564:INFO:Logical Core: 12
+2022-12-29 08:14:52,564:INFO:Checking libraries
+2022-12-29 08:14:52,564:INFO:System:
+2022-12-29 08:14:52,564:INFO:    python: 3.7.16 (default, Dec  8 2022, 03:54:13)  [GCC 10.2.1 20210110]
+2022-12-29 08:14:52,564:INFO:executable: /usr/local/bin/python
+2022-12-29 08:14:52,565:INFO:   machine: Linux-5.15.0-56-generic-x86_64-with-debian-11.6
+2022-12-29 08:14:52,565:INFO:PyCaret required dependencies:
+2022-12-29 08:14:52,565:INFO:                 pip: 22.0.4
+2022-12-29 08:14:52,565:INFO:          setuptools: 57.5.0
+2022-12-29 08:14:52,565:INFO:             pycaret: 3.0.0rc6
+2022-12-29 08:14:52,565:INFO:             IPython: 7.34.0
+2022-12-29 08:14:52,565:INFO:          ipywidgets: 8.0.2
+2022-12-29 08:14:52,565:INFO:                tqdm: 4.64.1
+2022-12-29 08:14:52,565:INFO:               numpy: 1.21.6
+2022-12-29 08:14:52,565:INFO:              pandas: 1.3.5
+2022-12-29 08:14:52,565:INFO:              jinja2: 3.1.2
+2022-12-29 08:14:52,565:INFO:               scipy: 1.7.3
+2022-12-29 08:14:52,565:INFO:              joblib: 1.2.0
+2022-12-29 08:14:52,565:INFO:             sklearn: 1.0.2
+2022-12-29 08:14:52,565:INFO:                pyod: 1.0.7
+2022-12-29 08:14:52,565:INFO:            imblearn: 0.10.0
+2022-12-29 08:14:52,565:INFO:   category_encoders: 2.5.1.post0
+2022-12-29 08:14:52,565:INFO:            lightgbm: 3.3.3
+2022-12-29 08:14:52,565:INFO:               numba: 0.56.4
+2022-12-29 08:14:52,565:INFO:            requests: 2.28.1
+2022-12-29 08:14:52,565:INFO:          matplotlib: 3.5.3
+2022-12-29 08:14:52,566:INFO:          scikitplot: 0.3.7
+2022-12-29 08:14:52,566:INFO:         yellowbrick: 1.5
+2022-12-29 08:14:52,566:INFO:              plotly: 5.11.0
+2022-12-29 08:14:52,566:INFO:             kaleido: 0.2.1
+2022-12-29 08:14:52,566:INFO:         statsmodels: 0.13.5
+2022-12-29 08:14:52,566:INFO:              sktime: 0.14.1
+2022-12-29 08:14:52,566:INFO:               tbats: 1.1.2
+2022-12-29 08:14:52,566:INFO:            pmdarima: 2.0.2
+2022-12-29 08:14:52,566:INFO:              psutil: 5.9.4
+2022-12-29 08:14:52,566:INFO:PyCaret optional dependencies:
+2022-12-29 08:14:52,572:INFO:                shap: Not installed
+2022-12-29 08:14:52,573:INFO:           interpret: Not installed
+2022-12-29 08:14:52,573:INFO:                umap: Not installed
+2022-12-29 08:14:52,573:INFO:    pandas_profiling: Not installed
+2022-12-29 08:14:52,573:INFO:  explainerdashboard: Not installed
+2022-12-29 08:14:52,573:INFO:             autoviz: Not installed
+2022-12-29 08:14:52,573:INFO:           fairlearn: Not installed
+2022-12-29 08:14:52,573:INFO:             xgboost: 1.6.2
+2022-12-29 08:14:52,573:INFO:            catboost: Not installed
+2022-12-29 08:14:52,573:INFO:              kmodes: Not installed
+2022-12-29 08:14:52,573:INFO:             mlxtend: Not installed
+2022-12-29 08:14:52,573:INFO:       statsforecast: Not installed
+2022-12-29 08:14:52,573:INFO:        tune_sklearn: Not installed
+2022-12-29 08:14:52,573:INFO:                 ray: Not installed
+2022-12-29 08:14:52,573:INFO:            hyperopt: Not installed
+2022-12-29 08:14:52,573:INFO:              optuna: Not installed
+2022-12-29 08:14:52,573:INFO:               skopt: Not installed
+2022-12-29 08:14:52,573:INFO:              mlflow: Not installed
+2022-12-29 08:14:52,573:INFO:              gradio: Not installed
+2022-12-29 08:14:52,573:INFO:             fastapi: Not installed
+2022-12-29 08:14:52,573:INFO:             uvicorn: Not installed
+2022-12-29 08:14:52,573:INFO:              m2cgen: Not installed
+2022-12-29 08:14:52,574:INFO:           evidently: Not installed
+2022-12-29 08:14:52,574:INFO:                nltk: Not installed
+2022-12-29 08:14:52,574:INFO:            pyLDAvis: Not installed
+2022-12-29 08:14:52,574:INFO:              gensim: Not installed
+2022-12-29 08:14:52,574:INFO:               spacy: Not installed
+2022-12-29 08:14:52,574:INFO:           wordcloud: Not installed
+2022-12-29 08:14:52,574:INFO:            textblob: Not installed
+2022-12-29 08:14:52,574:INFO:               fugue: Not installed
+2022-12-29 08:14:52,574:INFO:           streamlit: Not installed
+2022-12-29 08:14:52,574:INFO:             prophet: Not installed
+2022-12-29 08:14:52,574:INFO:None
+2022-12-29 08:14:52,574:INFO:Set up data.
+2022-12-29 08:14:52,695:INFO:Set up train/test split.
+2022-12-29 08:14:52,726:INFO:Set up index.
+2022-12-29 08:14:52,728:INFO:Set up folding strategy.
+2022-12-29 08:14:52,728:INFO:Assigning column types.
+2022-12-29 08:14:52,751:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2022-12-29 08:14:52,794:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2022-12-29 08:14:52,795:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2022-12-29 08:14:52,823:INFO:Soft dependency imported: xgboost: 1.6.2
+2022-12-29 08:14:52,865:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-12-29 08:14:52,909:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2022-12-29 08:14:52,910:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2022-12-29 08:14:52,936:INFO:Soft dependency imported: xgboost: 1.6.2
+2022-12-29 08:14:52,939:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-12-29 08:14:52,939:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2022-12-29 08:14:52,981:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2022-12-29 08:14:53,007:INFO:Soft dependency imported: xgboost: 1.6.2
+2022-12-29 08:14:53,009:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-12-29 08:14:53,052:INFO:Engine for model 'rbfsvm' has not been set explicitly, hence returning None.
+2022-12-29 08:14:53,078:INFO:Soft dependency imported: xgboost: 1.6.2
+2022-12-29 08:14:53,080:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-12-29 08:14:53,080:INFO:Engine successfully changes for model 'rbfsvm' to 'sklearn'.
+2022-12-29 08:14:53,148:INFO:Soft dependency imported: xgboost: 1.6.2
+2022-12-29 08:14:53,151:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-12-29 08:14:53,219:INFO:Soft dependency imported: xgboost: 1.6.2
+2022-12-29 08:14:53,222:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-12-29 08:14:53,222:INFO:Preparing preprocessing pipeline...
+2022-12-29 08:14:53,224:INFO:Set up simple imputation.
+2022-12-29 08:14:53,234:INFO:Set up encoding of ordinal features.
+2022-12-29 08:14:53,237:INFO:Set up encoding of categorical features.
+2022-12-29 08:14:58,348:WARNING:/home/vscode/.local/lib/python3.7/site-packages/pycaret/internal/pipeline.py:197: UserWarning: Persisting input arguments took 1.46s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  **fit_params_steps.get(name, {}),
+
+2022-12-29 08:15:02,778:WARNING:/home/vscode/.local/lib/python3.7/site-packages/pycaret/internal/pipeline.py:197: UserWarning: Persisting input arguments took 1.35s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  **fit_params_steps.get(name, {}),
+
+2022-12-29 08:15:02,909:INFO:Finished creating preprocessing pipeline.
+2022-12-29 08:15:02,919:INFO:Pipeline: Pipeline(memory=Memory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(exclude=None,
+                                    include=['Days for shipping (real)',
+                                             'Days for shipment (scheduled)',
+                                             'Late_delivery_risk',
+                                             'Customer Id', 'Customer Zipcode',
+                                             'Latitude', 'Longitude',
+                                             'Order Id', 'Order Zipcode',
+                                             'is_cancelled', 'hour-month',
+                                             'order_date_quarter',
+                                             'order_date_month',
+                                             'order_date_day...
+                                             'Order State', 'order_date_time',
+                                             'shipping_date_time'],
+                                    transformer=LeaveOneOutEncoder(cols=['Customer '
+                                                                         'City',
+                                                                         'Customer '
+                                                                         'State',
+                                                                         'Order '
+                                                                         'City',
+                                                                         'Order '
+                                                                         'Country',
+                                                                         'Order '
+                                                                         'State',
+                                                                         'order_date_time',
+                                                                         'shipping_date_time'],
+                                                                   drop_invariant=False,
+                                                                   handle_missing='return_nan',
+                                                                   handle_unknown='value',
+                                                                   random_state=105,
+                                                                   return_df=True,
+                                                                   sigma=None,
+                                                                   verbose=0)))],
+         verbose=False)
+2022-12-29 08:15:02,919:INFO:Creating final display dataframe.
+2022-12-29 08:15:07,958:WARNING:/home/vscode/.local/lib/python3.7/site-packages/pycaret/internal/pipeline.py:225: UserWarning: Persisting input arguments took 1.50s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(transformer, X, y)
+
+2022-12-29 08:15:12,187:WARNING:/home/vscode/.local/lib/python3.7/site-packages/pycaret/internal/pipeline.py:225: UserWarning: Persisting input arguments took 1.36s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(transformer, X, y)
+
+2022-12-29 08:15:14,381:WARNING:/home/vscode/.local/lib/python3.7/site-packages/pycaret/internal/pipeline.py:225: UserWarning: Persisting input arguments took 0.69s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(transformer, X, y)
+
+2022-12-29 08:15:20,504:WARNING:/home/vscode/.local/lib/python3.7/site-packages/pycaret/internal/pipeline.py:225: UserWarning: Persisting input arguments took 1.37s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(transformer, X, y)
+
+2022-12-29 08:15:22,925:WARNING:/home/vscode/.local/lib/python3.7/site-packages/pycaret/internal/pipeline.py:225: UserWarning: Persisting input arguments took 0.77s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(transformer, X, y)
+
+2022-12-29 08:15:25,461:WARNING:/home/vscode/.local/lib/python3.7/site-packages/pycaret/internal/pipeline.py:225: UserWarning: Persisting input arguments took 0.68s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(transformer, X, y)
+
+2022-12-29 08:15:27,426:WARNING:/home/vscode/.local/lib/python3.7/site-packages/pycaret/internal/pipeline.py:225: UserWarning: Persisting input arguments took 0.63s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(transformer, X, y)
+
+2022-12-29 08:15:34,291:WARNING:/home/vscode/.local/lib/python3.7/site-packages/pycaret/internal/pipeline.py:225: UserWarning: Persisting input arguments took 0.76s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(transformer, X, y)
+
+2022-12-29 08:15:41,042:WARNING:/home/vscode/.local/lib/python3.7/site-packages/pycaret/internal/pipeline.py:225: UserWarning: Persisting input arguments took 0.62s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(transformer, X, y)
+
+2022-12-29 08:15:42,326:INFO:Setup _display_container:                     Description             Value
+0                    Session id               105
+1                        Target          is_fraud
+2                   Target type            Binary
+3           Original data shape       (46026, 60)
+4        Transformed data shape      (46026, 228)
+5   Transformed train set shape      (32218, 228)
+6    Transformed test set shape      (13808, 228)
+7              Ordinal features                 1
+8              Numeric features                31
+9          Categorical features                16
+10     Rows with missing values             88.2%
+11                   Preprocess              True
+12              Imputation type            simple
+13           Numeric imputation              mean
+14       Categorical imputation              mode
+15     Maximum one-hot encoding                25
+16              Encoding method              None
+17               Fold Generator   StratifiedKFold
+18                  Fold Number                10
+19                     CPU Jobs                -1
+20                      Use GPU             False
+21               Log Experiment             False
+22              Experiment Name  clf-default-name
+23                          USI              15e5
+2022-12-29 08:15:42,394:INFO:Soft dependency imported: xgboost: 1.6.2
+2022-12-29 08:15:42,397:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-12-29 08:15:42,465:INFO:Soft dependency imported: xgboost: 1.6.2
+2022-12-29 08:15:42,467:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2022-12-29 08:15:42,468:INFO:setup() successfully completed in 49.91s...............
+2022-12-29 08:15:42,526:INFO:Initializing compare_models()
+2022-12-29 08:15:42,526:INFO:compare_models(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f91c4f1ae50>, include=None, fold=None, round=4, cross_validation=True, sort=Accuracy, n_select=1, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, parallel=None, caller_params={'self': <pycaret.classification.oop.ClassificationExperiment object at 0x7f91c4f1ae50>, 'include': None, 'exclude': ['knn'], 'fold': None, 'round': 4, 'cross_validation': True, 'sort': 'Accuracy', 'n_select': 1, 'budget_time': None, 'turbo': True, 'errors': 'ignore', 'fit_kwargs': None, 'groups': None, 'experiment_custom_tags': None, 'probability_threshold': None, 'engine': None, 'verbose': True, 'parallel': None, '__class__': <class 'pycaret.classification.oop.ClassificationExperiment'>}, exclude=['knn'])
+2022-12-29 08:15:42,527:INFO:Checking exceptions
+2022-12-29 08:15:42,537:INFO:Preparing display monitor
+2022-12-29 08:15:42,559:INFO:Initializing Logistic Regression
+2022-12-29 08:15:42,559:INFO:Total runtime is 3.111362457275391e-06 minutes
+2022-12-29 08:15:42,562:INFO:SubProcess create_model() called ==================================
+2022-12-29 08:15:42,562:INFO:Initializing create_model()
+2022-12-29 08:15:42,562:INFO:create_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x7f91c4f1ae50>, estimator=lr, fold=StratifiedKFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f91c44adcd0>, model_only=True, return_train_score=False, kwargs={})
+2022-12-29 08:15:42,562:INFO:Checking exceptions
+2022-12-29 08:15:42,562:INFO:Importing libraries
+2022-12-29 08:15:42,562:INFO:Copying training dataset
+2022-12-29 08:15:42,574:INFO:Defining folds
+2022-12-29 08:15:42,574:INFO:Declaring metric variables
+2022-12-29 08:15:42,578:INFO:Importing untrained model
+2022-12-29 08:15:42,581:INFO:Logistic Regression Imported successfully
+2022-12-29 08:15:42,588:INFO:Starting cross validation
+2022-12-29 08:15:42,591:INFO:Cross validating with StratifiedKFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
