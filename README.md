@@ -9,3 +9,9 @@ sudo apt-get install libcudnn8-dev
 
 #sudo apt-get install tensorrt
 ```
+
+## Graphviz
+
+```bash
+sudo apt install graphviz
+```

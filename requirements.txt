@@ -7,3 +7,4 @@ xgboost==1.6.2
 pycaret==3.0.0rc6
 jupyter==1.0.0
 fast-ml==3.68
+pydot==1.4.2
