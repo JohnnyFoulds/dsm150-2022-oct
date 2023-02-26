@@ -16,3 +16,9 @@ sudo apt-get install libcudnn8-dev
 ```bash
 sudo apt install graphviz
 ```
+
+# Cuda 12 Dependencies
+
+```bash
+sudo apt install libcublas-12-0 #libcublas-dev-12-0
+```
