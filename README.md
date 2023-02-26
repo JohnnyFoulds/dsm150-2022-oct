@@ -7,6 +7,7 @@ sudo apt-get update
 sudo apt-get install libcudnn8
 sudo apt-get install libcudnn8-dev
 
+#sudo apt install libnvinfer8
 #sudo apt-get install tensorrt
 ```
 
