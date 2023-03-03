@@ -13,3 +13,6 @@ pqdm==0.2.0
 
 #jupyter nbextension enable --py widgetsnbextension
 ipywidgets==7.7.2
+
+#sudo apt install graphviz
+graphviz==0.20.1

@@ -8,6 +8,8 @@ sudo apt-get install libcudnn8
 sudo apt-get install libcudnn8-dev
 
 #sudo apt install libnvinfer8
+
+#pip install nvidia-tensorrt
 #sudo apt-get install tensorrt
 ```
 
