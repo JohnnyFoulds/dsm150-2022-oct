@@ -35343,3 +35343,15 @@
 2023-03-10 09:22:45 INFO     Started
 2023-03-10 09:57:01 INFO     Started
 2023-03-10 10:20:44 INFO     Started
+2023-03-10 10:38:48 INFO     Started
+2023-03-10 10:40:52 INFO     Started
+2023-03-10 11:00:50 WARNING  Layer lstm will not use cuDNN kernels since it doesn't meet the criteria. It will use a generic GPU kernel as fallback when running on GPU.
+2023-03-10 11:09:36 WARNING  Layer lstm_1 will not use cuDNN kernels since it doesn't meet the criteria. It will use a generic GPU kernel as fallback when running on GPU.
+2023-03-10 11:09:53 WARNING  Layer lstm_2 will not use cuDNN kernels since it doesn't meet the criteria. It will use a generic GPU kernel as fallback when running on GPU.
+2023-03-10 11:11:27 WARNING  Layer lstm_3 will not use cuDNN kernels since it doesn't meet the criteria. It will use a generic GPU kernel as fallback when running on GPU.
+2023-03-10 11:12:54 WARNING  Layer lstm_4 will not use cuDNN kernels since it doesn't meet the criteria. It will use a generic GPU kernel as fallback when running on GPU.
+2023-03-10 11:14:17 WARNING  Layer lstm_5 will not use cuDNN kernels since it doesn't meet the criteria. It will use a generic GPU kernel as fallback when running on GPU.
+2023-03-10 11:15:47 WARNING  Layer lstm_6 will not use cuDNN kernels since it doesn't meet the criteria. It will use a generic GPU kernel as fallback when running on GPU.
+2023-03-10 11:18:21 WARNING  Layer lstm_7 will not use cuDNN kernels since it doesn't meet the criteria. It will use a generic GPU kernel as fallback when running on GPU.
+2023-03-10 11:18:54 WARNING  Layer lstm_8 will not use cuDNN kernels since it doesn't meet the criteria. It will use a generic GPU kernel as fallback when running on GPU.
+2023-03-10 11:20:53 WARNING  Layer lstm_9 will not use cuDNN kernels since it doesn't meet the criteria. It will use a generic GPU kernel as fallback when running on GPU.
