@@ -35372,3 +35372,4 @@
 2023-03-12 12:32:27 WARNING  Model was constructed with shape (None, 1) for input KerasTensor(type_spec=TensorSpec(shape=(None, 1), dtype=tf.float32, name='input_22'), name='input_22', description="created by layer 'input_22'"), but it was called on an input with incompatible shape (None, 23, 5, 5).
 2023-03-12 12:32:56 WARNING  Model was constructed with shape (None, 23, 5, 5) for input KerasTensor(type_spec=TensorSpec(shape=(None, 23, 5, 5), dtype=tf.float32, name='input_21'), name='input_21', description="created by layer 'input_21'"), but it was called on an input with incompatible shape (None, 1).
 2023-03-12 12:32:56 WARNING  Model was constructed with shape (None, 1) for input KerasTensor(type_spec=TensorSpec(shape=(None, 1), dtype=tf.float32, name='input_22'), name='input_22', description="created by layer 'input_22'"), but it was called on an input with incompatible shape (None, 23, 5, 5).
+2023-03-12 16:14:41 INFO     Started
