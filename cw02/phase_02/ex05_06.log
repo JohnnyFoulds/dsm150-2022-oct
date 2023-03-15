@@ -35418,3 +35418,53 @@
 2023-03-15 09:48:22 INFO     Processing Session: 20090312431273200
 2023-03-15 09:48:36 INFO     Getting the time series features for the entire dataset
 2023-03-15 09:48:51 INFO     Processing each session
+2023-03-15 11:01:47 INFO     Getting the time series features for the entire dataset
+2023-03-15 11:02:02 INFO     Processing each session
+2023-03-15 11:03:58 INFO     Getting the time series features for the entire dataset
+2023-03-15 11:04:13 INFO     Processing each session
+2023-03-15 11:05:02 INFO     Getting the time series features for the entire dataset
+2023-03-15 11:05:17 INFO     Processing each session
+2023-03-15 11:05:47 INFO     Getting the time series features for the entire dataset
+2023-03-15 11:06:02 INFO     Processing each session
+2023-03-15 11:07:36 INFO     Getting the time series features for the entire dataset
+2023-03-15 11:07:51 INFO     Processing each session
+2023-03-15 11:08:42 INFO     Getting the time series features for the entire dataset
+2023-03-15 11:08:57 INFO     Processing each session
+2023-03-15 11:08:57 INFO     Converting the feature list to a dataframe.
+2023-03-15 11:09:12 INFO     Getting the time series features for the entire dataset
+2023-03-15 11:09:27 INFO     Processing each session
+2023-03-15 11:09:27 INFO     Converting the feature list to a DataFrame.
+2023-03-15 11:10:12 INFO     Getting the time series features for the entire dataset
+2023-03-15 11:10:27 INFO     Processing each session
+2023-03-15 11:10:28 INFO     Converting the feature list to a DataFrame.
+2023-03-15 11:10:28 INFO     Adding the time series features to the features dataframe.
+2023-03-15 11:10:31 INFO     Getting the time series features for the entire dataset
+2023-03-15 11:10:46 INFO     Processing each session
+2023-03-15 11:11:01 INFO     Started
+2023-03-15 11:12:27 INFO     Getting the time series features for the entire dataset
+2023-03-15 11:12:42 INFO     Processing each session
+2023-03-15 11:15:33 INFO     Started
+2023-03-15 11:16:57 INFO     Getting the time series features for the entire dataset
+2023-03-15 11:17:12 INFO     Processing each session
+2023-03-15 11:26:48 INFO     Converting the feature list to a DataFrame.
+2023-03-15 11:26:48 INFO     Adding the time series features to the features dataframe.
+2023-03-15 11:30:16 INFO     Started
+2023-03-15 11:36:27 INFO     Getting the time series features for the entire dataset
+2023-03-15 11:36:42 INFO     Processing each session
+2023-03-15 11:36:42 INFO     Converting the feature list to a DataFrame.
+2023-03-15 11:36:42 INFO     Adding the time series features to the features dataframe.
+2023-03-15 11:36:54 INFO     Getting the time series features for the entire dataset
+2023-03-15 11:37:09 INFO     Processing each session
+2023-03-15 11:37:09 INFO     Converting the feature list to a DataFrame.
+2023-03-15 11:37:09 INFO     Adding the time series features to the features dataframe.
+2023-03-15 11:37:25 INFO     Started
+2023-03-15 11:38:48 INFO     Getting the time series features for the entire dataset
+2023-03-15 11:39:04 INFO     Processing each session
+2023-03-15 11:48:53 INFO     Converting the feature list to a DataFrame.
+2023-03-15 11:48:53 INFO     Adding the time series features to the features dataframe.
+2023-03-15 11:50:13 INFO     Started
+2023-03-15 11:51:19 INFO     Started
+2023-03-15 11:52:50 INFO     Getting the time series features for the entire dataset
+2023-03-15 11:53:07 INFO     Processing each session
+2023-03-15 12:03:23 INFO     Converting the feature list to a DataFrame.
+2023-03-15 12:03:23 INFO     Adding the time series features to the features dataframe.
