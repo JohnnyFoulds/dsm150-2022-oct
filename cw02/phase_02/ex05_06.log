@@ -35385,3 +35385,36 @@
 2023-03-14 16:11:44 INFO     Started
 2023-03-14 16:12:56 INFO     Started
 2023-03-14 16:22:34 INFO     Started
+2023-03-15 06:22:21 INFO     Started
+2023-03-15 09:27:49 INFO     Get the time series features for the entire dataset
+2023-03-15 09:28:56 INFO     Getting the time series features for the entire dataset
+2023-03-15 09:29:57 INFO     Getting the time series features for the entire dataset
+2023-03-15 09:30:12 INFO     Processing each session
+2023-03-15 09:31:10 INFO     Getting the time series features for the entire dataset
+2023-03-15 09:31:25 INFO     Processing each session
+2023-03-15 09:31:52 INFO     Getting the time series features for the entire dataset
+2023-03-15 09:32:08 INFO     Processing each session
+2023-03-15 09:32:10 INFO     Getting the time series features for the entire dataset
+2023-03-15 09:32:25 INFO     Processing each session
+2023-03-15 09:33:17 INFO     Getting the time series features for the entire dataset
+2023-03-15 09:33:32 INFO     Processing each session
+2023-03-15 09:34:53 INFO     Getting the time series features for the entire dataset
+2023-03-15 09:35:08 INFO     Processing each session
+2023-03-15 09:35:08 INFO     Processing Session: 20090312431273200
+2023-03-15 09:36:56 INFO     Started
+2023-03-15 09:37:57 INFO     Started
+2023-03-15 09:39:21 INFO     Getting the time series features for the entire dataset
+2023-03-15 09:39:37 INFO     Processing each session
+2023-03-15 09:39:37 INFO     Processing Session: 20090312431273200
+2023-03-15 09:42:20 INFO     Started
+2023-03-15 09:44:49 INFO     Getting the time series features for the entire dataset
+2023-03-15 09:45:04 INFO     Processing each session
+2023-03-15 09:45:04 INFO     Processing Session: 20090312431273200
+2023-03-15 09:47:25 INFO     Getting the time series features for the entire dataset
+2023-03-15 09:47:41 INFO     Processing each session
+2023-03-15 09:47:41 INFO     Processing Session: 20090312431273200
+2023-03-15 09:48:07 INFO     Getting the time series features for the entire dataset
+2023-03-15 09:48:22 INFO     Processing each session
+2023-03-15 09:48:22 INFO     Processing Session: 20090312431273200
+2023-03-15 09:48:36 INFO     Getting the time series features for the entire dataset
+2023-03-15 09:48:51 INFO     Processing each session
