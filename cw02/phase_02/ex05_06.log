@@ -35780,3 +35780,21 @@
 2023-03-17 08:29:13 INFO     Creating the dataset for all level groups
 2023-03-17 08:31:04 INFO     Creating the dataset for all level groups
 2023-03-17 08:31:46 INFO     Creating the dataset for all level groups
+2023-03-17 08:46:01 INFO     Started
+2023-03-17 08:47:36 INFO     Getting the time series features for the entire dataset
+2023-03-17 08:47:51 INFO     Processing each session
+2023-03-17 08:57:09 INFO     Converting the feature list to a DataFrame.
+2023-03-17 08:57:09 INFO     Adding the time series features to the features dataframe.
+2023-03-17 08:57:09 INFO     Creating the dataset for all level groups
+2023-03-17 08:57:11 INFO     Creating the dataset for all level groups
+2023-03-17 08:58:58 INFO     Creating the dataset for all level groups
+2023-03-17 08:59:30 INFO     Creating the dataset for all level groups
+2023-03-17 10:19:52 INFO     Started
+2023-03-17 10:21:26 INFO     Getting the time series features for the entire dataset
+2023-03-17 10:21:40 INFO     Processing each session
+2023-03-17 10:31:03 INFO     Converting the feature list to a DataFrame.
+2023-03-17 10:31:03 INFO     Adding the time series features to the features dataframe.
+2023-03-17 10:31:03 INFO     Creating the dataset for all level groups
+2023-03-17 10:31:05 INFO     Creating the dataset for all level groups
+2023-03-17 10:32:54 INFO     Creating the dataset for all level groups
+2023-03-17 10:33:28 INFO     Creating the dataset for all level groups
