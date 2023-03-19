@@ -53,7 +53,7 @@ Now close and reopen the terminal. You can use `conda list` to test the installa
  # install dependencies
  conda install -p /root/miniconda3/envs/jo_wilder ipykernel --update-deps --force-reinstall
 
- pip install pandas tqdm
+ pip install pandas tqdm ipywidgets
  #pip install tensorflow==2.11.0
 conda install -c anaconda tensorflow
 ```
