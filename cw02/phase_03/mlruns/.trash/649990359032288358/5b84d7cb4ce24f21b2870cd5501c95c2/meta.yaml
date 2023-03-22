@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/649990359032288358/5b84d7cb4ce24f21b2870cd5501c95c2/artifacts
+end_time: 1679505159151
+entry_point_name: ''
+experiment_id: '649990359032288358'
+lifecycle_stage: active
+run_id: 5b84d7cb4ce24f21b2870cd5501c95c2
+run_name: entertaining-stag-97
+run_uuid: 5b84d7cb4ce24f21b2870cd5501c95c2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679505150696
+status: 4
+tags: []
+user_id: root

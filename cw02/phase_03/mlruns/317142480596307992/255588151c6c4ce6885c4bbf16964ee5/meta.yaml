@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/317142480596307992/255588151c6c4ce6885c4bbf16964ee5/artifacts
+deleted_time: 1679510397626
+end_time: 1679509817089
+entry_point_name: ''
+experiment_id: '317142480596307992'
+lifecycle_stage: deleted
+run_id: 255588151c6c4ce6885c4bbf16964ee5
+run_name: powerful-mule-527
+run_uuid: 255588151c6c4ce6885c4bbf16964ee5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679509378503
+status: 3
+tags: []
+user_id: root

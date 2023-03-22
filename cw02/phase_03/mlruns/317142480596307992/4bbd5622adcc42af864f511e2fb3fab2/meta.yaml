@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/317142480596307992/4bbd5622adcc42af864f511e2fb3fab2/artifacts
+deleted_time: 1679510397726
+end_time: 1679506054660
+entry_point_name: ''
+experiment_id: '317142480596307992'
+lifecycle_stage: deleted
+run_id: 4bbd5622adcc42af864f511e2fb3fab2
+run_name: nebulous-jay-313
+run_uuid: 4bbd5622adcc42af864f511e2fb3fab2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679506044886
+status: 3
+tags: []
+user_id: root

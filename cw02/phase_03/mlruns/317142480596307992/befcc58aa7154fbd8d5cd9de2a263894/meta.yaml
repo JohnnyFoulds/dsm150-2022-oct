@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/317142480596307992/befcc58aa7154fbd8d5cd9de2a263894/artifacts
+deleted_time: 1679508373806
+end_time: null
+entry_point_name: ''
+experiment_id: '317142480596307992'
+lifecycle_stage: deleted
+run_id: befcc58aa7154fbd8d5cd9de2a263894
+run_name: painted-cub-794
+run_uuid: befcc58aa7154fbd8d5cd9de2a263894
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679508066581
+status: 1
+tags: []
+user_id: root

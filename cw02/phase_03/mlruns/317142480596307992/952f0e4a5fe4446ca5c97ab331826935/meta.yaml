@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/317142480596307992/952f0e4a5fe4446ca5c97ab331826935/artifacts
+deleted_time: 1679510397606
+end_time: null
+entry_point_name: ''
+experiment_id: '317142480596307992'
+lifecycle_stage: deleted
+run_id: 952f0e4a5fe4446ca5c97ab331826935
+run_name: learned-ram-387
+run_uuid: 952f0e4a5fe4446ca5c97ab331826935
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679510286149
+status: 1
+tags: []
+user_id: root

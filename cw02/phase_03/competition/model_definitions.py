@@ -1,4 +1,5 @@
 import keras as k
+import mlflow
 
 import competition.model_training as mt
 import competition.model_layers as ml
@@ -75,6 +76,14 @@ def train_simple_dense(dataset:dict,
     """
     Train a simple feed forward neural network consisting of dense layers.
     """
+    # log model parameters
+    mlflow.log_param('loss', train_loss)
+    mlflow.log_param('dense_layer_count', dense_layer_count)
+    mlflow.log_param('dense_units', dense_units)
+    mlflow.log_param('dense_activation', dense_activation)
+    mlflow.log_param('dense_l1_regulization', dense_l1_regulization)
+    mlflow.log_param('dense_l2_regulization', dense_l2_regulization)
+    mlflow.log_param('dense_dropout', dense_dropout)
 
     # create the model
     model = get_simple_dense_model(
@@ -95,13 +104,10 @@ def train_simple_dense(dataset:dict,
         model=model,
         X_train = dataset['train']['X'],
         y_train= dataset['train']['y'],
-        q_train = dataset['train']['q'],
         X_val = dataset['val']['X'],
         y_val= dataset['val']['y'],
-        q_val = dataset['val']['q'],
         X_test = dataset['test']['X'],
         y_test= dataset['test']['y'],
-        q_test = dataset['test']['q'],
         epochs=train_epochs,
         batch_size=train_batch_size,
         optimizer=train_optimizer,

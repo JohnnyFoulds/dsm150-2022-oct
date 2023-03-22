@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/317142480596307992/2fd2d362f781421db68fb5052d424a05/artifacts
+end_time: 1679511054575
+entry_point_name: ''
+experiment_id: '317142480596307992'
+lifecycle_stage: active
+run_id: 2fd2d362f781421db68fb5052d424a05
+run_name: loud-stoat-488
+run_uuid: 2fd2d362f781421db68fb5052d424a05
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679511034472
+status: 3
+tags: []
+user_id: root

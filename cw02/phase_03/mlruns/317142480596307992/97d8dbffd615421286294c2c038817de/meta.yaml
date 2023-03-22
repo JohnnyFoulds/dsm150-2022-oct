@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/317142480596307992/97d8dbffd615421286294c2c038817de/artifacts
+end_time: 1679512532028
+entry_point_name: ''
+experiment_id: '317142480596307992'
+lifecycle_stage: active
+run_id: 97d8dbffd615421286294c2c038817de
+run_name: mysterious-loon-569
+run_uuid: 97d8dbffd615421286294c2c038817de
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679512521082
+status: 3
+tags: []
+user_id: root

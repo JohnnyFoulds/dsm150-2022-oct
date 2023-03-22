@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/317142480596307992/043bbd0778314e14a06c1ba8b9679b80/artifacts
+deleted_time: 1679510397642
+end_time: 1679509349094
+entry_point_name: ''
+experiment_id: '317142480596307992'
+lifecycle_stage: deleted
+run_id: 043bbd0778314e14a06c1ba8b9679b80
+run_name: gregarious-pug-54
+run_uuid: 043bbd0778314e14a06c1ba8b9679b80
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679509231531
+status: 3
+tags: []
+user_id: root

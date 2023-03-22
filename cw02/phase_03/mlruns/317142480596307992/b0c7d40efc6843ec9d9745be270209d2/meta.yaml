@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/317142480596307992/b0c7d40efc6843ec9d9745be270209d2/artifacts
+deleted_time: 1679510010646
+end_time: null
+entry_point_name: ''
+experiment_id: '317142480596307992'
+lifecycle_stage: deleted
+run_id: b0c7d40efc6843ec9d9745be270209d2
+run_name: adorable-fowl-396
+run_uuid: b0c7d40efc6843ec9d9745be270209d2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679509933888
+status: 1
+tags: []
+user_id: root

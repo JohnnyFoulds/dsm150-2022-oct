@@ -1,0 +1,7 @@
+artifact_location: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/649990359032288358
+creation_time: 1679505150000
+experiment_id: '649990359032288358'
+last_update_time: 1679505655230
+lifecycle_stage: active
+name: simple-dense-model
+tags: {}

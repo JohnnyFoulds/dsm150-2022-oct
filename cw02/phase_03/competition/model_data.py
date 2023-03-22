@@ -228,7 +228,7 @@ def get_feature_dataset(features:pd.DataFrame,
     """
     feature_dataset = {}
     for session_list, name in [(train, 'train'), (val, 'val'), (test, 'test')]:
-        logging.info('Creating the %s dataset', name)
+        logging.info('-- Creating the %s dataset', name)
         feature_dataset[name] = {}
 
         # get the X values
@@ -245,16 +245,4 @@ def get_feature_dataset(features:pd.DataFrame,
             session_list=session_list,
             df_source_labels=y)
         
-        # add the question numbers
-        feature_dataset[name]['q'] = create_feature_dataset(
-                df_features=features,
-                df_source_labels=y,
-                session_list=session_list,
-                feature_list=[],
-                include_question=True,
-                expand_question=False)
-
-        feature_dataset[name]['q'] = np.argmax(
-            feature_dataset[name]['q'], axis=1) + 1
-
     return feature_dataset

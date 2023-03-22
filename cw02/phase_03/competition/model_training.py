@@ -1,5 +1,5 @@
 import numpy as np
-from typing import Optional, Tuple
+from typing import Optional, List, Tuple
 
 import mlflow
 
@@ -208,9 +208,18 @@ def test_model(
     mprint('```')
     mflush()
 
+    # calculate the f1 score
+    _, _, f1, _ = precision_recall_fscore_support(
+                y_test, 
+                y_test_score > threshold, 
+                average='macro',
+                zero_division=1)    
+
+
     # save the metrics
-    metrics['threshold_normal'] = threshold
-    metrics['classification_report_normal'] = report
+    metrics['threshold'] = threshold
+    metrics['classification_report'] = report
+    metrics['f1'] = f1
 
     # show the confusion matrix
     if show_plots:
@@ -219,8 +228,8 @@ def test_model(
             y_pred= y_test_score > threshold,
             cmap=plt.cm.Blues,
             normalize='true')
+        metrics['confusion_matrix'] = plt.gcf()
         plt.show()
-        metrics['confusion_matrix_normal'] = plt.gcf()
 
     # optimize the threshold for the best F1 score
     threshold, _, _, _ = optimize_f1(y, y_score)
@@ -232,9 +241,17 @@ def test_model(
     mprint('```')
     mflush()
 
+    # calculate the f1 score
+    _, _, f1, _ = precision_recall_fscore_support(
+                y_test, 
+                y_test_score > threshold, 
+                average='macro',
+                zero_division=1)  
+    
     # save the metrics
     metrics['threshold_optimized'] = threshold
     metrics['classification_report_optimized'] = report
+    metrics['f1_optimized'] = f1
 
     # show the confusion matrix
     if show_plots:
@@ -243,8 +260,8 @@ def test_model(
             y_pred= y_test_score > threshold,
             cmap=plt.cm.Blues,
             normalize='true')
-        plt.show()
         metrics['confusion_matrix_optimized'] = plt.gcf()
+        plt.show()
 
     # try to optimize for each question
     # unfortunately, this doesn't work well
@@ -303,13 +320,13 @@ class TestModelCallback(k.callbacks.Callback):
             q_test=None,
             show_plots=self.show_plots)
         
-        mlflow.log_figure
-
         for metric, value in metrics.items():
             if isinstance(value, dict):
                 mlflow.log_dict(value, f'metrics/{metric}')
             elif isinstance(value, str):
                 mlflow.log_text(value, f'metrics/{metric}.txt')
+            elif isinstance(value, plt.Figure):
+                mlflow.log_figure(value, f'metrics/{metric}.png')
             else:
                 mlflow.log_metric(metric, value)
             
@@ -398,13 +415,10 @@ def train_and_test_model(
         model,
         X_train: np.ndarray,
         y_train: np.ndarray,
-        q_train: np.ndarray,
         X_val : np.ndarray,
         y_val: np.ndarray,
-        q_val: np.ndarray,
         X_test: np.ndarray,
         y_test: np.ndarray,
-        q_test: np.ndarray,
         epochs: int,
         batch_size: int,
         optimizer,
@@ -425,22 +439,16 @@ def train_and_test_model(
         The training data.
     y_train : np.ndarray
         The training labels.
-    q_train : np.ndarray
-        The training question number.
 
     X_val : np.ndarray
         The validation data.
     y_val : np.ndarray
         The validation labels.
-    q_val : np.ndarray
-        The validation question number.
 
     X_test : np.ndarray
         The test data.
     y_test : np.ndarray
         The test labels.
-    q_test : np.ndarray
-        The test question number.
 
     epochs : int
         The number of epochs.
@@ -479,3 +487,29 @@ def train_and_test_model(
     # clear the learning output if required
     if clear_learning:
         clear_output()
+
+def log_params(dataset:dict,
+               feature_list:List[str],
+               random_state:int) ->None:
+    """
+    Log the parameters for the model to Mlflow.
+
+    Parameters
+    ----------
+    dataset : dict
+        The dataset.
+    feature_list : List[str]
+        The list of features.
+    random_state : int
+        The random state.
+
+    Returns
+    -------
+    None
+    """
+    mlflow.log_param('feature_list', feature_list)
+    mlflow.log_param('random_state', random_state)    
+
+    mlflow.log_param('train_shape', dataset['train']['X'].shape)
+    mlflow.log_param('val_shape', dataset['val']['X'].shape)
+    mlflow.log_param('test_shape', dataset['test']['X'].shape)

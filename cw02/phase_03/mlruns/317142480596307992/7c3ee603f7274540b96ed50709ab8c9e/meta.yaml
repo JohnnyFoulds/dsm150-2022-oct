@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/317142480596307992/7c3ee603f7274540b96ed50709ab8c9e/artifacts
+deleted_time: 1679510397686
+end_time: 1679506145159
+entry_point_name: ''
+experiment_id: '317142480596307992'
+lifecycle_stage: deleted
+run_id: 7c3ee603f7274540b96ed50709ab8c9e
+run_name: dashing-gnu-153
+run_uuid: 7c3ee603f7274540b96ed50709ab8c9e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679506125321
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/317142480596307992/83bafdbd38464a9eb3c4b68f8ebb5870/artifacts
+end_time: 1679511437039
+entry_point_name: ''
+experiment_id: '317142480596307992'
+lifecycle_stage: active
+run_id: 83bafdbd38464a9eb3c4b68f8ebb5870
+run_name: nervous-hare-955
+run_uuid: 83bafdbd38464a9eb3c4b68f8ebb5870
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679511322184
+status: 3
+tags: []
+user_id: root

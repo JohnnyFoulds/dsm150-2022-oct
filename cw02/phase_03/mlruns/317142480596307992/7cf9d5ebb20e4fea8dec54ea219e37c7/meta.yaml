@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/317142480596307992/7cf9d5ebb20e4fea8dec54ea219e37c7/artifacts
+end_time: 1679512326205
+entry_point_name: ''
+experiment_id: '317142480596307992'
+lifecycle_stage: active
+run_id: 7cf9d5ebb20e4fea8dec54ea219e37c7
+run_name: traveling-smelt-86
+run_uuid: 7cf9d5ebb20e4fea8dec54ea219e37c7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679511862413
+status: 3
+tags: []
+user_id: root

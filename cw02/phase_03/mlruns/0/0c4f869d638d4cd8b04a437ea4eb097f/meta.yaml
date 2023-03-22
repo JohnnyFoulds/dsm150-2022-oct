@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/0/0c4f869d638d4cd8b04a437ea4eb097f/artifacts
+deleted_time: 1679507388630
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 0c4f869d638d4cd8b04a437ea4eb097f
+run_name: colorful-bear-272
+run_uuid: 0c4f869d638d4cd8b04a437ea4eb097f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679507089420
+status: 1
+tags: []
+user_id: root

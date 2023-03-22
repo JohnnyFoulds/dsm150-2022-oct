@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/317142480596307992/f8b8fef5ffc440a3b38c5399f6c1177a/artifacts
+deleted_time: 1679510899406
+end_time: 1679510844960
+entry_point_name: ''
+experiment_id: '317142480596307992'
+lifecycle_stage: deleted
+run_id: f8b8fef5ffc440a3b38c5399f6c1177a
+run_name: nosy-hawk-564
+run_uuid: f8b8fef5ffc440a3b38c5399f6c1177a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679510832257
+status: 3
+tags: []
+user_id: root
