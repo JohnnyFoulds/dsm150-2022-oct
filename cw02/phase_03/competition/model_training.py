@@ -261,7 +261,24 @@ def test_model(
     return threshold, report, metrics
 
 class TestModelCallback(k.callbacks.Callback):
+    """
+    A callback to test the model after training completes.
+    """
+    def __init__(self,
+                 X: np.ndarray,
+                 y: np.ndarray,
+                 X_test: np.ndarray,
+                 y_test: np.ndarray,
+                 show_plots: bool):
+        super().__init__()
+        self.X = X
+        self.y = y
+        self.X_test = X_test
+        self.y_test = y_test
+        self.show_plots = show_plots
+
     def on_train_end(self, logs=None):
+
         mlflow.log_metric('simple-sam', 42)
 
 
@@ -276,7 +293,8 @@ def train_model(
         optimizer,
         loss: str,
         metrics: list,
-        class_weight: Optional[dict]=None) -> History:
+        class_weight: Optional[dict]=None,
+        show_plots: bool=True) -> History:
     """
     Train the keras model based on the parameters.
 
@@ -310,6 +328,14 @@ def train_model(
     keras.callbacks.History
         The history of the training.
     """
+    # create the callback
+    test_callback = TestModelCallback(
+        X=X_train,
+        y=y_train,
+        X_test=X_val,
+        y_test=y_val,
+        show_plots=show_plots)
+
     # compile the model
     model.compile(
         optimizer=optimizer,
@@ -324,7 +350,7 @@ def train_model(
         batch_size=batch_size,
         validation_data=(X_val, y_val),
         class_weight=class_weight,
-        callbacks=[TestModelCallback()])
+        callbacks=[test_callback])
     
     return history
 
@@ -346,7 +372,7 @@ def train_and_test_model(
         metrics: list,
         class_weight: Optional[dict]=None,
         clear_learning: bool = False,
-        show_plots: bool = True) -> Tuple[float, str]:
+        show_plots: bool = True) -> None:
     """
     Train and test the model.
 
@@ -405,7 +431,8 @@ def train_and_test_model(
         optimizer=optimizer,
         loss=loss,
         metrics=metrics,
-        class_weight=class_weight)
+        class_weight=class_weight,
+        show_plots=show_plots)
     
     # clear the learning output if required
     if clear_learning:
@@ -427,5 +454,3 @@ def train_and_test_model(
         X_combined, y_combined, q_combined,
         X_test, y_test, q_test,
         show_plots=show_plots)
-
-    return threshold, report

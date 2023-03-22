@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/828611528937245361/3778763a9a524e448886f2362c6029c4/artifacts
+end_time: 1679494346722
+entry_point_name: ''
+experiment_id: '828611528937245361'
+lifecycle_stage: active
+run_id: 3778763a9a524e448886f2362c6029c4
+run_name: debonair-vole-551
+run_uuid: 3778763a9a524e448886f2362c6029c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679494342799
+status: 3
+tags: []
+user_id: root

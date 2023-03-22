@@ -91,7 +91,7 @@ def train_simple_dense(dataset:dict,
     model.summary() 
 
     # train the model
-    _, _ = mt.train_and_test_model(
+    mt.train_and_test_model(
         model=model,
         X_train = dataset['train']['X'],
         y_train= dataset['train']['y'],
