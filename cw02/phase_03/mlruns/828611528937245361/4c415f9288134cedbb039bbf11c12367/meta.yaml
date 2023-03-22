@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/828611528937245361/4c415f9288134cedbb039bbf11c12367/artifacts
+end_time: 1679493429472
+entry_point_name: ''
+experiment_id: '828611528937245361'
+lifecycle_stage: active
+run_id: 4c415f9288134cedbb039bbf11c12367
+run_name: serious-sponge-468
+run_uuid: 4c415f9288134cedbb039bbf11c12367
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679493424706
+status: 3
+tags: []
+user_id: root

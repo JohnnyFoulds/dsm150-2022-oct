@@ -1,6 +1,8 @@
 import numpy as np
 from typing import Optional, Tuple
 
+import mlflow
+
 import keras as k
 from tensorflow.keras.callbacks import History
 
@@ -156,7 +158,7 @@ def test_model(
         X_test: np.ndarray,
         y_test: np.ndarray,
         q_test: np.ndarray,
-        show_plots: bool = True) -> float:
+        show_plots: bool = True) -> Tuple[float, str, dict]:
     """
     Test the model based on the test data.
 
@@ -184,6 +186,8 @@ def test_model(
     float
         The optimized threshold for the best F1 score.
     """
+    metrics = {}
+
     if show_plots:
         plot_loss(history)
         plot_accuracy(history)
@@ -203,6 +207,11 @@ def test_model(
     mprint('```')
     mflush()
 
+    # save the metrics
+    metrics['threshold_normal'] = threshold
+    metrics['classification_report_normal'] = classification_report(
+        y_test, y_test_score > threshold, zero_division=1, output_dict=True)
+
     # show the confusion matrix
     if show_plots:
         disp = ConfusionMatrixDisplay.from_predictions(
@@ -221,6 +230,11 @@ def test_model(
     mprint(report)
     mprint('```')
     mflush()
+
+    # save the metrics
+    metrics['threshold_optimized'] = threshold
+    metrics['classification_report_optimezed'] = classification_report(
+        y_test, y_test_score > threshold, zero_division=1, output_dict=True)
 
     # show the confusion matrix
     if show_plots:
@@ -244,7 +258,12 @@ def test_model(
 
             display(thresholds)
 
-    return threshold, report
+    return threshold, report, metrics
+
+class TestModelCallback(k.callbacks.Callback):
+    def on_train_end(self, logs=None):
+        mlflow.log_metric('simple-sam', 42)
+
 
 def train_model(
         model,
@@ -257,7 +276,7 @@ def train_model(
         optimizer,
         loss: str,
         metrics: list,
-        class_weight: Optional[dict]=None) -> k.callbacks.History:
+        class_weight: Optional[dict]=None) -> History:
     """
     Train the keras model based on the parameters.
 
@@ -304,7 +323,8 @@ def train_model(
         epochs=epochs,
         batch_size=batch_size,
         validation_data=(X_val, y_val),
-        class_weight=class_weight)
+        class_weight=class_weight,
+        callbacks=[TestModelCallback()])
     
     return history
 
@@ -326,7 +346,7 @@ def train_and_test_model(
         metrics: list,
         class_weight: Optional[dict]=None,
         clear_learning: bool = False,
-        show_plots: bool = True) -> float:
+        show_plots: bool = True) -> Tuple[float, str]:
     """
     Train and test the model.
 
@@ -401,7 +421,11 @@ def train_and_test_model(
         y_combined = np.concatenate((y_train, y_val), axis=0)
         q_combined = np.concatenate((q_train, q_val), axis=0)
 
-    return test_model(model, history,
-                      X_combined, y_combined, q_combined,
-                      X_test, y_test, q_test,
-                      show_plots=show_plots)
+    # test the model
+    threshold, report, metrics = test_model(
+        model, history,
+        X_combined, y_combined, q_combined,
+        X_test, y_test, q_test,
+        show_plots=show_plots)
+
+    return threshold, report
