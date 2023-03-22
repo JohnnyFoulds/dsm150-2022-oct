@@ -2,7 +2,10 @@ import logging
 from typing import Optional, Dict
 
 import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
+
+from tqdm.auto import tqdm
 
 COUNT_COLUMNS = {
     'event_name': { 
@@ -26,6 +29,9 @@ COUNT_COLUMNS = {
         'unique': {'min': 8.0, 'max': 48.0 }
     },
 }
+
+HEATMAP_BINS = 10
+HEATMAP_MAX = 17
 
 def create_initial_features(X:pd.DataFrame,
                             y:pd.DataFrame) -> pd.DataFrame:
@@ -231,16 +237,145 @@ def add_count_unique_features(features:pd.DataFrame,
         df_count_total[col] = (df_count_total[col] - min_max['unique']['min']) / \
             (min_max['unique']['max'] - min_max['unique']['min'])
 
-    # get the columns as a feature vector
-    count_total_feature = df_count_total[columns.keys()].to_numpy()
-    df_count_total['count_unique_feature'] = pd.Series(count_total_feature.tolist())
+    # join the features to the result
+    df_result = features.set_index(['session_id', 'level_group']) \
+        .join(
+            df_count_total.set_index(['session_id', 'level_group']) \
+                .add_prefix('count_unique_'),
+            how='left') \
+        .reset_index()
 
-    # drop the original columns
-    df_count_total.drop(columns=columns.keys(), inplace=True)
+    return df_result
+
+def create_level_screen_heatmap(df_session:pd.DataFrame,
+                                level:int,
+                                bins:int=64,
+                                normalize:bool=True,
+                                min_value:int=0,
+                                max_value:int=376) -> np.ndarray:
+    """
+    Creates a heatmap for the screen of the given level.
+
+    Parameters
+    ----------
+    df_session : pd.DataFrame
+        The dataframe containing the events for a single session.
+    level : int
+        The level to create the heatmap for.
+    bins : int, optional
+        The number of bins to use for the heatmap, by default 50
+    min_value : int, optional
+        The minimum value to use for the heatmap, by default 0
+    max_value : int, optional
+        The maximum value to use for the heatmap, by default 376
+
+    Returns
+    -------
+    np.ndarray
+        The heatmap for the given level.
+    """
+    df_level = df_session \
+        .query('level == @level') \
+        [['screen_coor_x', 'screen_coor_y']] \
+        .fillna(0)
+    
+    # return an empty heatmap if there are no events for the given level
+    if df_level.shape[0] == 0:
+        return np.zeros((bins, bins), dtype=np.uint8)
+
+    # Create the 2D histogram
+    heatmap, xedges, yedges = np.histogram2d(df_level.screen_coor_y, 
+                                             df_level.screen_coor_x, 
+                                             bins=bins)
+    
+    # return the heatmap if no normalization is required
+    if not normalize:
+        return heatmap
+    
+    # clip the heatmap to the given min and max values
+    heatmap = np.clip(heatmap, min_value, max_value)
+    
+    # Normalize the heatmap
+    normalized_heatmap = (heatmap - min_value) / (max_value - min_value)
+
+    # Scale the heatmap to the range 0-255
+    scaled_heatmap = (normalized_heatmap * 255).astype(np.uint8)
+
+    return scaled_heatmap
+
+def create_level_group_screen_heatmap(df_session:pd.DataFrame,
+                                      level_group:str,
+                                      bins:int=HEATMAP_BINS,
+                                      min_value:int=0,
+                                      max_value:int=HEATMAP_MAX) -> np.ndarray:
+    """
+    Creates heatmaps for the screen of the given level group.
+    """
+    heatmaps = []
+    level_range = range(0, 23)
+
+    # select only the levels in the given level group
+    df_level_group = df_session.query('level_group == @level_group')
+
+    # create the heatmaps
+    for level in level_range:
+        heatmap = create_level_screen_heatmap(
+            df_session=df_level_group, 
+            level=level, 
+            bins=bins, 
+            normalize=True,
+            min_value=min_value, 
+            max_value=max_value)
+
+        # normalize the heatmap to values between 0 and 1
+        heatmap = heatmap / 255
+
+        heatmaps.append(heatmap)
+
+    return np.array(heatmaps, dtype=np.float32)
+
+def add_screen_heatmap_feature(features:pd.DataFrame,
+                               X:pd.DataFrame,
+                               bins:int=HEATMAP_BINS,
+                               min_value:int=0,
+                               max_value:int=HEATMAP_MAX) -> pd.DataFrame:
+    """
+    Adds the screen heatmap feature to the features dataset.
+
+    Parameters
+    ----------
+    features : pd.DataFrame
+        The features dataset.
+    X : pd.DataFrame
+        The source dataset.
+    bins : int, optional
+        The number of bins to use for the heatmap, by default 10
+    min_value : int, optional
+        The minimum value to use for the heatmap, by default 0
+    max_value : int, optional
+        The maximum value to use for the heatmap, by default 17
+    
+    Returns
+    -------
+    pd.DataFrame
+        The features dataset with the screen heatmap feature added.
+    """
+    heatmaps_feature = []
+    for session_id in tqdm(features['session_id'].unique()):
+        df_session = X[X['session_id'] == session_id]
+        df_session_features = features[features['session_id'] == session_id]
+
+        # process each level group the session features
+        for index, row in df_session_features.iterrows():
+            level_group = row['level_group']
+
+            group_heatmaps = create_level_group_screen_heatmap(
+                df_session, level_group, bins, min_value, max_value)
+            
+            heatmaps_feature.append(group_heatmaps)
 
     # add the feature to the features dataset
-    df_result = features.set_index(['session_id', 'level_group']) \
-        .join(df_count_total.set_index(['session_id', 'level_group']), how='left') \
-        .reset_index()
-    
-    return df_result
+    df_features = features.copy()
+    df_features['screen_heatmap_feature'] = pd.Series(heatmaps_feature)
+
+    return df_features
