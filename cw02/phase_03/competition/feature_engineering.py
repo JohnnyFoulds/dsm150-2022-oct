@@ -148,7 +148,7 @@ def plot_numeric_features(df_features:pd.DataFrame,
 
 def add_count_total_features(features:pd.DataFrame,
                              X:pd.DataFrame,
-                             columns:dict) -> pd.DataFrame:
+                             columns:dict=COUNT_COLUMNS) -> pd.DataFrame:
     """
     Add the total count for the categorical columns to the features dataset.
 
@@ -194,31 +194,9 @@ def add_count_total_features(features:pd.DataFrame,
     
     return df_result
 
-def add_total_features(features:pd.DataFrame,
-                               X:pd.DataFrame) -> pd.DataFrame:
-    """
-    Add the total elapsed time features to the dataset.
-
-    Parameters
-    ----------
-    features : pd.DataFrame
-        The features dataset.
-    X : pd.DataFrame
-        The main dataset.
-
-    Returns
-    -------
-    pd.DataFrame
-        The features dataset with the total elapsed time features added.
-    """
-    return add_count_total_features(
-        features=features,
-        X=X,
-        columns=COUNT_COLUMNS)
-
 def add_count_unique_features(features:pd.DataFrame,
                               X:pd.DataFrame,
-                              columns:dict) -> pd.DataFrame:
+                              columns:dict=COUNT_COLUMNS) -> pd.DataFrame:
     """
     Add the unique count for the categorical columns to the features dataset.
 
