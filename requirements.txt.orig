@@ -22,3 +22,7 @@ graphviz==0.20.1
 
 #pip install pycaret[full]
 #pip install ipython==7.23.1
+
+
+# new stuff from phase_03
+mlflow==2.2.2
