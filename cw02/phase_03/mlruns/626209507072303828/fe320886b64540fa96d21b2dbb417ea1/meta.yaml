@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/626209507072303828/fe320886b64540fa96d21b2dbb417ea1/artifacts
+deleted_time: 1679497107625
+end_time: 1679496909957
+entry_point_name: ''
+experiment_id: '626209507072303828'
+lifecycle_stage: deleted
+run_id: fe320886b64540fa96d21b2dbb417ea1
+run_name: capable-mink-63
+run_uuid: fe320886b64540fa96d21b2dbb417ea1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679496902331
+status: 4
+tags: []
+user_id: root

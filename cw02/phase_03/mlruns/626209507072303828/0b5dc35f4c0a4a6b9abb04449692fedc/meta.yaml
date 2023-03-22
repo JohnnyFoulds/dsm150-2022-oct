@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/626209507072303828/0b5dc35f4c0a4a6b9abb04449692fedc/artifacts
+end_time: 1679497470582
+entry_point_name: ''
+experiment_id: '626209507072303828'
+lifecycle_stage: active
+run_id: 0b5dc35f4c0a4a6b9abb04449692fedc
+run_name: exultant-finch-643
+run_uuid: 0b5dc35f4c0a4a6b9abb04449692fedc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679497462854
+status: 4
+tags: []
+user_id: root

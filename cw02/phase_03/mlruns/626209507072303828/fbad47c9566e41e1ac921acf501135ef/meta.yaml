@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/626209507072303828/fbad47c9566e41e1ac921acf501135ef/artifacts
+deleted_time: 1679496777101
+end_time: 1679496689083
+entry_point_name: ''
+experiment_id: '626209507072303828'
+lifecycle_stage: deleted
+run_id: fbad47c9566e41e1ac921acf501135ef
+run_name: flawless-fowl-217
+run_uuid: fbad47c9566e41e1ac921acf501135ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679496678601
+status: 3
+tags: []
+user_id: root

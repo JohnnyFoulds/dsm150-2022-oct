@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/626209507072303828/965a0e9e36a44488a2a82d00aa965224/artifacts
+deleted_time: 1679496777177
+end_time: 1679496269065
+entry_point_name: ''
+experiment_id: '626209507072303828'
+lifecycle_stage: deleted
+run_id: 965a0e9e36a44488a2a82d00aa965224
+run_name: gaudy-bee-810
+run_uuid: 965a0e9e36a44488a2a82d00aa965224
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679496261258
+status: 4
+tags: []
+user_id: root

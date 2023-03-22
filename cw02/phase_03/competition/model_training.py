@@ -203,14 +203,14 @@ def test_model(
 
     mprint('#### Threshold: 0.5')
     mprint('```')
-    mprint(classification_report(y_test, y_test_score > threshold, zero_division=1))
+    report = classification_report(y_test, y_test_score > threshold, zero_division=1)
+    mprint(report)
     mprint('```')
     mflush()
 
     # save the metrics
     metrics['threshold_normal'] = threshold
-    metrics['classification_report_normal'] = classification_report(
-        y_test, y_test_score > threshold, zero_division=1, output_dict=True)
+    metrics['classification_report_normal'] = report
 
     # show the confusion matrix
     if show_plots:
@@ -220,6 +220,7 @@ def test_model(
             cmap=plt.cm.Blues,
             normalize='true')
         plt.show()
+        metrics['confusion_matrix_normal'] = plt.gcf()
 
     # optimize the threshold for the best F1 score
     threshold, _, _, _ = optimize_f1(y, y_score)
@@ -233,8 +234,7 @@ def test_model(
 
     # save the metrics
     metrics['threshold_optimized'] = threshold
-    metrics['classification_report_optimezed'] = classification_report(
-        y_test, y_test_score > threshold, zero_division=1, output_dict=True)
+    metrics['classification_report_optimized'] = report
 
     # show the confusion matrix
     if show_plots:
@@ -244,7 +244,8 @@ def test_model(
             cmap=plt.cm.Blues,
             normalize='true')
         plt.show()
-        
+        metrics['confusion_matrix_optimized'] = plt.gcf()
+
     # try to optimize for each question
     # unfortunately, this doesn't work well
     if False:
@@ -265,22 +266,53 @@ class TestModelCallback(k.callbacks.Callback):
     A callback to test the model after training completes.
     """
     def __init__(self,
-                 X: np.ndarray,
-                 y: np.ndarray,
+                 X_train: np.ndarray,
+                 y_train: np.ndarray,
+                 X_val: np.ndarray,
+                 y_val: np.ndarray,
                  X_test: np.ndarray,
                  y_test: np.ndarray,
                  show_plots: bool):
         super().__init__()
-        self.X = X
-        self.y = y
+        self.X_train = X_train
+        self.y_train = y_train
+        self.X_val = X_val
+        self.y_val = y_val
         self.X_test = X_test
         self.y_test = y_test
         self.show_plots = show_plots
 
     def on_train_end(self, logs=None):
+        # combine the training and validation sets for testing
+        if isinstance(self.X_train, list):
+            X_combined = [np.concatenate((self.X_train[i], self.X_val[i]), axis=0) for i in range(len(self.X_train))]
+            y_combined = np.concatenate((self.y_train, self.y_val), axis=0)
+        else:
+            X_combined = np.concatenate((self.X_train, self.X_val), axis=0)
+            y_combined = np.concatenate((self.y_train, self.y_val), axis=0)
 
-        mlflow.log_metric('simple-sam', 42)
+        # test the model
+        threshold, report, metrics = test_model(
+            self.model, 
+            self.model.history,
+            X=X_combined, 
+            y=y_combined,
+            q=None,
+            X_test=self.X_test, 
+            y_test=self.y_test, 
+            q_test=None,
+            show_plots=self.show_plots)
+        
+        mlflow.log_figure
 
+        for metric, value in metrics.items():
+            if isinstance(value, dict):
+                mlflow.log_dict(value, f'metrics/{metric}')
+            elif isinstance(value, str):
+                mlflow.log_text(value, f'metrics/{metric}.txt')
+            else:
+                mlflow.log_metric(metric, value)
+            
 
 def train_model(
         model,
@@ -288,6 +320,8 @@ def train_model(
         y_train: np.ndarray,
         X_val : np.ndarray,
         y_val: np.ndarray,
+        X_test: np.ndarray,
+        y_test: np.ndarray,
         epochs: int,
         batch_size: int,
         optimizer,
@@ -310,6 +344,10 @@ def train_model(
         The validation data.
     y_val : np.ndarray
         The validation labels.
+    X_test : np.ndarray
+        The test data.
+    y_test : np.ndarray
+        The test labels.
     epochs : int
         The number of epochs.
     batch_size : int
@@ -330,10 +368,12 @@ def train_model(
     """
     # create the callback
     test_callback = TestModelCallback(
-        X=X_train,
-        y=y_train,
-        X_test=X_val,
-        y_test=y_val,
+        X_train=X_train,
+        y_train=y_train,
+        X_val=X_val,
+        y_val=y_val,
+        X_test=X_test,
+        y_test=y_test,
         show_plots=show_plots)
 
     # compile the model
@@ -426,6 +466,8 @@ def train_and_test_model(
         y_train=y_train,
         X_val=X_val,
         y_val=y_val,
+        X_test=X_test,
+        y_test=y_test,
         epochs=epochs,
         batch_size=batch_size,
         optimizer=optimizer,
@@ -437,20 +479,3 @@ def train_and_test_model(
     # clear the learning output if required
     if clear_learning:
         clear_output()
-
-    # combine the training and validation sets for testing
-    if isinstance(X_train, list):
-        X_combined = [np.concatenate((X_train[i], X_val[i]), axis=0) for i in range(len(X_train))]
-        y_combined = np.concatenate((y_train, y_val), axis=0)
-        q_combined = np.concatenate((q_train, q_val), axis=0)
-    else:
-        X_combined = np.concatenate((X_train, X_val), axis=0)
-        y_combined = np.concatenate((y_train, y_val), axis=0)
-        q_combined = np.concatenate((q_train, q_val), axis=0)
-
-    # test the model
-    threshold, report, metrics = test_model(
-        model, history,
-        X_combined, y_combined, q_combined,
-        X_test, y_test, q_test,
-        show_plots=show_plots)
