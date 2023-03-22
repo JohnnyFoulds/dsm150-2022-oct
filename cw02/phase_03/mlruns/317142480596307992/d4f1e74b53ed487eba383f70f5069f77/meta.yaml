@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/317142480596307992/d4f1e74b53ed487eba383f70f5069f77/artifacts
+end_time: 1679513544454
+entry_point_name: ''
+experiment_id: '317142480596307992'
+lifecycle_stage: active
+run_id: d4f1e74b53ed487eba383f70f5069f77
+run_name: mercurial-cod-913
+run_uuid: d4f1e74b53ed487eba383f70f5069f77
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679513411282
+status: 3
+tags: []
+user_id: root
