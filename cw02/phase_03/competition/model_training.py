@@ -2,14 +2,13 @@ import numpy as np
 from typing import Optional, Tuple
 
 import keras as k
+from tensorflow.keras.callbacks import History
 
 from sklearn.metrics import classification_report
 from sklearn.metrics import ConfusionMatrixDisplay
 from sklearn.metrics import precision_recall_fscore_support
 
 import matplotlib.pyplot as plt
-import IPython.core.display as display
-
 from IPython.display import Markdown
 
 # Initialize an empty list to store the lines of markdown
@@ -26,7 +25,7 @@ def mflush():
     # Clear the lines after displaying the markdown
     _markdown_lines = []
 
-def plot_loss(history:k.callbacks.History,
+def plot_loss(history:History,
               figsize:Tuple[int, int] = (5, 3)) -> None:
     """
     Plot the loss and validation loss.
@@ -70,7 +69,7 @@ def plot_loss(history:k.callbacks.History,
 
     plt.show()
 
-def plot_accuracy(history:k.callbacks.History,
+def plot_accuracy(history:History,
                   figsize:Tuple[int, int] = (5, 3)) -> None:
     """
     Plot the accuracy and validation accuracy.
@@ -138,7 +137,7 @@ def optimize_f1(y_true: np.ndarray,
     for threshold in np.arange(0, 1, 0.01):
         y_pred = (y_score > threshold).astype(int)
         precision, recall, f1, _ = precision_recall_fscore_support(
-            y_true, y_pred, average='macro', zero_division='1')
+            y_true, y_pred, average='macro', zero_division=1)
 
         if f1 > best_f1:
             best_f1 = f1
@@ -150,7 +149,7 @@ def optimize_f1(y_true: np.ndarray,
 
 def test_model(
         model,
-        history: callbacks.History,
+        history: History,
         X: np.ndarray,
         y: np.ndarray,
         q: np.ndarray,
