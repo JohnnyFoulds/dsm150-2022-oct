@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/e09c6e038f7b4ab3a27a0e11d0c7958a/artifacts
+deleted_time: 1679840467394
+end_time: 1679836895395
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: e09c6e038f7b4ab3a27a0e11d0c7958a
+run_name: crawling-moose-768
+run_uuid: e09c6e038f7b4ab3a27a0e11d0c7958a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679836887885
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/2d1e57538b5a4389ba4939e657b5c0b3/artifacts
+deleted_time: 1679836368404
+end_time: 1679836368402
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 2d1e57538b5a4389ba4939e657b5c0b3
+run_name: bemused-crab-684
+run_uuid: 2d1e57538b5a4389ba4939e657b5c0b3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679836368362
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/cf91f6f2f7a3457bafc127c365354832/artifacts
+deleted_time: 1679836493460
+end_time: 1679836493458
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: cf91f6f2f7a3457bafc127c365354832
+run_name: honorable-mouse-443
+run_uuid: cf91f6f2f7a3457bafc127c365354832
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679836493415
+status: 3
+tags: []
+user_id: root

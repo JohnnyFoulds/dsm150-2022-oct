@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/ebfb1d03d7984327ae6f1ec4de08f973/artifacts
+deleted_time: 1679840475086
+end_time: 1679836604946
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: ebfb1d03d7984327ae6f1ec4de08f973
+run_name: gaudy-cat-233
+run_uuid: ebfb1d03d7984327ae6f1ec4de08f973
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679836600128
+status: 3
+tags: []
+user_id: root

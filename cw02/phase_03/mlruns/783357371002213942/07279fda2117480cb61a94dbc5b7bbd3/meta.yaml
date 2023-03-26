@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/07279fda2117480cb61a94dbc5b7bbd3/artifacts
+deleted_time: 1679840474978
+end_time: 1679836635479
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 07279fda2117480cb61a94dbc5b7bbd3
+run_name: marvelous-snipe-115
+run_uuid: 07279fda2117480cb61a94dbc5b7bbd3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679836629596
+status: 3
+tags: []
+user_id: root

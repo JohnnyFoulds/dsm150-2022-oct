@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/bbbbd2b7ce0946daa726858db4148a52/artifacts
+deleted_time: 1679840474693
+end_time: 1679838644426
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: bbbbd2b7ce0946daa726858db4148a52
+run_name: vaunted-ram-319
+run_uuid: bbbbd2b7ce0946daa726858db4148a52
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679838637370
+status: 3
+tags: []
+user_id: root

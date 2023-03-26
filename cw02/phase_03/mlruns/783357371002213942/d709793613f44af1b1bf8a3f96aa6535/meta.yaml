@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/d709793613f44af1b1bf8a3f96aa6535/artifacts
+deleted_time: 1679840474901
+end_time: 1679836894980
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: d709793613f44af1b1bf8a3f96aa6535
+run_name: dapper-auk-509
+run_uuid: d709793613f44af1b1bf8a3f96aa6535
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679836887895
+status: 3
+tags: []
+user_id: root

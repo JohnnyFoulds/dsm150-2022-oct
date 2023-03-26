@@ -1,8 +1,9 @@
 artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/c513b82eed7944deae78addcd393f6d6/artifacts
+deleted_time: 1679836392921
 end_time: 1679836227667
 entry_point_name: ''
 experiment_id: '783357371002213942'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: c513b82eed7944deae78addcd393f6d6
 run_name: popular-flea-839
 run_uuid: c513b82eed7944deae78addcd393f6d6

@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/62218709b7344daa9fb650f69d866619/artifacts
+deleted_time: 1679841189889
+end_time: 1679841043746
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 62218709b7344daa9fb650f69d866619
+run_name: efficient-trout-588
+run_uuid: 62218709b7344daa9fb650f69d866619
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679841031228
+status: 3
+tags: []
+user_id: root

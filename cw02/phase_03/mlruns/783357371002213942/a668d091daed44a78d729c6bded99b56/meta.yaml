@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/a668d091daed44a78d729c6bded99b56/artifacts
+deleted_time: 1679840467121
+end_time: 1679840358868
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: a668d091daed44a78d729c6bded99b56
+run_name: defiant-donkey-596
+run_uuid: a668d091daed44a78d729c6bded99b56
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679840350864
+status: 3
+tags: []
+user_id: root

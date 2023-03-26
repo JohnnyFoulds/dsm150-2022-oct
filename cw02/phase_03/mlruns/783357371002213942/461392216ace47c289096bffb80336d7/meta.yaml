@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/461392216ace47c289096bffb80336d7/artifacts
+deleted_time: 1679840475101
+end_time: 1679836600122
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 461392216ace47c289096bffb80336d7
+run_name: resilient-flea-726
+run_uuid: 461392216ace47c289096bffb80336d7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679836595285
+status: 3
+tags: []
+user_id: root

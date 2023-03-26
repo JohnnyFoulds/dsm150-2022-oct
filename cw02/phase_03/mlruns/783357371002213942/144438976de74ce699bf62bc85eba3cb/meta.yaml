@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/144438976de74ce699bf62bc85eba3cb/artifacts
+deleted_time: 1679840467146
+end_time: 1679840350858
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 144438976de74ce699bf62bc85eba3cb
+run_name: shivering-ox-428
+run_uuid: 144438976de74ce699bf62bc85eba3cb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679840342252
+status: 3
+tags: []
+user_id: root

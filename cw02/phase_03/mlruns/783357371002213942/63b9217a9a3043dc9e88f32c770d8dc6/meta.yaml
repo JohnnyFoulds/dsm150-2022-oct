@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/63b9217a9a3043dc9e88f32c770d8dc6/artifacts
+deleted_time: 1679840467078
+end_time: 1679840377460
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 63b9217a9a3043dc9e88f32c770d8dc6
+run_name: honorable-cod-808
+run_uuid: 63b9217a9a3043dc9e88f32c770d8dc6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679840368482
+status: 3
+tags: []
+user_id: root

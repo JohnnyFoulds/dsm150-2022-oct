@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/5b4841e31234498b9feb9c22f764b9fd/artifacts
+deleted_time: 1679840467370
+end_time: 1679837361003
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 5b4841e31234498b9feb9c22f764b9fd
+run_name: learned-ox-315
+run_uuid: 5b4841e31234498b9feb9c22f764b9fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679837354648
+status: 3
+tags: []
+user_id: root

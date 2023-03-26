@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/793683e7cddf4cca9011f52134f4bd79/artifacts
+deleted_time: 1679841189861
+end_time: 1679841060592
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 793683e7cddf4cca9011f52134f4bd79
+run_name: delightful-shrew-903
+run_uuid: 793683e7cddf4cca9011f52134f4bd79
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679841043752
+status: 3
+tags: []
+user_id: root

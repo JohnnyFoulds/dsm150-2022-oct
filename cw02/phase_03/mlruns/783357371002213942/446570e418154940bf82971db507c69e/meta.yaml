@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/446570e418154940bf82971db507c69e/artifacts
+deleted_time: 1679840474833
+end_time: 1679838607538
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 446570e418154940bf82971db507c69e
+run_name: mysterious-crow-235
+run_uuid: 446570e418154940bf82971db507c69e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679838602478
+status: 3
+tags: []
+user_id: root

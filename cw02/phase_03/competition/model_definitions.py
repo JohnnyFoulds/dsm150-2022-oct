@@ -29,6 +29,7 @@ def get_simple_dense_model(input_shape,
                            dense_dropout:float=0.0,
                            compile:bool=False,
                            optimizer:k.optimizers=None,
+                           learning_rate:float=0.001,
                            loss:str=None,
                            metrics:list=None) -> k.Model:
     """
@@ -90,18 +91,36 @@ def get_simple_dense_model(input_shape,
     if compile:
         compile_model(
             model=model,
-            optimizer=optimizer,
+            optimizer=optimizer(learning_rate=learning_rate),
             loss=loss,
             metrics=metrics)
 
     return model
 
-def get_simple_dense_model_wrapper(hp, *args, **kwargs) -> k.Model:
+def get_simple_dense_model_wrapper(hp,
+                                   define_tune_parameters:callable,
+                                   input_shape,
+                                   output_shape,
+                                   loss,                                
+                                   *args,
+                                   **kwargs) -> k.Model:
     """
     This function takes the extra hyper parameter object that are required
-    for the build function. This is ignored by the original function by design.
+    for the build function.
     """
-    return get_simple_dense_model(*args, **kwargs)
+    # define the training parameters
+    define_tune_parameters(hp)
+
+    for kwarg in kwargs:
+        if isinstance(kwargs[kwarg], str):
+            kwargs[kwarg] = hp.get(kwargs[kwarg])
+
+    return get_simple_dense_model(
+        input_shape=input_shape,
+        output_shape=output_shape,
+        loss=loss,
+        compile=True,
+        *args, **kwargs)
 
 class TrailCallback(k.callbacks.Callback):
     def on_train_begin(self, logs=None):
@@ -111,19 +130,21 @@ class TrailCallback(k.callbacks.Callback):
     def on_train_end(self, logs=None):
         logging.info('on_train_end')
 
-def tune_simple_dense_model(dataset:dict,
+def tune_simple_dense_model(define_tune_parameters:callable,
+                            dataset:dict,
                             max_trials:int,
                             input_shape,
                             output_shape,
-                            dense_layer_count:int=1,
-                            dense_units:int=128,
-                            dense_activation:str='relu',
-                            dense_l1_regulization:float=0.0,
-                            dense_l2_regulization:float=0.0,               
-                            dense_dropout:float=0.2,
+                            dense_layer_count:str='dense_layer_count',
+                            dense_units:str='dense_units',
+                            dense_activation:str='dense_activation',
+                            dense_l1_regulization:float='dense_l1_regulization',
+                            dense_l2_regulization:float='dense_l2_regulization',               
+                            dense_dropout:float='dropout_rate',
                             train_epochs:int=10,
                             train_batch_size:int=25,
-                            train_optimizer:k.optimizers=k.optimizers.RMSprop(learning_rate=0.0001),
+                            train_optimizer:k.optimizers=k.optimizers.RMSprop,
+                            train_learning_rate:str='learning_rate',
                             train_loss:str='binary_crossentropy',
                             train_metrics:list=['accuracy'],
                             train_class_weight:dict=None) -> k.Model:
@@ -132,17 +153,18 @@ def tune_simple_dense_model(dataset:dict,
     """
     # create the partial function to build the model
     build_model = partial(get_simple_dense_model_wrapper,
+        define_tune_parameters=define_tune_parameters,
         input_shape=input_shape,
         output_shape=output_shape,
+        loss=train_loss,
         dense_layer_count=dense_layer_count,
         dense_units=dense_units,
         dense_activation=dense_activation,
         dense_l1_regulization=dense_l1_regulization,
         dense_l2_regulization=dense_l2_regulization,
         dense_dropout=dense_dropout,
-        compile=True,
         optimizer=train_optimizer,
-        loss=train_loss,
+        learning_rate=train_learning_rate,
         metrics=train_metrics)
     
     # create the callback for testing

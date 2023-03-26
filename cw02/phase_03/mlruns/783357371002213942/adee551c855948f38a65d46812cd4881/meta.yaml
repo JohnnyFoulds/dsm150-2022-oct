@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/adee551c855948f38a65d46812cd4881/artifacts
+deleted_time: 1679840467390
+end_time: 1679836648708
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: adee551c855948f38a65d46812cd4881
+run_name: adaptable-sheep-943
+run_uuid: adee551c855948f38a65d46812cd4881
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679836588846
+status: 3
+tags: []
+user_id: root

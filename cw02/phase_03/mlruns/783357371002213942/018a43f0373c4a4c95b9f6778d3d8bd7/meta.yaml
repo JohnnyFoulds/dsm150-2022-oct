@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/018a43f0373c4a4c95b9f6778d3d8bd7/artifacts
+deleted_time: 1679841189813
+end_time: 1679841120702
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 018a43f0373c4a4c95b9f6778d3d8bd7
+run_name: serious-shrike-933
+run_uuid: 018a43f0373c4a4c95b9f6778d3d8bd7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679841102928
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/47f120ae966a4446a4787fcbdc4b8afd/artifacts
+deleted_time: 1679840467245
+end_time: 1679838674452
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 47f120ae966a4446a4787fcbdc4b8afd
+run_name: unruly-yak-225
+run_uuid: 47f120ae966a4446a4787fcbdc4b8afd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679838674437
+status: 4
+tags: []
+user_id: root

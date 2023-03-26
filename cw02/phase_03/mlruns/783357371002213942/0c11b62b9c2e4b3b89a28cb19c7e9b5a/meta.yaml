@@ -1,8 +1,9 @@
 artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/0c11b62b9c2e4b3b89a28cb19c7e9b5a/artifacts
+deleted_time: 1679836393058
 end_time: 1679835796550
 entry_point_name: ''
 experiment_id: '783357371002213942'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 0c11b62b9c2e4b3b89a28cb19c7e9b5a
 run_name: vaunted-squirrel-90
 run_uuid: 0c11b62b9c2e4b3b89a28cb19c7e9b5a
