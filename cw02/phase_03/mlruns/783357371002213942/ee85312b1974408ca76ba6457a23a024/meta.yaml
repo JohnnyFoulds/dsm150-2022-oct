@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/ee85312b1974408ca76ba6457a23a024/artifacts
+deleted_time: 1679792212857
+end_time: 1679791598053
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: ee85312b1974408ca76ba6457a23a024
+run_name: adventurous-pug-503
+run_uuid: ee85312b1974408ca76ba6457a23a024
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679791210981
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/18adf448cabe4521b1aef486c64e5536/artifacts
+deleted_time: 1679796026793
+end_time: 1679795611106
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 18adf448cabe4521b1aef486c64e5536
+run_name: bittersweet-croc-632
+run_uuid: 18adf448cabe4521b1aef486c64e5536
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679795610942
+status: 3
+tags: []
+user_id: root

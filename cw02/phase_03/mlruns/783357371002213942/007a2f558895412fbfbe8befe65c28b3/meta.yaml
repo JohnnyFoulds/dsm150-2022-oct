@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/007a2f558895412fbfbe8befe65c28b3/artifacts
+deleted_time: 1679793421257
+end_time: 1679793379500
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 007a2f558895412fbfbe8befe65c28b3
+run_name: incongruous-toad-560
+run_uuid: 007a2f558895412fbfbe8befe65c28b3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679793372471
+status: 3
+tags: []
+user_id: root

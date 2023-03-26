@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/73264ebf54004c23968705863f8967fb/artifacts
+deleted_time: 1679794470497
+end_time: 1679794410902
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 73264ebf54004c23968705863f8967fb
+run_name: polite-crane-487
+run_uuid: 73264ebf54004c23968705863f8967fb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679794405112
+status: 3
+tags: []
+user_id: root

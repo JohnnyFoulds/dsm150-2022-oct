@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/69ee7f75ae1f4058ac573caf1a0e482d/artifacts
+deleted_time: 1679792497421
+end_time: 1679792465517
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 69ee7f75ae1f4058ac573caf1a0e482d
+run_name: youthful-lark-34
+run_uuid: 69ee7f75ae1f4058ac573caf1a0e482d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679792443209
+status: 3
+tags: []
+user_id: root

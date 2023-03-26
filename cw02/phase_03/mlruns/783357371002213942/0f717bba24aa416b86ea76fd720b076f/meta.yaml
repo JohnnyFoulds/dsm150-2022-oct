@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/0f717bba24aa416b86ea76fd720b076f/artifacts
+deleted_time: 1679796026753
+end_time: 1679795611639
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 0f717bba24aa416b86ea76fd720b076f
+run_name: youthful-asp-632
+run_uuid: 0f717bba24aa416b86ea76fd720b076f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679795611110
+status: 3
+tags: []
+user_id: root

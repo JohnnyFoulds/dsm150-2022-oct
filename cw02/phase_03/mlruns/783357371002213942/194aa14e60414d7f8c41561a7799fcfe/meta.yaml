@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/194aa14e60414d7f8c41561a7799fcfe/artifacts
+deleted_time: 1679796026777
+end_time: 1679795569258
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 194aa14e60414d7f8c41561a7799fcfe
+run_name: smiling-hare-959
+run_uuid: 194aa14e60414d7f8c41561a7799fcfe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679795568824
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/95e3cf9ee65f4709a9aba365b6799453/artifacts
+deleted_time: 1679792218159
+end_time: 1679791229137
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 95e3cf9ee65f4709a9aba365b6799453
+run_name: intrigued-hare-693
+run_uuid: 95e3cf9ee65f4709a9aba365b6799453
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679791211018
+status: 3
+tags: []
+user_id: root

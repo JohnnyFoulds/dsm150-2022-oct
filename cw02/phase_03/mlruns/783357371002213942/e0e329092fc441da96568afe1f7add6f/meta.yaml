@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/e0e329092fc441da96568afe1f7add6f/artifacts
+deleted_time: 1679794789461
+end_time: 1679794721827
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: e0e329092fc441da96568afe1f7add6f
+run_name: persistent-gnu-907
+run_uuid: e0e329092fc441da96568afe1f7add6f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679794714968
+status: 3
+tags: []
+user_id: root

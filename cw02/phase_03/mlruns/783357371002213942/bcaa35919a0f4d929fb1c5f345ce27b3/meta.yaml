@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/bcaa35919a0f4d929fb1c5f345ce27b3/artifacts
+deleted_time: 1679795133761
+end_time: 1679794900538
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: bcaa35919a0f4d929fb1c5f345ce27b3
+run_name: melodic-koi-878
+run_uuid: bcaa35919a0f4d929fb1c5f345ce27b3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679794900068
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/981a780769924c8caf2c34d03d47f9fe/artifacts
+deleted_time: 1679796022447
+end_time: 1679795570104
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 981a780769924c8caf2c34d03d47f9fe
+run_name: useful-owl-594
+run_uuid: 981a780769924c8caf2c34d03d47f9fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679795568817
+status: 3
+tags: []
+user_id: root

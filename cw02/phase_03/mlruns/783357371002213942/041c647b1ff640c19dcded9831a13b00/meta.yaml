@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/041c647b1ff640c19dcded9831a13b00/artifacts
+deleted_time: 1679794114005
+end_time: 1679794096020
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 041c647b1ff640c19dcded9831a13b00
+run_name: stylish-ant-699
+run_uuid: 041c647b1ff640c19dcded9831a13b00
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679794090175
+status: 3
+tags: []
+user_id: root

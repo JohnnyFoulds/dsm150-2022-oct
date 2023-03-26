@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/0b2a20370ec44b9392888aa678180fb9/artifacts
+deleted_time: 1679792398749
+end_time: 1679792303793
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 0b2a20370ec44b9392888aa678180fb9
+run_name: salty-fowl-249
+run_uuid: 0b2a20370ec44b9392888aa678180fb9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679792303425
+status: 3
+tags: []
+user_id: root

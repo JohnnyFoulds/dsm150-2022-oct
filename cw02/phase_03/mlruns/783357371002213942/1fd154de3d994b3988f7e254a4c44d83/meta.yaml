@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/1fd154de3d994b3988f7e254a4c44d83/artifacts
+deleted_time: 1679795477845
+end_time: 1679795351304
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 1fd154de3d994b3988f7e254a4c44d83
+run_name: youthful-swan-217
+run_uuid: 1fd154de3d994b3988f7e254a4c44d83
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679795351144
+status: 3
+tags: []
+user_id: root

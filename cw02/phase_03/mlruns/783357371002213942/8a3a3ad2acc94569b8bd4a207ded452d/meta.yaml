@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/8a3a3ad2acc94569b8bd4a207ded452d/artifacts
+deleted_time: 1679793165545
+end_time: 1679793098495
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 8a3a3ad2acc94569b8bd4a207ded452d
+run_name: amazing-hawk-10
+run_uuid: 8a3a3ad2acc94569b8bd4a207ded452d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679793091640
+status: 3
+tags: []
+user_id: root

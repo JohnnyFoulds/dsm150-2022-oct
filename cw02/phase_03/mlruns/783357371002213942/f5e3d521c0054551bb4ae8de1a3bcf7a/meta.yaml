@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/f5e3d521c0054551bb4ae8de1a3bcf7a/artifacts
+deleted_time: 1679792754093
+end_time: 1679792669024
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: f5e3d521c0054551bb4ae8de1a3bcf7a
+run_name: puzzled-eel-33
+run_uuid: f5e3d521c0054551bb4ae8de1a3bcf7a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679792662285
+status: 3
+tags: []
+user_id: root

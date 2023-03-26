@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/7c8e913977a44048a9632ae58e51ed67/artifacts
+deleted_time: 1679790030293
+end_time: 1679789974255
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 7c8e913977a44048a9632ae58e51ed67
+run_name: colorful-lynx-133
+run_uuid: 7c8e913977a44048a9632ae58e51ed67
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679789956065
+status: 3
+tags: []
+user_id: root

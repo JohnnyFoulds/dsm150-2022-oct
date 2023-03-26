@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/69b076dd2f064f1e8e24ddb19ad50d46/artifacts
+deleted_time: 1679789645425
+end_time: 1679789520754
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 69b076dd2f064f1e8e24ddb19ad50d46
+run_name: amusing-stag-26
+run_uuid: 69b076dd2f064f1e8e24ddb19ad50d46
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679789498561
+status: 3
+tags: []
+user_id: root

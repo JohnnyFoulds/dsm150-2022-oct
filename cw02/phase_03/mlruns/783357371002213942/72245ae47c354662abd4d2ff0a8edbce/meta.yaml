@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/72245ae47c354662abd4d2ff0a8edbce/artifacts
+deleted_time: 1679792217721
+end_time: 1679792032283
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 72245ae47c354662abd4d2ff0a8edbce
+run_name: monumental-snail-118
+run_uuid: 72245ae47c354662abd4d2ff0a8edbce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679792031304
+status: 3
+tags: []
+user_id: root

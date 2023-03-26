@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/f65725a14de546c1984e7b17b8aad7b4/artifacts
+deleted_time: 1679792217781
+end_time: 1679791992977
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: f65725a14de546c1984e7b17b8aad7b4
+run_name: gentle-stoat-446
+run_uuid: f65725a14de546c1984e7b17b8aad7b4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679791974232
+status: 3
+tags: []
+user_id: root

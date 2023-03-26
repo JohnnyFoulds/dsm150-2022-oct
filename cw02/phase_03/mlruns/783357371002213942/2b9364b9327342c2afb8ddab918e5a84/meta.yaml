@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/2b9364b9327342c2afb8ddab918e5a84/artifacts
+deleted_time: 1679794630413
+end_time: 1679794582057
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 2b9364b9327342c2afb8ddab918e5a84
+run_name: amazing-ox-355
+run_uuid: 2b9364b9327342c2afb8ddab918e5a84
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679794570318
+status: 4
+tags: []
+user_id: root

@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/a497e78d8c4c4ee4930288f41cce3232/artifacts
+deleted_time: 1679795477861
+end_time: 1679795351811
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: a497e78d8c4c4ee4930288f41cce3232
+run_name: melodic-lynx-132
+run_uuid: a497e78d8c4c4ee4930288f41cce3232
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679795351307
+status: 3
+tags: []
+user_id: root

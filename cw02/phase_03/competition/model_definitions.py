@@ -1,5 +1,6 @@
 import keras as k
 import mlflow
+import logging
 
 import competition.model_training as mt
 import competition.model_layers as ml
@@ -39,6 +40,8 @@ def get_simple_dense_model(input_shape,
     keras.Model
         The model.
     """
+    logging.debug('Creating simple dense model')
+
     # log model parameters
     mlflow.log_param('dense_layer_count', dense_layer_count)
     mlflow.log_param('dense_units', dense_units)

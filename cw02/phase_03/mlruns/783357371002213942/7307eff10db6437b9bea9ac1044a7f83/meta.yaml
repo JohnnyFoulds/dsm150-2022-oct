@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/7307eff10db6437b9bea9ac1044a7f83/artifacts
+deleted_time: 1679796157109
+end_time: 1679796117681
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 7307eff10db6437b9bea9ac1044a7f83
+run_name: incongruous-loon-566
+run_uuid: 7307eff10db6437b9bea9ac1044a7f83
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679796111113
+status: 3
+tags: []
+user_id: root

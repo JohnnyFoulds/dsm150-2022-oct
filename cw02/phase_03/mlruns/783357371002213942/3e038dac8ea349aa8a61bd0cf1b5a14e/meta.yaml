@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/3e038dac8ea349aa8a61bd0cf1b5a14e/artifacts
+deleted_time: 1679792217881
+end_time: 1679791823227
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 3e038dac8ea349aa8a61bd0cf1b5a14e
+run_name: salty-penguin-400
+run_uuid: 3e038dac8ea349aa8a61bd0cf1b5a14e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679791801325
+status: 3
+tags: []
+user_id: root

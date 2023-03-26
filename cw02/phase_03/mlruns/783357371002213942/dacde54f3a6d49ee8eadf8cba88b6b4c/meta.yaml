@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/dacde54f3a6d49ee8eadf8cba88b6b4c/artifacts
+deleted_time: 1679794339429
+end_time: 1679794315345
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: dacde54f3a6d49ee8eadf8cba88b6b4c
+run_name: able-bass-228
+run_uuid: dacde54f3a6d49ee8eadf8cba88b6b4c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679794315162
+status: 3
+tags: []
+user_id: root

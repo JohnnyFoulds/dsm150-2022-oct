@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/9fcaac80f1544c29a4550d277e78e8be/artifacts
+deleted_time: 1679792217996
+end_time: 1679791635953
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 9fcaac80f1544c29a4550d277e78e8be
+run_name: beautiful-dove-273
+run_uuid: 9fcaac80f1544c29a4550d277e78e8be
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679791618093
+status: 3
+tags: []
+user_id: root

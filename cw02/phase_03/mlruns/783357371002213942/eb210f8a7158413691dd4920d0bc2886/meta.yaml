@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/eb210f8a7158413691dd4920d0bc2886/artifacts
+deleted_time: 1679794396229
+end_time: 1679794361771
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: eb210f8a7158413691dd4920d0bc2886
+run_name: flawless-rook-801
+run_uuid: eb210f8a7158413691dd4920d0bc2886
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679794349006
+status: 4
+tags: []
+user_id: root

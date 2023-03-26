@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/2d57e6836ad74487b47e64cd90b965cd/artifacts
+deleted_time: 1679794109805
+end_time: 1679793878074
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 2d57e6836ad74487b47e64cd90b965cd
+run_name: monumental-fox-847
+run_uuid: 2d57e6836ad74487b47e64cd90b965cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679793878039
+status: 4
+tags: []
+user_id: root

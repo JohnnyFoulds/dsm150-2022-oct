@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/959b28256cea46edb7f01acdf558d8a3/artifacts
+deleted_time: 1679792497389
+end_time: null
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 959b28256cea46edb7f01acdf558d8a3
+run_name: upset-rook-729
+run_uuid: 959b28256cea46edb7f01acdf558d8a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679792424463
+status: 1
+tags: []
+user_id: root

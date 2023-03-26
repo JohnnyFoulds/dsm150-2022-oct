@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/055e5e2194584beb925032efc0add6a4/artifacts
+deleted_time: 1679789639953
+end_time: 1679789606010
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 055e5e2194584beb925032efc0add6a4
+run_name: persistent-fawn-131
+run_uuid: 055e5e2194584beb925032efc0add6a4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679789498554
+status: 3
+tags: []
+user_id: root

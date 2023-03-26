@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/37ec6ecf7b054370b995ace0a3df230f/artifacts
+deleted_time: 1679789639965
+end_time: 1679789495919
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 37ec6ecf7b054370b995ace0a3df230f
+run_name: loud-cub-191
+run_uuid: 37ec6ecf7b054370b995ace0a3df230f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679789481992
+status: 3
+tags: []
+user_id: root

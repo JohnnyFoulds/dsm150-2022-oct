@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/f81503324628476c96c965a184e7e701/artifacts
+deleted_time: 1679795133677
+end_time: 1679795096905
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: f81503324628476c96c965a184e7e701
+run_name: beautiful-loon-825
+run_uuid: f81503324628476c96c965a184e7e701
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679795092488
+status: 3
+tags: []
+user_id: root

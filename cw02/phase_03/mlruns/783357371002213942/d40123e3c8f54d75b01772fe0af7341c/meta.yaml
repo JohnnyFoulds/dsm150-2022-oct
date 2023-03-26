@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/d40123e3c8f54d75b01772fe0af7341c/artifacts
+deleted_time: 1679792217822
+end_time: 1679791840953
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: d40123e3c8f54d75b01772fe0af7341c
+run_name: marvelous-gull-63
+run_uuid: d40123e3c8f54d75b01772fe0af7341c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679791823231
+status: 3
+tags: []
+user_id: root

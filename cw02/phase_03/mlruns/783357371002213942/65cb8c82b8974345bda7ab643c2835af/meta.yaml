@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/65cb8c82b8974345bda7ab643c2835af/artifacts
+deleted_time: 1679796188577
+end_time: 1679796168788
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 65cb8c82b8974345bda7ab643c2835af
+run_name: puzzled-perch-677
+run_uuid: 65cb8c82b8974345bda7ab643c2835af
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679796165390
+status: 3
+tags: []
+user_id: root

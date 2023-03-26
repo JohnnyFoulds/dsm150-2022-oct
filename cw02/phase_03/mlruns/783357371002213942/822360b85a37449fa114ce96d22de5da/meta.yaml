@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/822360b85a37449fa114ce96d22de5da/artifacts
+deleted_time: 1679792217741
+end_time: 1679791953211
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 822360b85a37449fa114ce96d22de5da
+run_name: sincere-calf-726
+run_uuid: 822360b85a37449fa114ce96d22de5da
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679791934959
+status: 3
+tags: []
+user_id: root

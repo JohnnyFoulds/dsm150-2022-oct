@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/54e36f3d235b494dbe9628b68b4be5c9/artifacts
+deleted_time: 1679796022425
+end_time: 1679795991582
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 54e36f3d235b494dbe9628b68b4be5c9
+run_name: honorable-shad-334
+run_uuid: 54e36f3d235b494dbe9628b68b4be5c9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679795987564
+status: 3
+tags: []
+user_id: root

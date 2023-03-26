@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/cdf2449228e24cc08f3902ea6d203ead/artifacts
+deleted_time: 1679789639981
+end_time: 1679789412840
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: cdf2449228e24cc08f3902ea6d203ead
+run_name: bemused-goat-224
+run_uuid: cdf2449228e24cc08f3902ea6d203ead
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679789395209
+status: 3
+tags: []
+user_id: root

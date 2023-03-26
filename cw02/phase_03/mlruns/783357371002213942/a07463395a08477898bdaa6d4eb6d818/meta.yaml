@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/a07463395a08477898bdaa6d4eb6d818/artifacts
+deleted_time: 1679791207053
+end_time: 1679790894290
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: a07463395a08477898bdaa6d4eb6d818
+run_name: victorious-fly-982
+run_uuid: a07463395a08477898bdaa6d4eb6d818
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679790849919
+status: 3
+tags: []
+user_id: root

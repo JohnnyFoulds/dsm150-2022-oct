@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/9778dde4188c4f3d9d8085a5553bc8f6/artifacts
+deleted_time: 1679793072325
+end_time: 1679792981538
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 9778dde4188c4f3d9d8085a5553bc8f6
+run_name: gentle-dolphin-154
+run_uuid: 9778dde4188c4f3d9d8085a5553bc8f6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679792974077
+status: 3
+tags: []
+user_id: root

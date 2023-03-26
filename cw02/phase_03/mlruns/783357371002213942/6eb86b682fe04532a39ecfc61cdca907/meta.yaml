@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/6eb86b682fe04532a39ecfc61cdca907/artifacts
+deleted_time: 1679792212773
+end_time: 1679791841936
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 6eb86b682fe04532a39ecfc61cdca907
+run_name: colorful-grub-635
+run_uuid: 6eb86b682fe04532a39ecfc61cdca907
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679791739147
+status: 3
+tags: []
+user_id: root

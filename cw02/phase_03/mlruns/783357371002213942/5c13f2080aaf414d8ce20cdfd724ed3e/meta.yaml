@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/5c13f2080aaf414d8ce20cdfd724ed3e/artifacts
+deleted_time: 1679791207069
+end_time: 1679790566756
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 5c13f2080aaf414d8ce20cdfd724ed3e
+run_name: rebellious-hog-181
+run_uuid: 5c13f2080aaf414d8ce20cdfd724ed3e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679790506886
+status: 3
+tags: []
+user_id: root

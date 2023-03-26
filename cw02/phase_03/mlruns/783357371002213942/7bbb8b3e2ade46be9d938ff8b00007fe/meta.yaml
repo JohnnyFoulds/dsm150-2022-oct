@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/7bbb8b3e2ade46be9d938ff8b00007fe/artifacts
+deleted_time: 1679795510133
+end_time: 1679795485935
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 7bbb8b3e2ade46be9d938ff8b00007fe
+run_name: gentle-colt-902
+run_uuid: 7bbb8b3e2ade46be9d938ff8b00007fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679795484776
+status: 3
+tags: []
+user_id: root

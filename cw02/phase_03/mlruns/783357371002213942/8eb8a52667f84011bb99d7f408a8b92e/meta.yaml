@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/8eb8a52667f84011bb99d7f408a8b92e/artifacts
+deleted_time: 1679794339449
+end_time: 1679794322546
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 8eb8a52667f84011bb99d7f408a8b92e
+run_name: bold-eel-663
+run_uuid: 8eb8a52667f84011bb99d7f408a8b92e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679794315348
+status: 3
+tags: []
+user_id: root
