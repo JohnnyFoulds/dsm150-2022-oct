@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/217f7893010a490eb5939bc926f667e4/artifacts
+deleted_time: 1679833086904
+end_time: 1679833086902
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 217f7893010a490eb5939bc926f667e4
+run_name: sassy-panda-792
+run_uuid: 217f7893010a490eb5939bc926f667e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679833086863
+status: 3
+tags: []
+user_id: root

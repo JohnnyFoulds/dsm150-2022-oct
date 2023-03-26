@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/0e5708ebce1142e891251ec3dc6a8a7e/artifacts
+end_time: 1679829799360
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: active
+run_id: 0e5708ebce1142e891251ec3dc6a8a7e
+run_name: legendary-skunk-27
+run_uuid: 0e5708ebce1142e891251ec3dc6a8a7e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679829794979
+status: 3
+tags: []
+user_id: root

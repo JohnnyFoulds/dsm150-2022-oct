@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/290c1798468b402081b46cd12c887f7e/artifacts
+end_time: 1679832604351
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: active
+run_id: 290c1798468b402081b46cd12c887f7e
+run_name: classy-eel-314
+run_uuid: 290c1798468b402081b46cd12c887f7e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679832599693
+status: 3
+tags: []
+user_id: root

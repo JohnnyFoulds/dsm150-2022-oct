@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/3872e57d5fcc494391cbd80d480afaee/artifacts
+deleted_time: 1679829389314
+end_time: 1679829389312
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 3872e57d5fcc494391cbd80d480afaee
+run_name: nimble-slug-473
+run_uuid: 3872e57d5fcc494391cbd80d480afaee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679829388983
+status: 3
+tags: []
+user_id: root

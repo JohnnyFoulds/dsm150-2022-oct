@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/170012b51af644b29f6391f398d7e07f/artifacts
+end_time: 1679832316168
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: active
+run_id: 170012b51af644b29f6391f398d7e07f
+run_name: nimble-boar-996
+run_uuid: 170012b51af644b29f6391f398d7e07f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679832311821
+status: 3
+tags: []
+user_id: root

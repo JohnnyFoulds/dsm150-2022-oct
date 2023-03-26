@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/509b9f91d5a2444bb5da3447e2a742ca/artifacts
+end_time: 1679832378123
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: active
+run_id: 509b9f91d5a2444bb5da3447e2a742ca
+run_name: gregarious-chimp-564
+run_uuid: 509b9f91d5a2444bb5da3447e2a742ca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679832333459
+status: 3
+tags: []
+user_id: root

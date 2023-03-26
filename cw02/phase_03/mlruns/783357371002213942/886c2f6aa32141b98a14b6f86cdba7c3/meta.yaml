@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/886c2f6aa32141b98a14b6f86cdba7c3/artifacts
+end_time: 1679829858939
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: active
+run_id: 886c2f6aa32141b98a14b6f86cdba7c3
+run_name: serious-skunk-397
+run_uuid: 886c2f6aa32141b98a14b6f86cdba7c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679829854437
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/1dced9b9f77a488bb5107d1d86f7c1a8/artifacts
+deleted_time: 1679832599683
+end_time: 1679832599681
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 1dced9b9f77a488bb5107d1d86f7c1a8
+run_name: adventurous-elk-417
+run_uuid: 1dced9b9f77a488bb5107d1d86f7c1a8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679832599328
+status: 3
+tags: []
+user_id: root

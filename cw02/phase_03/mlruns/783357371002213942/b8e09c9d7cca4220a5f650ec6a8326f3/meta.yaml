@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/b8e09c9d7cca4220a5f650ec6a8326f3/artifacts
+end_time: 1679829766349
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: active
+run_id: b8e09c9d7cca4220a5f650ec6a8326f3
+run_name: skillful-eel-239
+run_uuid: b8e09c9d7cca4220a5f650ec6a8326f3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679829762070
+status: 3
+tags: []
+user_id: root

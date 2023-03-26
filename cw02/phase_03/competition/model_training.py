@@ -1,5 +1,6 @@
 import numpy as np
 from typing import Optional, List, Tuple
+import logging
 
 import mlflow
 
@@ -300,35 +301,41 @@ class TestModelCallback(k.callbacks.Callback):
         self.show_plots = show_plots
 
     def on_train_end(self, logs=None):
-        # combine the training and validation sets for testing
-        if isinstance(self.X_train, list):
-            X_combined = [np.concatenate((self.X_train[i], self.X_val[i]), axis=0) for i in range(len(self.X_train))]
-            y_combined = np.concatenate((self.y_train, self.y_val), axis=0)
-        else:
-            X_combined = np.concatenate((self.X_train, self.X_val), axis=0)
-            y_combined = np.concatenate((self.y_train, self.y_val), axis=0)
-
-        # test the model
-        threshold, report, metrics = test_model(
-            self.model, 
-            self.model.history,
-            X=X_combined, 
-            y=y_combined,
-            q=None,
-            X_test=self.X_test, 
-            y_test=self.y_test, 
-            q_test=None,
-            show_plots=self.show_plots)
-        
-        for metric, value in metrics.items():
-            if isinstance(value, dict):
-                mlflow.log_dict(value, f'metrics/{metric}')
-            elif isinstance(value, str):
-                mlflow.log_text(value, f'metrics/{metric}.txt')
-            elif isinstance(value, plt.Figure):
-                mlflow.log_figure(value, f'metrics/{metric}.png')
+        logging.info('TestModelCallback::Testing the model')
+        try:
+            # combine the training and validation sets for testing
+            if isinstance(self.X_train, list):
+                X_combined = [np.concatenate((self.X_train[i], self.X_val[i]), axis=0) for i in range(len(self.X_train))]
+                y_combined = np.concatenate((self.y_train, self.y_val), axis=0)
             else:
-                mlflow.log_metric(metric, value)
+                X_combined = np.concatenate((self.X_train, self.X_val), axis=0)
+                y_combined = np.concatenate((self.y_train, self.y_val), axis=0)
+
+            # test the model
+            threshold, report, metrics = test_model(
+                self.model, 
+                self.model.history,
+                X=X_combined, 
+                y=y_combined,
+                q=None,
+                X_test=self.X_test, 
+                y_test=self.y_test, 
+                q_test=None,
+                show_plots=self.show_plots)
+            
+            for metric, value in metrics.items():
+                if isinstance(value, dict):
+                    mlflow.log_dict(value, f'metrics/{metric}')
+                elif isinstance(value, str):
+                    mlflow.log_text(value, f'metrics/{metric}.txt')
+                elif isinstance(value, plt.Figure):
+                    mlflow.log_figure(value, f'metrics/{metric}.png')
+                else:
+                    mlflow.log_metric(metric, value)
+                    
+        except Exception as e:
+            logging.error(f'Error testing the model: {e}')
+            mlflow.log_text(f'Error testing the model: {e}', 'error.txt')
             
 
 def train_model(

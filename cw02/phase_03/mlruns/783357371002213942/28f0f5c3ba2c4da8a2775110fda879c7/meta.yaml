@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/28f0f5c3ba2c4da8a2775110fda879c7/artifacts
+end_time: 1679829794973
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: active
+run_id: 28f0f5c3ba2c4da8a2775110fda879c7
+run_name: placid-tern-584
+run_uuid: 28f0f5c3ba2c4da8a2775110fda879c7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679829790912
+status: 3
+tags: []
+user_id: root

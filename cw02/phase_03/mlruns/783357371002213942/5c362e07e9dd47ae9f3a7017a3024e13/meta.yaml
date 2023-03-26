@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/5c362e07e9dd47ae9f3a7017a3024e13/artifacts
+end_time: 1679829426927
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: active
+run_id: 5c362e07e9dd47ae9f3a7017a3024e13
+run_name: intrigued-steed-783
+run_uuid: 5c362e07e9dd47ae9f3a7017a3024e13
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679829422821
+status: 3
+tags: []
+user_id: root

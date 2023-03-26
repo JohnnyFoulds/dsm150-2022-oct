@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/fd91248b45264b30b87e74889ffa920c/artifacts
+deleted_time: 1679832782339
+end_time: 1679832782338
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: fd91248b45264b30b87e74889ffa920c
+run_name: grandiose-fawn-25
+run_uuid: fd91248b45264b30b87e74889ffa920c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679832782300
+status: 3
+tags: []
+user_id: root

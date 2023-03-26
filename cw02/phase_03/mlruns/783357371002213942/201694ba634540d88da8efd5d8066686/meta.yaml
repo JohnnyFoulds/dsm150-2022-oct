@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/201694ba634540d88da8efd5d8066686/artifacts
+deleted_time: 1679832311819
+end_time: 1679832311816
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 201694ba634540d88da8efd5d8066686
+run_name: adaptable-loon-679
+run_uuid: 201694ba634540d88da8efd5d8066686
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679832311784
+status: 3
+tags: []
+user_id: root

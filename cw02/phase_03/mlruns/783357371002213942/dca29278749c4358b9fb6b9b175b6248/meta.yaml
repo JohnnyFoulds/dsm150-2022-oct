@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/dca29278749c4358b9fb6b9b175b6248/artifacts
+deleted_time: 1679831776774
+end_time: 1679831634930
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: dca29278749c4358b9fb6b9b175b6248
+run_name: angry-lamb-966
+run_uuid: dca29278749c4358b9fb6b9b175b6248
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679831621414
+status: 3
+tags: []
+user_id: root

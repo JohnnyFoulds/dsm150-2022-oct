@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/fa54b45b7fc64959bfc0cbd9026a3d6c/artifacts
+deleted_time: 1679831776813
+end_time: 1679831693628
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: fa54b45b7fc64959bfc0cbd9026a3d6c
+run_name: burly-horse-843
+run_uuid: fa54b45b7fc64959bfc0cbd9026a3d6c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679831634933
+status: 3
+tags: []
+user_id: root
