@@ -217,7 +217,8 @@ def tune_simple_dense_model(define_tune_parameters:callable,
             epochs=train_epochs,
             batch_size=train_batch_size,
             class_weight=train_class_weight,
-            callbacks=[test_callback, tf.keras.callbacks.EarlyStopping(patience=2)])
+            callbacks=[test_callback, tf.keras.callbacks.EarlyStopping(patience=100)])
+            #callbacks=[test_callback, tf.keras.callbacks.EarlyStopping(patience=2)])
         
         # log the best hyperparameters
         best_hp = tuner.get_best_hyperparameters()[0].values
