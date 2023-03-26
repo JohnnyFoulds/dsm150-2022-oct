@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/69b8a0939b574740a6db5299737edc87/artifacts
+deleted_time: 1679797884921
+end_time: 1679797715685
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 69b8a0939b574740a6db5299737edc87
+run_name: enchanting-bee-473
+run_uuid: 69b8a0939b574740a6db5299737edc87
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679797714346
+status: 3
+tags: []
+user_id: root

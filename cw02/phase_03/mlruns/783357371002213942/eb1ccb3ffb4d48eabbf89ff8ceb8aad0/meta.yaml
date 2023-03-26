@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/eb1ccb3ffb4d48eabbf89ff8ceb8aad0/artifacts
+deleted_time: 1679797902352
+end_time: 1679797902349
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: eb1ccb3ffb4d48eabbf89ff8ceb8aad0
+run_name: valuable-perch-634
+run_uuid: eb1ccb3ffb4d48eabbf89ff8ceb8aad0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679797902304
+status: 3
+tags: []
+user_id: root

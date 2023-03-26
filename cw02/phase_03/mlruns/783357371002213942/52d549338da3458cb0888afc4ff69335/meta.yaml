@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/52d549338da3458cb0888afc4ff69335/artifacts
+deleted_time: 1679798049121
+end_time: 1679797982453
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 52d549338da3458cb0888afc4ff69335
+run_name: salty-snake-541
+run_uuid: 52d549338da3458cb0888afc4ff69335
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679797979136
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/09086d2fcd9e4249b15df4e6bb2d8466/artifacts
+deleted_time: 1679797231737
+end_time: 1679797214434
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 09086d2fcd9e4249b15df4e6bb2d8466
+run_name: defiant-cod-252
+run_uuid: 09086d2fcd9e4249b15df4e6bb2d8466
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679797214428
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/f4b16f7edde64416adb6af2d9a3517a3/artifacts
+deleted_time: 1679796824053
+end_time: 1679796817093
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: f4b16f7edde64416adb6af2d9a3517a3
+run_name: enthused-hound-132
+run_uuid: f4b16f7edde64416adb6af2d9a3517a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679796817057
+status: 3
+tags: []
+user_id: root

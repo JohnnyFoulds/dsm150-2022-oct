@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/17b4f2eaf4d1400c8435c4284f69c86c/artifacts
+deleted_time: 1679796591513
+end_time: 1679796511550
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 17b4f2eaf4d1400c8435c4284f69c86c
+run_name: casual-fowl-908
+run_uuid: 17b4f2eaf4d1400c8435c4284f69c86c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679796508076
+status: 3
+tags: []
+user_id: root

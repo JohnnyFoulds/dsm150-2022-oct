@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/313bfee7988e4a9a961f6498bf672f98/artifacts
+deleted_time: 1679798051634
+end_time: 1679798051632
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 313bfee7988e4a9a961f6498bf672f98
+run_name: rogue-skunk-306
+run_uuid: 313bfee7988e4a9a961f6498bf672f98
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679798051589
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/65707b66f382437fb90fe6dbb3386cfd/artifacts
+deleted_time: 1679797884937
+end_time: 1679797716062
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 65707b66f382437fb90fe6dbb3386cfd
+run_name: merciful-gnu-894
+run_uuid: 65707b66f382437fb90fe6dbb3386cfd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679797715688
+status: 3
+tags: []
+user_id: root

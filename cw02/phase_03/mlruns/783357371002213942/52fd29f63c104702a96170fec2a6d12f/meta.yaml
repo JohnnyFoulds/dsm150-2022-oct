@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/52fd29f63c104702a96170fec2a6d12f/artifacts
+deleted_time: 1679798049105
+end_time: 1679797985664
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 52fd29f63c104702a96170fec2a6d12f
+run_name: auspicious-whale-755
+run_uuid: 52fd29f63c104702a96170fec2a6d12f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679797979127
+status: 3
+tags: []
+user_id: root

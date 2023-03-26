@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/95b1767dd3b24c72b004c3991350c12c/artifacts
+deleted_time: 1679797975294
+end_time: 1679797954930
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 95b1767dd3b24c72b004c3991350c12c
+run_name: adventurous-fly-599
+run_uuid: 95b1767dd3b24c72b004c3991350c12c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679797946742
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/c63a26bb0a1e49dd8fbdbb55c9bc8b11/artifacts
+end_time: 1679798127114
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: active
+run_id: c63a26bb0a1e49dd8fbdbb55c9bc8b11
+run_name: dazzling-chimp-238
+run_uuid: c63a26bb0a1e49dd8fbdbb55c9bc8b11
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679798123415
+status: 3
+tags: []
+user_id: root

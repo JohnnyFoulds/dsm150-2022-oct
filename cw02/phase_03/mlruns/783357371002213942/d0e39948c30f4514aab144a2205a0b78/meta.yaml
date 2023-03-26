@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/d0e39948c30f4514aab144a2205a0b78/artifacts
+deleted_time: 1679798115612
+end_time: 1679798115610
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: d0e39948c30f4514aab144a2205a0b78
+run_name: capable-wren-11
+run_uuid: d0e39948c30f4514aab144a2205a0b78
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679798115574
+status: 3
+tags: []
+user_id: root

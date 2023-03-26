@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/53b07ccd3c0c4b6aafb8781eb036c673/artifacts
+deleted_time: 1679796931773
+end_time: 1679796918684
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 53b07ccd3c0c4b6aafb8781eb036c673
+run_name: shivering-slug-392
+run_uuid: 53b07ccd3c0c4b6aafb8781eb036c673
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679796918678
+status: 3
+tags: []
+user_id: root

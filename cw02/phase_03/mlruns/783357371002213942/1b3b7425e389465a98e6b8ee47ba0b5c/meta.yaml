@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/1b3b7425e389465a98e6b8ee47ba0b5c/artifacts
+deleted_time: 1679797975341
+end_time: 1679797924004
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 1b3b7425e389465a98e6b8ee47ba0b5c
+run_name: overjoyed-gull-366
+run_uuid: 1b3b7425e389465a98e6b8ee47ba0b5c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679797923997
+status: 3
+tags: []
+user_id: root

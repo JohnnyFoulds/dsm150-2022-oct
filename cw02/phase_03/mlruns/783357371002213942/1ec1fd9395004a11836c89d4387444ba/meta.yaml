@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/1ec1fd9395004a11836c89d4387444ba/artifacts
+deleted_time: 1679796985197
+end_time: 1679796971013
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 1ec1fd9395004a11836c89d4387444ba
+run_name: victorious-chimp-608
+run_uuid: 1ec1fd9395004a11836c89d4387444ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679796971006
+status: 3
+tags: []
+user_id: root

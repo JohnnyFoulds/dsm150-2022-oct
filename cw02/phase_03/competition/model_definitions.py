@@ -40,9 +40,8 @@ def get_simple_dense_model(input_shape,
     keras.Model
         The model.
     """
-    logging.debug('Creating simple dense model')
+    logging.info('Creating simple dense model')
 
-    # log model parameters
     mlflow.log_param('dense_layer_count', dense_layer_count)
     mlflow.log_param('dense_units', dense_units)
     mlflow.log_param('dense_activation', dense_activation)

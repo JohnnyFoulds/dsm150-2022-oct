@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/64280f4b9ca9447fbc807074f1073125/artifacts
+deleted_time: 1679797975330
+end_time: 1679797954924
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 64280f4b9ca9447fbc807074f1073125
+run_name: magnificent-tern-515
+run_uuid: 64280f4b9ca9447fbc807074f1073125
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679797951180
+status: 3
+tags: []
+user_id: root

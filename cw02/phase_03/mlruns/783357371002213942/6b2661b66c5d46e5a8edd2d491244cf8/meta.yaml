@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/6b2661b66c5d46e5a8edd2d491244cf8/artifacts
+deleted_time: 1679797946740
+end_time: 1679797946739
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 6b2661b66c5d46e5a8edd2d491244cf8
+run_name: hilarious-swan-344
+run_uuid: 6b2661b66c5d46e5a8edd2d491244cf8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679797946697
+status: 3
+tags: []
+user_id: root

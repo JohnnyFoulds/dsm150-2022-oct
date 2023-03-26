@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/7c4c3299d07a4bdda97b07f9be211cf7/artifacts
+deleted_time: 1679796471257
+end_time: 1679796440680
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 7c4c3299d07a4bdda97b07f9be211cf7
+run_name: persistent-crab-972
+run_uuid: 7c4c3299d07a4bdda97b07f9be211cf7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679796436452
+status: 3
+tags: []
+user_id: root

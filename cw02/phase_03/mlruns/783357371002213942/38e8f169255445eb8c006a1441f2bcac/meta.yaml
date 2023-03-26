@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/38e8f169255445eb8c006a1441f2bcac/artifacts
+deleted_time: 1679796491529
+end_time: 1679796480506
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 38e8f169255445eb8c006a1441f2bcac
+run_name: monumental-dove-479
+run_uuid: 38e8f169255445eb8c006a1441f2bcac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679796473165
+status: 3
+tags: []
+user_id: root
