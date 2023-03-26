@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/985713374250636011/8485181f45234937ae50bc9d89020a81/artifacts
+end_time: 1679783786447
+entry_point_name: ''
+experiment_id: '985713374250636011'
+lifecycle_stage: active
+run_id: 8485181f45234937ae50bc9d89020a81
+run_name: rebellious-skunk-326
+run_uuid: 8485181f45234937ae50bc9d89020a81
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679783786399
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/158622948315742395/2dfaf7c8b5be4290ba82a999b1a32255/artifacts
+end_time: 1679783896231
+entry_point_name: ''
+experiment_id: '158622948315742395'
+lifecycle_stage: active
+run_id: 2dfaf7c8b5be4290ba82a999b1a32255
+run_name: fun-goat-560
+run_uuid: 2dfaf7c8b5be4290ba82a999b1a32255
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679783896186
+status: 3
+tags: []
+user_id: root

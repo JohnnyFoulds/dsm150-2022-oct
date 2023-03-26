@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/07a91660f3b74f689bc96ccc19e3c760/artifacts
+deleted_time: 1679785113185
+end_time: 1679785088371
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 07a91660f3b74f689bc96ccc19e3c760
+run_name: colorful-duck-103
+run_uuid: 07a91660f3b74f689bc96ccc19e3c760
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679785088335
+status: 3
+tags: []
+user_id: root

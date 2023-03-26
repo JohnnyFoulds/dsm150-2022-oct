@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/197e8bb8285d4ba69e6f1d3dba4e822e/artifacts
+deleted_time: 1679788321598
+end_time: 1679788036402
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 197e8bb8285d4ba69e6f1d3dba4e822e
+run_name: stately-mare-421
+run_uuid: 197e8bb8285d4ba69e6f1d3dba4e822e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679788032679
+status: 3
+tags: []
+user_id: root

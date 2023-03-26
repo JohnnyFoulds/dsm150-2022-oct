@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/965933312017013660/dc870f44fee041849cee165c63bc8ad1/artifacts
+end_time: 1679784581973
+entry_point_name: ''
+experiment_id: '965933312017013660'
+lifecycle_stage: active
+run_id: dc870f44fee041849cee165c63bc8ad1
+run_name: hyper_opt_logistic
+run_uuid: dc870f44fee041849cee165c63bc8ad1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679784581968
+status: 3
+tags: []
+user_id: root

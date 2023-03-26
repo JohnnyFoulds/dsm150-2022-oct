@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/dccd6013042d4127bd7f18b4c38bceca/artifacts
+deleted_time: 1679788314417
+end_time: 1679788202569
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: dccd6013042d4127bd7f18b4c38bceca
+run_name: selective-finch-765
+run_uuid: dccd6013042d4127bd7f18b4c38bceca
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679788199721
+status: 3
+tags: []
+user_id: root

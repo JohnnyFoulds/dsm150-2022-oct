@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/985713374250636011/d4dd9d412a0e40068c9f01eeabafe040/artifacts
+end_time: 1679783771020
+entry_point_name: ''
+experiment_id: '985713374250636011'
+lifecycle_stage: active
+run_id: d4dd9d412a0e40068c9f01eeabafe040
+run_name: invincible-owl-402
+run_uuid: d4dd9d412a0e40068c9f01eeabafe040
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679783770975
+status: 3
+tags: []
+user_id: root

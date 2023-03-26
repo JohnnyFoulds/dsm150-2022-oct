@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/897bfb40697640d085761ae8ce14279c/artifacts
+deleted_time: 1679786830689
+end_time: null
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 897bfb40697640d085761ae8ce14279c
+run_name: placid-grouse-458
+run_uuid: 897bfb40697640d085761ae8ce14279c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679786758771
+status: 1
+tags: []
+user_id: root

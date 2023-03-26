@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/6cd6ffb3fd9740ab83d4849433c7eb9f/artifacts
+deleted_time: 1679785077746
+end_time: 1679784943064
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 6cd6ffb3fd9740ab83d4849433c7eb9f
+run_name: smiling-colt-182
+run_uuid: 6cd6ffb3fd9740ab83d4849433c7eb9f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679784943010
+status: 3
+tags: []
+user_id: root

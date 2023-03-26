@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/631752965406787601/7ce49c5d3f44411d8a2c232b3226de70/artifacts
+deleted_time: 1679783626477
+end_time: 1679783620975
+entry_point_name: ''
+experiment_id: '631752965406787601'
+lifecycle_stage: deleted
+run_id: 7ce49c5d3f44411d8a2c232b3226de70
+run_name: classy-kit-460
+run_uuid: 7ce49c5d3f44411d8a2c232b3226de70
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679783611474
+status: 4
+tags: []
+user_id: root

@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/788219bbf5254c198ab84cdc4fd03f15/artifacts
+deleted_time: 1679785077963
+end_time: 1679784878437
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 788219bbf5254c198ab84cdc4fd03f15
+run_name: enthused-worm-47
+run_uuid: 788219bbf5254c198ab84cdc4fd03f15
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679784878389
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/71c8923fcb064ceba635ac5ea2028e12/artifacts
+deleted_time: 1679788314457
+end_time: 1679788195552
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 71c8923fcb064ceba635ac5ea2028e12
+run_name: dashing-roo-557
+run_uuid: 71c8923fcb064ceba635ac5ea2028e12
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679788192596
+status: 3
+tags: []
+user_id: root

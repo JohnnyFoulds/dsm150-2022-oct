@@ -45,6 +45,7 @@ jupyter lab --allow-root
 # install tensorflow
 pip install tensorflow==2.11.0
 pip install tensorflow-addons==0.19.0
+pip install keras-tuner==1.3.0
 ```
 
 Please note that the newest Jupyter extension at the time of writing this is not rendering the HTML output Pycaret. A version confirmed where this is working is `v2022.11.1003412109` which you can downgrade to in the extensions tab.

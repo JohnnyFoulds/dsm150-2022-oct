@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/547419496698128559/c0e5fa3922b440e79a4dfde931170d1d/artifacts
+end_time: 1679782998659
+entry_point_name: ''
+experiment_id: '547419496698128559'
+lifecycle_stage: active
+run_id: c0e5fa3922b440e79a4dfde931170d1d
+run_name: gaudy-zebra-101
+run_uuid: c0e5fa3922b440e79a4dfde931170d1d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679782979377
+status: 3
+tags: []
+user_id: root

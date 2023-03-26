@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/6cfb7ce10e384e07a3d57678d13b9a2d/artifacts
+deleted_time: 1679785077937
+end_time: 1679784904433
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 6cfb7ce10e384e07a3d57678d13b9a2d
+run_name: stylish-shrew-519
+run_uuid: 6cfb7ce10e384e07a3d57678d13b9a2d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679784904394
+status: 3
+tags: []
+user_id: root

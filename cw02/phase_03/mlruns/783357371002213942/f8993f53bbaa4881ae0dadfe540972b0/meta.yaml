@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/f8993f53bbaa4881ae0dadfe540972b0/artifacts
+deleted_time: 1679786482238
+end_time: 1679786361959
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: f8993f53bbaa4881ae0dadfe540972b0
+run_name: gifted-slug-751
+run_uuid: f8993f53bbaa4881ae0dadfe540972b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679786335985
+status: 3
+tags: []
+user_id: root

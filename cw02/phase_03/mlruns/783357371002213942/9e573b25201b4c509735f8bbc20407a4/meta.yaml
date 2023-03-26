@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/9e573b25201b4c509735f8bbc20407a4/artifacts
+deleted_time: 1679785073261
+end_time: 1679784860035
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 9e573b25201b4c509735f8bbc20407a4
+run_name: persistent-bee-249
+run_uuid: 9e573b25201b4c509735f8bbc20407a4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679784859991
+status: 3
+tags: []
+user_id: root

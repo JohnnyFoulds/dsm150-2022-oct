@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/51d57627ac3a43c996e16e821a8625e8/artifacts
+deleted_time: 1679788960681
+end_time: 1679788674319
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 51d57627ac3a43c996e16e821a8625e8
+run_name: puzzled-bear-935
+run_uuid: 51d57627ac3a43c996e16e821a8625e8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679788652969
+status: 3
+tags: []
+user_id: root

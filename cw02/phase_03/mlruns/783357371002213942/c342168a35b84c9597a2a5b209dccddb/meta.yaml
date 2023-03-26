@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/c342168a35b84c9597a2a5b209dccddb/artifacts
+deleted_time: 1679785084921
+end_time: 1679785024182
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: c342168a35b84c9597a2a5b209dccddb
+run_name: smiling-stork-39
+run_uuid: c342168a35b84c9597a2a5b209dccddb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679785024135
+status: 3
+tags: []
+user_id: root

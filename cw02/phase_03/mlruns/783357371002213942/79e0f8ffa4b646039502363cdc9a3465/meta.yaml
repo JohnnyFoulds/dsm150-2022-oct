@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/79e0f8ffa4b646039502363cdc9a3465/artifacts
+deleted_time: 1679785077677
+end_time: 1679785061853
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 79e0f8ffa4b646039502363cdc9a3465
+run_name: flawless-conch-752
+run_uuid: 79e0f8ffa4b646039502363cdc9a3465
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679785061805
+status: 3
+tags: []
+user_id: root

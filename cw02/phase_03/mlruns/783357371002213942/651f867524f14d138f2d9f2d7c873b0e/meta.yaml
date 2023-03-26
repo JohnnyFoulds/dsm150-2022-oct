@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/651f867524f14d138f2d9f2d7c873b0e/artifacts
+deleted_time: 1679786482257
+end_time: 1679786434488
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 651f867524f14d138f2d9f2d7c873b0e
+run_name: fortunate-quail-658
+run_uuid: 651f867524f14d138f2d9f2d7c873b0e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679786394835
+status: 3
+tags: []
+user_id: root

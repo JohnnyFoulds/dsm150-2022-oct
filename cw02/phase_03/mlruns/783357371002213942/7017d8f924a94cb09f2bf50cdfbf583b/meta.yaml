@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/7017d8f924a94cb09f2bf50cdfbf583b/artifacts
+deleted_time: 1679786834533
+end_time: 1679786810750
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 7017d8f924a94cb09f2bf50cdfbf583b
+run_name: worried-mouse-341
+run_uuid: 7017d8f924a94cb09f2bf50cdfbf583b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679786807093
+status: 3
+tags: []
+user_id: root

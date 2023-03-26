@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/d60fef1678be4208b5537403680d06c1/artifacts
+deleted_time: 1679785077961
+end_time: 1679784891585
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: d60fef1678be4208b5537403680d06c1
+run_name: intelligent-ant-509
+run_uuid: d60fef1678be4208b5537403680d06c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679784891540
+status: 3
+tags: []
+user_id: root

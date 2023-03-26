@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/fbb10630759449c9b472b3b5ad0df458/artifacts
+deleted_time: 1679788314793
+end_time: 1679788135289
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: fbb10630759449c9b472b3b5ad0df458
+run_name: funny-hog-760
+run_uuid: fbb10630759449c9b472b3b5ad0df458
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679788131297
+status: 3
+tags: []
+user_id: root

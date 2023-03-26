@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/4492c32f0ab54e1aa7d5596e92a3693d/artifacts
+deleted_time: 1679785077833
+end_time: 1679784922800
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 4492c32f0ab54e1aa7d5596e92a3693d
+run_name: abrasive-penguin-227
+run_uuid: 4492c32f0ab54e1aa7d5596e92a3693d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679784922760
+status: 3
+tags: []
+user_id: root

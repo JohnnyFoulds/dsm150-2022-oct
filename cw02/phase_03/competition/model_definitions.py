@@ -39,6 +39,14 @@ def get_simple_dense_model(input_shape,
     keras.Model
         The model.
     """
+    # log model parameters
+    mlflow.log_param('dense_layer_count', dense_layer_count)
+    mlflow.log_param('dense_units', dense_units)
+    mlflow.log_param('dense_activation', dense_activation)
+    mlflow.log_param('dense_l1_regulization', dense_l1_regulization)
+    mlflow.log_param('dense_l2_regulization', dense_l2_regulization)
+    mlflow.log_param('dense_dropout', dense_dropout)
+        
     # create the input layer
     input_layer = k.layers.Input(shape=input_shape)
 
@@ -78,12 +86,6 @@ def train_simple_dense(dataset:dict,
     """
     # log model parameters
     mlflow.log_param('loss', train_loss)
-    mlflow.log_param('dense_layer_count', dense_layer_count)
-    mlflow.log_param('dense_units', dense_units)
-    mlflow.log_param('dense_activation', dense_activation)
-    mlflow.log_param('dense_l1_regulization', dense_l1_regulization)
-    mlflow.log_param('dense_l2_regulization', dense_l2_regulization)
-    mlflow.log_param('dense_dropout', dense_dropout)
 
     # create the model
     model = get_simple_dense_model(

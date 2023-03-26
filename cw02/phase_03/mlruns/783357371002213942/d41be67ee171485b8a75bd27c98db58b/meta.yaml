@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/d41be67ee171485b8a75bd27c98db58b/artifacts
+deleted_time: 1679785113174
+end_time: 1679785098433
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: d41be67ee171485b8a75bd27c98db58b
+run_name: upbeat-owl-430
+run_uuid: d41be67ee171485b8a75bd27c98db58b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679785098389
+status: 3
+tags: []
+user_id: root

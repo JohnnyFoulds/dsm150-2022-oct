@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/631752965406787601/17558d94d88a42dc83cfa70ea55909cc/artifacts
+deleted_time: 1679783626637
+end_time: 1679783545312
+entry_point_name: ''
+experiment_id: '631752965406787601'
+lifecycle_stage: deleted
+run_id: 17558d94d88a42dc83cfa70ea55909cc
+run_name: secretive-smelt-903
+run_uuid: 17558d94d88a42dc83cfa70ea55909cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679783545276
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/631752965406787601/45579b27d9694e7a83467b98a2561f42/artifacts
+deleted_time: 1679783626853
+end_time: 1679783449044
+entry_point_name: ''
+experiment_id: '631752965406787601'
+lifecycle_stage: deleted
+run_id: 45579b27d9694e7a83467b98a2561f42
+run_name: sneaky-robin-900
+run_uuid: 45579b27d9694e7a83467b98a2561f42
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679783448991
+status: 3
+tags: []
+user_id: root

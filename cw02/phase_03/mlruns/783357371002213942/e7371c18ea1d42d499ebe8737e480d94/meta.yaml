@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/e7371c18ea1d42d499ebe8737e480d94/artifacts
+deleted_time: 1679788314833
+end_time: 1679788128256
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: e7371c18ea1d42d499ebe8737e480d94
+run_name: capricious-goose-309
+run_uuid: e7371c18ea1d42d499ebe8737e480d94
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679788125240
+status: 3
+tags: []
+user_id: root

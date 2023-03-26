@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/985713374250636011/bd5ba3a9ee6643e188527226d8d233fd/artifacts
+end_time: 1679783756532
+entry_point_name: ''
+experiment_id: '985713374250636011'
+lifecycle_stage: active
+run_id: bd5ba3a9ee6643e188527226d8d233fd
+run_name: intrigued-donkey-584
+run_uuid: bd5ba3a9ee6643e188527226d8d233fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679783756488
+status: 3
+tags: []
+user_id: root

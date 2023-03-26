@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/1e58639ceb374a099a93cd14d7219c0c/artifacts
+deleted_time: 1679785077901
+end_time: 1679784910524
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 1e58639ceb374a099a93cd14d7219c0c
+run_name: redolent-toad-314
+run_uuid: 1e58639ceb374a099a93cd14d7219c0c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679784910487
+status: 3
+tags: []
+user_id: root

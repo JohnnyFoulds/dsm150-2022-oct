@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/d0dd4ae7f70a44e7a2fb15950774b12d/artifacts
+deleted_time: 1679785077777
+end_time: 1679784935270
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: d0dd4ae7f70a44e7a2fb15950774b12d
+run_name: sneaky-squirrel-973
+run_uuid: d0dd4ae7f70a44e7a2fb15950774b12d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679784935212
+status: 3
+tags: []
+user_id: root

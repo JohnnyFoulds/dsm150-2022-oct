@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/631752965406787601/aee4eb0981d34156b8760e7d2bb02e9a/artifacts
+deleted_time: 1679783626693
+end_time: 1679783499861
+entry_point_name: ''
+experiment_id: '631752965406787601'
+lifecycle_stage: deleted
+run_id: aee4eb0981d34156b8760e7d2bb02e9a
+run_name: grandiose-steed-582
+run_uuid: aee4eb0981d34156b8760e7d2bb02e9a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679783499827
+status: 3
+tags: []
+user_id: root

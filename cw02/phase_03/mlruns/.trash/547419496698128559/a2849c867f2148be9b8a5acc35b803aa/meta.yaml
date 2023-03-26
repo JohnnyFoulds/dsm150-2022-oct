@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/547419496698128559/a2849c867f2148be9b8a5acc35b803aa/artifacts
+end_time: 1679783039055
+entry_point_name: ''
+experiment_id: '547419496698128559'
+lifecycle_stage: active
+run_id: a2849c867f2148be9b8a5acc35b803aa
+run_name: mercurial-sheep-980
+run_uuid: a2849c867f2148be9b8a5acc35b803aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679783022371
+status: 3
+tags: []
+user_id: root

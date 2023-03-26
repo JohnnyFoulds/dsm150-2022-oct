@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/631752965406787601/e52f6bc692d346cd977a7c6502725a3a/artifacts
+deleted_time: 1679783626701
+end_time: 1679783499658
+entry_point_name: ''
+experiment_id: '631752965406787601'
+lifecycle_stage: deleted
+run_id: e52f6bc692d346cd977a7c6502725a3a
+run_name: luminous-dog-428
+run_uuid: e52f6bc692d346cd977a7c6502725a3a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679783467145
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/3cbb771996f04a28a64d5f86fdef9cd2/artifacts
+deleted_time: 1679785113289
+end_time: 1679785074792
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 3cbb771996f04a28a64d5f86fdef9cd2
+run_name: sassy-lynx-991
+run_uuid: 3cbb771996f04a28a64d5f86fdef9cd2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679785074740
+status: 3
+tags: []
+user_id: root

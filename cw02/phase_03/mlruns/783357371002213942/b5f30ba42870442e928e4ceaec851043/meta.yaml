@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/b5f30ba42870442e928e4ceaec851043/artifacts
+deleted_time: 1679788314677
+end_time: 1679788156666
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: b5f30ba42870442e928e4ceaec851043
+run_name: bedecked-toad-467
+run_uuid: b5f30ba42870442e928e4ceaec851043
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679788152667
+status: 3
+tags: []
+user_id: root

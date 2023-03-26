@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/547419496698128559/b344cd12ccb648d697781f5622c7c338/artifacts
+end_time: 1679782973292
+entry_point_name: ''
+experiment_id: '547419496698128559'
+lifecycle_stage: active
+run_id: b344cd12ccb648d697781f5622c7c338
+run_name: bustling-crow-778
+run_uuid: b344cd12ccb648d697781f5622c7c338
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679782718240
+status: 3
+tags: []
+user_id: root

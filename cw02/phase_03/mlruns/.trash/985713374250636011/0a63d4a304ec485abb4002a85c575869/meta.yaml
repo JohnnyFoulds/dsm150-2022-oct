@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/985713374250636011/0a63d4a304ec485abb4002a85c575869/artifacts
+end_time: 1679783691891
+entry_point_name: ''
+experiment_id: '985713374250636011'
+lifecycle_stage: active
+run_id: 0a63d4a304ec485abb4002a85c575869
+run_name: fun-crab-208
+run_uuid: 0a63d4a304ec485abb4002a85c575869
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679783691847
+status: 3
+tags: []
+user_id: root

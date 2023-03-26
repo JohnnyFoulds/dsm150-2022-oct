@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/631752965406787601/54163a64fa9c4cfdabe393909ade50ad/artifacts
+deleted_time: 1679783626497
+end_time: 1679783589264
+entry_point_name: ''
+experiment_id: '631752965406787601'
+lifecycle_stage: deleted
+run_id: 54163a64fa9c4cfdabe393909ade50ad
+run_name: enthused-wasp-110
+run_uuid: 54163a64fa9c4cfdabe393909ade50ad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679783586117
+status: 4
+tags: []
+user_id: root

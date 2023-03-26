@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/b42be74c40034ee8b59e50ac476af7f3/artifacts
+deleted_time: 1679788314753
+end_time: 1679788145386
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: b42be74c40034ee8b59e50ac476af7f3
+run_name: bald-donkey-892
+run_uuid: b42be74c40034ee8b59e50ac476af7f3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679788142425
+status: 3
+tags: []
+user_id: root

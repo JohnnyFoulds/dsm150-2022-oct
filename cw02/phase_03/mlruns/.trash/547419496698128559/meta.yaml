@@ -1,0 +1,7 @@
+artifact_location: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/547419496698128559
+creation_time: 1679775629523
+experiment_id: '547419496698128559'
+last_update_time: 1679783128305
+lifecycle_stage: active
+name: Hyper Parameter Tuning
+tags: {}

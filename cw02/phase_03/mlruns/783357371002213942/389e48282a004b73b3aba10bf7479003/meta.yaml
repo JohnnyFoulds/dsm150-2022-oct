@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/389e48282a004b73b3aba10bf7479003/artifacts
+deleted_time: 1679788321325
+end_time: 1679788084689
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 389e48282a004b73b3aba10bf7479003
+run_name: handsome-calf-485
+run_uuid: 389e48282a004b73b3aba10bf7479003
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679788080922
+status: 3
+tags: []
+user_id: root

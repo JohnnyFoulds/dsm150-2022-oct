@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/758ac1bbcc8c4759904164810a5e9bb0/artifacts
+deleted_time: 1679788587637
+end_time: 1679788526260
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 758ac1bbcc8c4759904164810a5e9bb0
+run_name: redolent-tern-716
+run_uuid: 758ac1bbcc8c4759904164810a5e9bb0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679788504173
+status: 3
+tags: []
+user_id: root

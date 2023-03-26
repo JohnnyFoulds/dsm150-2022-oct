@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/fff76812062b4a55b59188f141a3f683/artifacts
+deleted_time: 1679788314618
+end_time: 1679788159584
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: fff76812062b4a55b59188f141a3f683
+run_name: rumbling-flea-867
+run_uuid: fff76812062b4a55b59188f141a3f683
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679788156726
+status: 3
+tags: []
+user_id: root

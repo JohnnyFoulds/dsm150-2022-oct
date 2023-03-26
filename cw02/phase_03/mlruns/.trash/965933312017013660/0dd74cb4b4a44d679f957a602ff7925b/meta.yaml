@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/965933312017013660/0dd74cb4b4a44d679f957a602ff7925b/artifacts
+end_time: 1679784812591
+entry_point_name: ''
+experiment_id: '965933312017013660'
+lifecycle_stage: active
+run_id: 0dd74cb4b4a44d679f957a602ff7925b
+run_name: overjoyed-cod-120
+run_uuid: 0dd74cb4b4a44d679f957a602ff7925b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679784812540
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/ea7ed15ddacf4f00a405105ccec08e48/artifacts
+deleted_time: 1679787464933
+end_time: 1679787393468
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: ea7ed15ddacf4f00a405105ccec08e48
+run_name: fearless-chimp-687
+run_uuid: ea7ed15ddacf4f00a405105ccec08e48
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679787371810
+status: 3
+tags: []
+user_id: root

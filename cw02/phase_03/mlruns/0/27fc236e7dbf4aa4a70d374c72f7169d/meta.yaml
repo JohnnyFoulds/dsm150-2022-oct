@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/0/27fc236e7dbf4aa4a70d374c72f7169d/artifacts
+deleted_time: 1679784482401
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 27fc236e7dbf4aa4a70d374c72f7169d
+run_name: fearless-grouse-98
+run_uuid: 27fc236e7dbf4aa4a70d374c72f7169d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679776361419
+status: 1
+tags: []
+user_id: root

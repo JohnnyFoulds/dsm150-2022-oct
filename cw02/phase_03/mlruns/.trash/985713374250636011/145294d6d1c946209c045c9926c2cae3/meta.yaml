@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/985713374250636011/145294d6d1c946209c045c9926c2cae3/artifacts
+end_time: 1679783716918
+entry_point_name: ''
+experiment_id: '985713374250636011'
+lifecycle_stage: active
+run_id: 145294d6d1c946209c045c9926c2cae3
+run_name: blushing-crow-437
+run_uuid: 145294d6d1c946209c045c9926c2cae3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679783716881
+status: 3
+tags: []
+user_id: root

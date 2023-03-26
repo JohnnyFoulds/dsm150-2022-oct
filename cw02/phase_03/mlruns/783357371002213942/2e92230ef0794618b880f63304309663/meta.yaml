@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/2e92230ef0794618b880f63304309663/artifacts
+deleted_time: 1679787464913
+end_time: null
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 2e92230ef0794618b880f63304309663
+run_name: bright-eel-942
+run_uuid: 2e92230ef0794618b880f63304309663
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679787437895
+status: 1
+tags: []
+user_id: root

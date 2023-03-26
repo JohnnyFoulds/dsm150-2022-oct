@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/2aa0d2aa53af40cd815100382e98a56a/artifacts
+deleted_time: 1679788314697
+end_time: 1679788152390
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 2aa0d2aa53af40cd815100382e98a56a
+run_name: sincere-ray-241
+run_uuid: 2aa0d2aa53af40cd815100382e98a56a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679788149380
+status: 3
+tags: []
+user_id: root

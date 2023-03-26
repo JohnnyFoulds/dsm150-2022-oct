@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/55dc0761036e4a2f939ce98a55261dc1/artifacts
+deleted_time: 1679788314545
+end_time: 1679788170230
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 55dc0761036e4a2f939ce98a55261dc1
+run_name: unleashed-shark-114
+run_uuid: 55dc0761036e4a2f939ce98a55261dc1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679788166641
+status: 3
+tags: []
+user_id: root

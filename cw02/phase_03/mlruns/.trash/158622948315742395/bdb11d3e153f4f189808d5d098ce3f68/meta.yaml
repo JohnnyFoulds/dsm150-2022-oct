@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/158622948315742395/bdb11d3e153f4f189808d5d098ce3f68/artifacts
+end_time: 1679783859286
+entry_point_name: ''
+experiment_id: '158622948315742395'
+lifecycle_stage: active
+run_id: bdb11d3e153f4f189808d5d098ce3f68
+run_name: gifted-fowl-519
+run_uuid: bdb11d3e153f4f189808d5d098ce3f68
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679783859232
+status: 3
+tags: []
+user_id: root

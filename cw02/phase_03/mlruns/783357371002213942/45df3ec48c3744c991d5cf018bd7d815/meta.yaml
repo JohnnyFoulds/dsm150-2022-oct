@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/45df3ec48c3744c991d5cf018bd7d815/artifacts
+deleted_time: 1679786597693
+end_time: 1679786590055
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 45df3ec48c3744c991d5cf018bd7d815
+run_name: agreeable-croc-736
+run_uuid: 45df3ec48c3744c991d5cf018bd7d815
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679786589405
+status: 3
+tags: []
+user_id: root

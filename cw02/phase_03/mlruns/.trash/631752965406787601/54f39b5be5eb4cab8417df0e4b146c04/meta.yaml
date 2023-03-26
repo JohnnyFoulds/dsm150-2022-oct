@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/631752965406787601/54f39b5be5eb4cab8417df0e4b146c04/artifacts
+deleted_time: 1679783626764
+end_time: 1679783466943
+entry_point_name: ''
+experiment_id: '631752965406787601'
+lifecycle_stage: deleted
+run_id: 54f39b5be5eb4cab8417df0e4b146c04
+run_name: vaunted-sow-732
+run_uuid: 54f39b5be5eb4cab8417df0e4b146c04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679783449235
+status: 3
+tags: []
+user_id: root

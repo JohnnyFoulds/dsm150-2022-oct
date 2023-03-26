@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/4408259252a7471fb51a6db2f1deb4ef/artifacts
+deleted_time: 1679788321410
+end_time: 1679788068205
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 4408259252a7471fb51a6db2f1deb4ef
+run_name: sincere-bass-460
+run_uuid: 4408259252a7471fb51a6db2f1deb4ef
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679788064154
+status: 3
+tags: []
+user_id: root

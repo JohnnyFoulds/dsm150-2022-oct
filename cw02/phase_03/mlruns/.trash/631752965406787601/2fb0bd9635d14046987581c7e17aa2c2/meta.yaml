@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/631752965406787601/2fb0bd9635d14046987581c7e17aa2c2/artifacts
+deleted_time: 1679783626505
+end_time: 1679783586115
+entry_point_name: ''
+experiment_id: '631752965406787601'
+lifecycle_stage: deleted
+run_id: 2fb0bd9635d14046987581c7e17aa2c2
+run_name: angry-sponge-851
+run_uuid: 2fb0bd9635d14046987581c7e17aa2c2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679783586077
+status: 3
+tags: []
+user_id: root
