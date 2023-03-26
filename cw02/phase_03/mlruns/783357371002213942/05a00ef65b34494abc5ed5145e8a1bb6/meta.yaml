@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/05a00ef65b34494abc5ed5145e8a1bb6/artifacts
+deleted_time: 1679834544510
+end_time: 1679834522482
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 05a00ef65b34494abc5ed5145e8a1bb6
+run_name: gifted-mole-3
+run_uuid: 05a00ef65b34494abc5ed5145e8a1bb6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679834522395
+status: 3
+tags: []
+user_id: root

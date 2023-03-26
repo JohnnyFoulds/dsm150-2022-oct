@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/ef0c0ce441e84cf0b7c330235053aab1/artifacts
+deleted_time: 1679834544625
+end_time: 1679834522093
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: ef0c0ce441e84cf0b7c330235053aab1
+run_name: nervous-finch-466
+run_uuid: ef0c0ce441e84cf0b7c330235053aab1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679834522009
+status: 3
+tags: []
+user_id: root

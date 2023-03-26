@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/1fe6664392ce41e39a115aa37883679d/artifacts
+deleted_time: 1679834544633
+end_time: 1679834521983
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 1fe6664392ce41e39a115aa37883679d
+run_name: selective-slug-375
+run_uuid: 1fe6664392ce41e39a115aa37883679d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679834521664
+status: 3
+tags: []
+user_id: root

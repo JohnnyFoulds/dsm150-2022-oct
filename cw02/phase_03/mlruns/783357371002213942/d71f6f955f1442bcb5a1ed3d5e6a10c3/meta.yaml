@@ -1,8 +1,9 @@
 artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/d71f6f955f1442bcb5a1ed3d5e6a10c3/artifacts
+deleted_time: 1679833781370
 end_time: 1679832359701
 entry_point_name: ''
 experiment_id: '783357371002213942'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: d71f6f955f1442bcb5a1ed3d5e6a10c3
 run_name: rumbling-mare-274
 run_uuid: d71f6f955f1442bcb5a1ed3d5e6a10c3

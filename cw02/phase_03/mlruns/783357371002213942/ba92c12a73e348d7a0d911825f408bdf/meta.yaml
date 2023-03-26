@@ -1,8 +1,9 @@
 artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/ba92c12a73e348d7a0d911825f408bdf/artifacts
+deleted_time: 1679833774754
 end_time: 1679832037315
 entry_point_name: ''
 experiment_id: '783357371002213942'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: ba92c12a73e348d7a0d911825f408bdf
 run_name: stylish-donkey-867
 run_uuid: ba92c12a73e348d7a0d911825f408bdf

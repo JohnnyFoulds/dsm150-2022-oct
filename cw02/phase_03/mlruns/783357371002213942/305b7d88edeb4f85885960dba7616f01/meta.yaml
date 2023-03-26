@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/305b7d88edeb4f85885960dba7616f01/artifacts
+deleted_time: 1679834295730
+end_time: 1679834295728
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 305b7d88edeb4f85885960dba7616f01
+run_name: trusting-doe-934
+run_uuid: 305b7d88edeb4f85885960dba7616f01
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679834295696
+status: 3
+tags: []
+user_id: root

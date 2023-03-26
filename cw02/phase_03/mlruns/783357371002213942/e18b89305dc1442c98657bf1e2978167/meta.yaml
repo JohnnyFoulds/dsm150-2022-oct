@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/e18b89305dc1442c98657bf1e2978167/artifacts
+deleted_time: 1679833774389
+end_time: 1679833756939
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: e18b89305dc1442c98657bf1e2978167
+run_name: victorious-vole-788
+run_uuid: e18b89305dc1442c98657bf1e2978167
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679833753182
+status: 3
+tags: []
+user_id: root

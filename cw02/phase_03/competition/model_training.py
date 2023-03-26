@@ -189,15 +189,23 @@ def test_model(
     """
     metrics = {}
 
+    # make a copy of the model
+    model_copy = k.models.clone_model(model)
+    model_copy.set_weights(model.get_weights())
+    model_copy.compile(
+        optimizer=model.optimizer,
+        loss=model.loss,
+        metrics=model.metrics)
+
     if show_plots:
         plot_loss(history)
         plot_accuracy(history)
 
     # score the test data
-    y_test_score = model.predict(X_test)
+    y_test_score = model_copy.predict(X_test)
 
     # score the train and validation data
-    y_score = model.predict(X)
+    y_score = model_copy.predict(X)
 
     # display the results with a threshold of 0.5
     threshold = 0.5
@@ -332,7 +340,7 @@ class TestModelCallback(k.callbacks.Callback):
                     mlflow.log_figure(value, f'metrics/{metric}.png')
                 else:
                     mlflow.log_metric(metric, value)
-                    
+
         except Exception as e:
             logging.error(f'Error testing the model: {e}')
             mlflow.log_text(f'Error testing the model: {e}', 'error.txt')

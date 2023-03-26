@@ -1,8 +1,9 @@
 artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/1ae749e852c94fe7b9347d06527f038a/artifacts
+deleted_time: 1679833774485
 end_time: 1679833091038
 entry_point_name: ''
 experiment_id: '783357371002213942'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 1ae749e852c94fe7b9347d06527f038a
 run_name: upbeat-skunk-692
 run_uuid: 1ae749e852c94fe7b9347d06527f038a

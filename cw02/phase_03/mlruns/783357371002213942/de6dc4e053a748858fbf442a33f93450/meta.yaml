@@ -1,8 +1,9 @@
 artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/de6dc4e053a748858fbf442a33f93450/artifacts
+deleted_time: 1679833781521
 end_time: 1679832298761
 entry_point_name: ''
 experiment_id: '783357371002213942'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: de6dc4e053a748858fbf442a33f93450
 run_name: dapper-ray-510
 run_uuid: de6dc4e053a748858fbf442a33f93450

@@ -1,8 +1,9 @@
 artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/bc6dc00b03264b05ab218c6faa767cf6/artifacts
+deleted_time: 1679833781831
 end_time: 1679829787018
 entry_point_name: ''
 experiment_id: '783357371002213942'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: bc6dc00b03264b05ab218c6faa767cf6
 run_name: suave-ox-639
 run_uuid: bc6dc00b03264b05ab218c6faa767cf6

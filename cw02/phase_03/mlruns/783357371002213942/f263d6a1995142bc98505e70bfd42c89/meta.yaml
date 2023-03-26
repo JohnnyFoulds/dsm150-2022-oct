@@ -1,8 +1,9 @@
 artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/f263d6a1995142bc98505e70bfd42c89/artifacts
+deleted_time: 1679833781597
 end_time: 1679829862919
 entry_point_name: ''
 experiment_id: '783357371002213942'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: f263d6a1995142bc98505e70bfd42c89
 run_name: bemused-doe-736
 run_uuid: f263d6a1995142bc98505e70bfd42c89

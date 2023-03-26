@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/ed62bbe5c2de41dba3afd44da54f46ed/artifacts
+deleted_time: 1679833823778
+end_time: 1679833823777
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: ed62bbe5c2de41dba3afd44da54f46ed
+run_name: monumental-crab-514
+run_uuid: ed62bbe5c2de41dba3afd44da54f46ed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679833823732
+status: 3
+tags: []
+user_id: root

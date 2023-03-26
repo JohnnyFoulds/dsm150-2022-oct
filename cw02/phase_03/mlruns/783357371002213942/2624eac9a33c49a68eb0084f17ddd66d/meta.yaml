@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/2624eac9a33c49a68eb0084f17ddd66d/artifacts
+deleted_time: 1679835792771
+end_time: 1679835792768
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 2624eac9a33c49a68eb0084f17ddd66d
+run_name: nosy-calf-793
+run_uuid: 2624eac9a33c49a68eb0084f17ddd66d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679835792733
+status: 3
+tags: []
+user_id: root

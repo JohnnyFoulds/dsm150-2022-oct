@@ -1,8 +1,9 @@
 artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/763965141d564d43b9a9c7f26430b368/artifacts
+deleted_time: 1679833781361
 end_time: 1679832368916
 entry_point_name: ''
 experiment_id: '783357371002213942'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 763965141d564d43b9a9c7f26430b368
 run_name: delicate-bird-663
 run_uuid: 763965141d564d43b9a9c7f26430b368

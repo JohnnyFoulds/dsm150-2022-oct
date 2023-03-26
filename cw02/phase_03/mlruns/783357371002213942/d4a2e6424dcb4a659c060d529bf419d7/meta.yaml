@@ -1,8 +1,9 @@
 artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/d4a2e6424dcb4a659c060d529bf419d7/artifacts
+deleted_time: 1679833782422
 end_time: 1679798054853
 entry_point_name: ''
 experiment_id: '783357371002213942'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: d4a2e6424dcb4a659c060d529bf419d7
 run_name: burly-crab-463
 run_uuid: d4a2e6424dcb4a659c060d529bf419d7

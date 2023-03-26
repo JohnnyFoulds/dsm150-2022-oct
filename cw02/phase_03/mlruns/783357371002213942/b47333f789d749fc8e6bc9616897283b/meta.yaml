@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/b47333f789d749fc8e6bc9616897283b/artifacts
+end_time: 1679836129912
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: active
+run_id: b47333f789d749fc8e6bc9616897283b
+run_name: mercurial-ape-896
+run_uuid: b47333f789d749fc8e6bc9616897283b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679836125263
+status: 3
+tags: []
+user_id: root

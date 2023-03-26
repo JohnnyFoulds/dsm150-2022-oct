@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/78f3350e8c634629923e4e82226966fa/artifacts
+deleted_time: 1679835782721
+end_time: 1679835755728
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 78f3350e8c634629923e4e82226966fa
+run_name: upbeat-hog-725
+run_uuid: 78f3350e8c634629923e4e82226966fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679835751936
+status: 3
+tags: []
+user_id: root

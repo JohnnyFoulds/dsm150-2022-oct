@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/eee1cbf5d7f3423ca98a5b6d7495949c/artifacts
+deleted_time: 1679836222774
+end_time: 1679836222772
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: eee1cbf5d7f3423ca98a5b6d7495949c
+run_name: resilient-seal-286
+run_uuid: eee1cbf5d7f3423ca98a5b6d7495949c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679836222730
+status: 3
+tags: []
+user_id: root

@@ -1,8 +1,9 @@
 artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/c35bbae50faa4526be43495aa7c69869/artifacts
+deleted_time: 1679833782157
 end_time: 1679829393776
 entry_point_name: ''
 experiment_id: '783357371002213942'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: c35bbae50faa4526be43495aa7c69869
 run_name: abrasive-shrew-497
 run_uuid: c35bbae50faa4526be43495aa7c69869

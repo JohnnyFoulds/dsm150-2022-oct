@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/dface8c3317c40ca9512191a0aee5070/artifacts
+end_time: 1679835945383
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: active
+run_id: dface8c3317c40ca9512191a0aee5070
+run_name: puzzled-steed-751
+run_uuid: dface8c3317c40ca9512191a0aee5070
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679835805417
+status: 3
+tags: []
+user_id: root

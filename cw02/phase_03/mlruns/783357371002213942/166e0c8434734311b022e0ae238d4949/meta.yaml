@@ -1,8 +1,9 @@
 artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/166e0c8434734311b022e0ae238d4949/artifacts
+deleted_time: 1679833781907
 end_time: 1679829770829
 entry_point_name: ''
 experiment_id: '783357371002213942'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 166e0c8434734311b022e0ae238d4949
 run_name: fearless-hawk-454
 run_uuid: 166e0c8434734311b022e0ae238d4949

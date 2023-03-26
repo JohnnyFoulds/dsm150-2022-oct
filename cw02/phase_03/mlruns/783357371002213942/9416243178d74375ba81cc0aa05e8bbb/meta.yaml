@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/9416243178d74375ba81cc0aa05e8bbb/artifacts
+deleted_time: 1679834544497
+end_time: 1679834525602
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 9416243178d74375ba81cc0aa05e8bbb
+run_name: persistent-carp-237
+run_uuid: 9416243178d74375ba81cc0aa05e8bbb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679834521441
+status: 3
+tags: []
+user_id: root

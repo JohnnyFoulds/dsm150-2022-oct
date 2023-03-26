@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/98ccefa06ecb4403a49eb0ac4abfcb2a/artifacts
+deleted_time: 1679835245256
+end_time: 1679835245254
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 98ccefa06ecb4403a49eb0ac4abfcb2a
+run_name: defiant-gnat-149
+run_uuid: 98ccefa06ecb4403a49eb0ac4abfcb2a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679835245204
+status: 3
+tags: []
+user_id: root

@@ -1,8 +1,9 @@
 artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/e8bb7b5d1f3e49debec119ab77acea83/artifacts
+deleted_time: 1679833781750
 end_time: 1679829829399
 entry_point_name: ''
 experiment_id: '783357371002213942'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: e8bb7b5d1f3e49debec119ab77acea83
 run_name: victorious-hawk-207
 run_uuid: e8bb7b5d1f3e49debec119ab77acea83

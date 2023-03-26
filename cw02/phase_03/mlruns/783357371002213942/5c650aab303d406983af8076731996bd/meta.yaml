@@ -1,8 +1,9 @@
 artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/5c650aab303d406983af8076731996bd/artifacts
+deleted_time: 1679833781477
 end_time: 1679832337835
 entry_point_name: ''
 experiment_id: '783357371002213942'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 5c650aab303d406983af8076731996bd
 run_name: caring-pug-261
 run_uuid: 5c650aab303d406983af8076731996bd

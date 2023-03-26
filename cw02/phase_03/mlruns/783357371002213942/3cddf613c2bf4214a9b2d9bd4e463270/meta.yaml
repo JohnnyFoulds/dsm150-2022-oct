@@ -1,8 +1,9 @@
 artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/3cddf613c2bf4214a9b2d9bd4e463270/artifacts
+deleted_time: 1679833781318
 end_time: 1679832364113
 entry_point_name: ''
 experiment_id: '783357371002213942'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 3cddf613c2bf4214a9b2d9bd4e463270
 run_name: funny-mule-750
 run_uuid: 3cddf613c2bf4214a9b2d9bd4e463270

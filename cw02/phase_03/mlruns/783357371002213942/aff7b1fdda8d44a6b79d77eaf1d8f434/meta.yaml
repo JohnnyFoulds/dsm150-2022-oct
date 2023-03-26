@@ -1,8 +1,9 @@
 artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/aff7b1fdda8d44a6b79d77eaf1d8f434/artifacts
+deleted_time: 1679833781990
 end_time: 1679829418527
 entry_point_name: ''
 experiment_id: '783357371002213942'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: aff7b1fdda8d44a6b79d77eaf1d8f434
 run_name: loud-koi-236
 run_uuid: aff7b1fdda8d44a6b79d77eaf1d8f434

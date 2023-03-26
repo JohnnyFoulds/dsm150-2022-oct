@@ -103,6 +103,14 @@ def get_simple_dense_model_wrapper(hp, *args, **kwargs) -> k.Model:
     """
     return get_simple_dense_model(*args, **kwargs)
 
+class TrailCallback(k.callbacks.Callback):
+    def on_train_begin(self, logs=None):
+        logging.info('on_train_begin')
+
+
+    def on_train_end(self, logs=None):
+        logging.info('on_train_end')
+
 def tune_simple_dense_model(dataset:dict,
                             max_trials:int,
                             input_shape,
@@ -187,7 +195,7 @@ def tune_simple_dense_model(dataset:dict,
             epochs=train_epochs,
             batch_size=train_batch_size,
             class_weight=train_class_weight,
-            callbacks=[tf.keras.callbacks.EarlyStopping(patience=2), test_callback])
+            callbacks=[test_callback, tf.keras.callbacks.EarlyStopping(patience=2)])
         
         # log the best hyperparameters
         best_hp = tuner.get_best_hyperparameters()[0].values

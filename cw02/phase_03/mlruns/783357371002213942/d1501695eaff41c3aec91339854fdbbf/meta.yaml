@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/d1501695eaff41c3aec91339854fdbbf/artifacts
+deleted_time: 1679835314716
+end_time: 1679835314714
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: d1501695eaff41c3aec91339854fdbbf
+run_name: bedecked-shad-911
+run_uuid: d1501695eaff41c3aec91339854fdbbf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679835314671
+status: 3
+tags: []
+user_id: root

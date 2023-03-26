@@ -1,8 +1,9 @@
 artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/8beed7c9ec6b41ef96abbc2070e9df94/artifacts
+deleted_time: 1679833781654
 end_time: 1679829849869
 entry_point_name: ''
 experiment_id: '783357371002213942'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 8beed7c9ec6b41ef96abbc2070e9df94
 run_name: honorable-bug-85
 run_uuid: 8beed7c9ec6b41ef96abbc2070e9df94

@@ -1,8 +1,9 @@
 artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/97b2ffad853b41c08b5b7b39a4a3ee75/artifacts
+deleted_time: 1679833782265
 end_time: 1679798143249
 entry_point_name: ''
 experiment_id: '783357371002213942'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 97b2ffad853b41c08b5b7b39a4a3ee75
 run_name: illustrious-crab-495
 run_uuid: 97b2ffad853b41c08b5b7b39a4a3ee75

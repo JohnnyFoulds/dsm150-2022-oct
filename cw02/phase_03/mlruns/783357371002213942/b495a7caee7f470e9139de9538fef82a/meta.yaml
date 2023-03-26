@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/b495a7caee7f470e9139de9538fef82a/artifacts
+deleted_time: 1679834544557
+end_time: 1679834522189
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: b495a7caee7f470e9139de9538fef82a
+run_name: bouncy-stag-352
+run_uuid: b495a7caee7f470e9139de9538fef82a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679834522100
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/a52fe22a7fca4ef4be0cad751f66b88e/artifacts
+deleted_time: 1679835805416
+end_time: 1679835805414
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: a52fe22a7fca4ef4be0cad751f66b88e
+run_name: flawless-lark-98
+run_uuid: a52fe22a7fca4ef4be0cad751f66b88e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679835805387
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/347c0ca032b24da8ae836f65cafb3345/artifacts
+deleted_time: 1679835741929
+end_time: 1679835318482
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: 347c0ca032b24da8ae836f65cafb3345
+run_name: agreeable-mink-345
+run_uuid: 347c0ca032b24da8ae836f65cafb3345
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679835314725
+status: 3
+tags: []
+user_id: root

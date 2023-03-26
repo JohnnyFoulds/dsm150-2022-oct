@@ -1,8 +1,9 @@
 artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/0055ff38426d4c0281c64d5cd566f1cf/artifacts
+deleted_time: 1679833782281
 end_time: 1679798139420
 entry_point_name: ''
 experiment_id: '783357371002213942'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 0055ff38426d4c0281c64d5cd566f1cf
 run_name: nimble-skunk-500
 run_uuid: 0055ff38426d4c0281c64d5cd566f1cf

@@ -1,0 +1,16 @@
+artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/fd64fbf55c0b4a4eb9e6d8c312abac8a/artifacts
+deleted_time: 1679833774426
+end_time: 1679833623348
+entry_point_name: ''
+experiment_id: '783357371002213942'
+lifecycle_stage: deleted
+run_id: fd64fbf55c0b4a4eb9e6d8c312abac8a
+run_name: delicate-sponge-79
+run_uuid: fd64fbf55c0b4a4eb9e6d8c312abac8a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1679833618944
+status: 3
+tags: []
+user_id: root

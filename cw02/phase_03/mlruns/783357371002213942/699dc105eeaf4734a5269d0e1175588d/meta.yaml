@@ -1,8 +1,9 @@
 artifact_uri: file:///workspaces/dsm150-2022-oct/cw02/phase_03/mlruns/783357371002213942/699dc105eeaf4734a5269d0e1175588d/artifacts
+deleted_time: 1679833774853
 end_time: 1679798155172
 entry_point_name: ''
 experiment_id: '783357371002213942'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 699dc105eeaf4734a5269d0e1175588d
 run_name: debonair-fowl-293
 run_uuid: 699dc105eeaf4734a5269d0e1175588d
