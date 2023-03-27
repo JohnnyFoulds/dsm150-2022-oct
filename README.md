@@ -47,6 +47,7 @@ pip install tensorflow==2.11.0
 pip install tensorflow-addons==0.19.0
 pip install keras-tuner==1.3.0
 
+pip install mlflow==2.2.2
 pip install pandas-profiling==3.6.6
 pip install pygwalker==0.1.6.1
 pip install dtale==2.13.0
