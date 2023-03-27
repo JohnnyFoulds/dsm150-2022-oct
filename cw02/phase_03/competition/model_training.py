@@ -207,6 +207,14 @@ def test_model(
     # score the train and validation data
     y_score = model_copy.predict(X)
 
+    # convert the scores to a binary classification
+    if len(y_test.shape) > 1:
+        y_test = y_test[:,1]
+        y = y[:,1]
+
+        y_test_score = y_test_score[:,1]
+        y_score = y_score[:,1]
+
     # display the results with a threshold of 0.5
     threshold = 0.5
 
@@ -223,7 +231,6 @@ def test_model(
                 y_test_score > threshold, 
                 average='macro',
                 zero_division=1)    
-
 
     # save the metrics
     metrics['threshold'] = threshold
