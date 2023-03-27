@@ -46,6 +46,10 @@ jupyter lab --allow-root
 pip install tensorflow==2.11.0
 pip install tensorflow-addons==0.19.0
 pip install keras-tuner==1.3.0
+
+pip install pandas-profiling==3.6.6
+pip install pygwalker==0.1.6.1
+pip install dtale==2.13.0
 ```
 
 Please note that the newest Jupyter extension at the time of writing this is not rendering the HTML output Pycaret. A version confirmed where this is working is `v2022.11.1003412109` which you can downgrade to in the extensions tab.
