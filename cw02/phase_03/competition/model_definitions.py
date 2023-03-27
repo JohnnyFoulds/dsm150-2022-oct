@@ -97,6 +97,17 @@ def get_simple_dense_model(input_shape,
 
     return model
 
+def get_activation_layer(activation_name):
+    if activation_name == 'LeakyReLU':
+        return k.layers.LeakyReLU(alpha=0.3)
+    elif activation_name == 'PReLU':
+        return k.layers.PReLU()
+    elif activation_name == 'Swish':
+        return k.layers.swish
+    else:
+        return activation_name
+
+
 def get_simple_dense_model_wrapper(hp,
                                    define_tune_parameters:callable,
                                    input_shape,
@@ -114,6 +125,9 @@ def get_simple_dense_model_wrapper(hp,
     for kwarg in kwargs:
         if isinstance(kwargs[kwarg], str):
             kwargs[kwarg] = hp.get(kwargs[kwarg])
+
+    # update dense_activation
+    kwargs['dense_activation'] = get_activation_layer(kwargs['dense_activation'])
 
     return get_simple_dense_model(
         input_shape=input_shape,
