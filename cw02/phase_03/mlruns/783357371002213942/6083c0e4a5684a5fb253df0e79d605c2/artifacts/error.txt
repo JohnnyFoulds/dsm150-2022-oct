@@ -1,1 +1,0 @@
-Error testing the model: 'int' object has no attribute 'items'
