@@ -162,6 +162,7 @@ def tune_simple_dense_model(define_tune_parameters:callable,
                             train_loss:str='binary_crossentropy',
                             train_metrics:list=['accuracy'],
                             train_class_weight:dict=None,
+                            tuner_type=kt.tuners.RandomSearch,
                             tune_objective:str='val_accuracy',
                             tune_direction:str='max') -> k.Model:
     """
@@ -194,7 +195,7 @@ def tune_simple_dense_model(define_tune_parameters:callable,
         show_plots=True)    
 
     # define CustomSearch class
-    class CustomSearch(kt.tuners.RandomSearch):
+    class CustomSearch(tuner_type):
         def on_trial_begin(self, trial):
             logging.info('on_trial_begin')
             mlflow.keras.autolog()
