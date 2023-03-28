@@ -161,7 +161,9 @@ def tune_simple_dense_model(define_tune_parameters:callable,
                             train_learning_rate:str='learning_rate',
                             train_loss:str='binary_crossentropy',
                             train_metrics:list=['accuracy'],
-                            train_class_weight:dict=None) -> k.Model:
+                            train_class_weight:dict=None,
+                            tune_objective:str='val_accuracy',
+                            tune_direction:str='max') -> k.Model:
     """
     Find the optimal hyper parameters using the KerasTuner API.
     """
@@ -206,11 +208,10 @@ def tune_simple_dense_model(define_tune_parameters:callable,
 
             super(CustomSearch, self).on_trial_end(trial)
 
-    # create the tuner
     with mlflow.start_run() as run:
         tuner = CustomSearch(
             build_model,
-            objective="val_accuracy",
+            objective=kt.Objective(tune_objective, direction=tune_direction),
             max_trials=max_trials,
             executions_per_trial=1,
             overwrite=True)
@@ -241,9 +242,9 @@ def tune_simple_dense_model(define_tune_parameters:callable,
 
         # Retrieve the best model, evaluate it, and log the metrics
         best_model = tuner.get_best_models()[0]
-        val_loss, val_accuracy = best_model.evaluate(dataset['val']['X'], dataset['val']['y'])
+        val_loss, val_objective = best_model.evaluate(dataset['val']['X'], dataset['val']['y'])
         mlflow.log_metric("val_loss", val_loss)
-        mlflow.log_metric("val_accuracy", val_accuracy)
+        mlflow.log_metric(tune_objective, val_objective)
 
     mlflow.end_run()    
 
