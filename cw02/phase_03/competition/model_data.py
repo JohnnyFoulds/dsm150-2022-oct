@@ -2,9 +2,11 @@ import pandas as pd
 import numpy as np
 from tqdm.auto import tqdm
 
+import copy 
 import logging
 from typing import Optional, Tuple, Iterable
 
+import tensorflow as tf
 from sklearn.model_selection import train_test_split
 
 def select_sessions(
@@ -246,3 +248,20 @@ def get_feature_dataset(features:pd.DataFrame,
             df_source_labels=y)
         
     return feature_dataset
+
+def labels_to_categorical(dataset:dict) -> dict:
+    """
+    Converts the labels to a categorical values. This allow the problem 
+    to be treated as multi-class classification instead of binary.
+
+    Parameters
+    ----------
+    dataset : dict
+        The dataset dictionary that was prepared 
+        with `get_feature_dataset`.
+    """
+    new_dataset = copy.deepcopy(dataset)
+    for key in dataset.keys():
+        new_dataset[key]['y'] = tf.keras.utils.to_categorical(new_dataset[key]['y'], num_classes=2)
+
+    return new_dataset
