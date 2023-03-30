@@ -5,8 +5,8 @@ def define_dense_layers(parent,
                         layer_count:int=1,
                         dense_units:int=128,
                         activation:str='relu',
-                        l1_regulization:float=0.0,
-                        l2_regulization:float=0.0,
+                        l1_regularization:float=0.0,
+                        l2_regularization:float=0.0,
                         dropout:float=0.0):
     """
     Create feed forward layers as per the parameters.
@@ -21,10 +21,10 @@ def define_dense_layers(parent,
         The number of units in each layer, by default 128
     activation : str, optional
         The activation function, by default 'relu'
-    l1_regulization : float, optional
-        The L1 regulization, by default 0.0
-    l2_regulization : float, optional
-        The L2 regulization, by default 0.0
+    l1_regularization : float, optional
+        The L1 regularization, by default 0.0
+    l2_regularization : float, optional
+        The L2 regularization, by default 0.0
     dropout : float, optional
         The dropout rate, by default 0.0
 
@@ -39,7 +39,7 @@ def define_dense_layers(parent,
     layers = k.layers.Dense(
         units=dense_units,
         activation=activation,
-        kernel_regularizer=k.regularizers.l1_l2(l1_regulization, l2_regulization))(parent)
+        kernel_regularizer=k.regularizers.l1_l2(l1_regularization, l2_regularization))(parent)
 
     if dropout > 0:
         layers = k.layers.Dropout(dropout)(layers)
@@ -51,8 +51,8 @@ def define_dense_layers(parent,
             layer_count=1,
             dense_units=dense_units,
             activation=activation,
-            l1_regulization=l1_regulization,
-            l2_regulization=l2_regulization,
+            l1_regularization=l1_regularization,
+            l2_regularization=l2_regularization,
             dropout=dropout)
 
     return layers
