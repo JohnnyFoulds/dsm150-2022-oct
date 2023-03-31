@@ -4,7 +4,7 @@ from tqdm.auto import tqdm
 
 import copy 
 import logging
-from typing import Optional, Tuple, Iterable
+from typing import Optional, Tuple, Iterable, List
 
 import tensorflow as tf
 from sklearn.model_selection import train_test_split
@@ -190,10 +190,10 @@ def create_label_dataset(session_list: list,
 
 def get_feature_dataset(features:pd.DataFrame,
                         y:pd.DataFrame,
-                        feature_list:list,
-                        train: list,
-                        val: list,
-                        test: list,
+                        feature_list:List,
+                        train:np.ndarray,
+                        val:np.ndarray,
+                        test:np.ndarray,
                         include_question:bool=True,
                         expand_question:bool=False) -> dict:
     """

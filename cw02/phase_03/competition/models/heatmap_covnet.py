@@ -4,19 +4,21 @@ using a Convolutional Neural Network to classify the data.
 """
 
 import logging
-from typing import Callable, Dict, Optional, Tuple, List
+from functools import partial
+from typing import Callable, Dict, Optional, Tuple, List, Type
 import ast
 import mlflow
+import mlflow.keras
 
+import tensorflow as tf
 import keras as k
 from keras import layers
-from keras import optimizers
-
-from keras_tuner import tuners
 from keras_tuner.engine import tuner as tuner_module
+from keras_tuner import Objective
 
 import competition.model_definitions as mm
 import competition.model_layers as ml
+import competition.model_training as mt
 
 class HeatmapCovnetModel():
     """
@@ -171,7 +173,7 @@ class HeatmapCovnetModel():
                 metrics=self.metrics)
 
         return model
-    
+
     def get_model_wrapper(self,
                           hp,
                           define_tune_parameters,
@@ -200,17 +202,95 @@ class HeatmapCovnetModel():
             compile_model=True,
             optimizer=optimizer,
             learning_rate=hp['learning_rate'])
-    
+
 
     def tune_model(self,
                    define_tune_parameters,
-                   dataset:Dict,
+                   heatmap_dataset:Dict,
+                   feature_dataset:Dict,
                    max_trials:int,
                    train_epochs:int,
                    train_batch_size:int,
                    train_optimizer:Optional[Callable],
-                   tuner_type:tuner_module.Tuner,
+                   tuner_type:Type[tuner_module.Tuner],
                    tune_objective:str,
                    tune_direction:str,
                    train_class_weight:Optional[Dict]=None) -> k.Model:
-        pass
+        """
+        Find the optimal hyper parameters using the KerasTuner API.
+        """
+        # create the partial function to build the model
+        build_model = partial(
+            self.get_model_wrapper,
+            define_tune_parameters=define_tune_parameters,
+            optimizer=train_optimizer)
+
+        # create the callback for testing
+        test_callback = mt.TestModelCallback(
+            X_train=[heatmap_dataset['train']['X'], feature_dataset['train']['X']],
+            y_train=feature_dataset['train']['y'],
+            X_val=[heatmap_dataset['val']['X'], feature_dataset['val']['X']],
+            y_val=feature_dataset['val']['y'],
+            X_test=[heatmap_dataset['test']['X'], feature_dataset['test']['X']],
+            y_test=feature_dataset['test']['y'],
+            show_plots=True)
+
+        class CustomSearch(tuner_type):
+            """A wrapper around the KerasTuner API to enable nested experiments."""
+            def on_trial_begin(self, trial):
+                """Start a nested run at the beginning of each trial."""
+                mlflow.keras.autolog()
+                mlflow.start_run(nested=True)
+
+                super(CustomSearch, self).on_trial_begin(trial)
+
+            def on_trial_end(self, trial):
+                """End the nested run at the end of each trial."""
+                mlflow.end_run()
+                super(CustomSearch, self).on_trial_end(trial)
+
+        with mlflow.start_run() as run:
+            tuner = CustomSearch(
+                build_model,
+                objective=Objective(tune_objective, direction=tune_direction),
+                max_trials=max_trials,
+                executions_per_trial=1,
+                overwrite=True)
+
+            run_id = run.info.run_id
+
+        mlflow.end_run()
+        mlflow.delete_run(run_id)
+
+        # start the search
+        with mlflow.start_run():
+            mlflow.keras.autolog()
+
+            # search for the best hyperparameters
+            tuner.search(
+                [heatmap_dataset['train']['X'], feature_dataset['train']['X']],
+                feature_dataset['train']['y'],
+                validation_data=( \
+                    [heatmap_dataset['val']['X'], feature_dataset['val']['X']],
+                    feature_dataset['val']['y']),
+                epochs=train_epochs,
+                batch_size=train_batch_size,
+                class_weight=train_class_weight,
+                callbacks=[test_callback, tf.keras.callbacks.EarlyStopping(patience=50)])
+
+            # log the best hyperparameters
+            best_hp = tuner.get_best_hyperparameters()[0].values
+            mlflow.log_params(best_hp)
+            print(best_hp)
+
+            # Retrieve the best model, evaluate it, and log the metrics
+            best_model = tuner.get_best_models()[0]
+            val_loss, val_objective = best_model.evaluate( \
+                [heatmap_dataset['val']['X'], feature_dataset['val']['X']],
+                feature_dataset['val']['y'])
+            mlflow.log_metric("val_loss", val_loss)
+            mlflow.log_metric(tune_objective, val_objective)
+
+        mlflow.end_run()
+
+        return best_model

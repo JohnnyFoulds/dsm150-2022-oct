@@ -1,7 +1,7 @@
-import numpy as np
-from typing import Optional, List, Tuple
+from typing import Optional, List, Tuple, Union
 import logging
 
+import numpy as np
 import mlflow
 
 import keras as k
@@ -12,7 +12,7 @@ from sklearn.metrics import ConfusionMatrixDisplay
 from sklearn.metrics import precision_recall_fscore_support
 
 import matplotlib.pyplot as plt
-from IPython.display import Markdown
+from IPython.core.display import Markdown
 
 # Initialize an empty list to store the lines of markdown
 _markdown_lines = []
@@ -52,7 +52,6 @@ def plot_loss(history:History,
     else:
         print(history.history.keys())
         raise Exception('No metric found in history!')
-
 
     epochs = range(1, len(history.history[metric]) + 1)
 
@@ -299,11 +298,11 @@ class TestModelCallback(k.callbacks.Callback):
     A callback to test the model after training completes.
     """
     def __init__(self,
-                 X_train: np.ndarray,
+                 X_train: Union[np.ndarray, List[np.ndarray]],
                  y_train: np.ndarray,
-                 X_val: np.ndarray,
+                 X_val: Union[np.ndarray, List[np.ndarray]],
                  y_val: np.ndarray,
-                 X_test: np.ndarray,
+                 X_test: Union[np.ndarray, List[np.ndarray]],
                  y_test: np.ndarray,
                  show_plots: bool):
         super().__init__()
@@ -321,23 +320,23 @@ class TestModelCallback(k.callbacks.Callback):
             # combine the training and validation sets for testing
             if isinstance(self.X_train, list):
                 X_combined = [np.concatenate((self.X_train[i], self.X_val[i]), axis=0) for i in range(len(self.X_train))]
-                y_combined = np.concatenate((self.y_train, self.y_val), axis=0)
             else:
                 X_combined = np.concatenate((self.X_train, self.X_val), axis=0)
-                y_combined = np.concatenate((self.y_train, self.y_val), axis=0)
 
+            y_combined = np.concatenate((self.y_train, self.y_val), axis=0)
+            
             # test the model
-            threshold, report, metrics = test_model(
-                self.model, 
+            _, _, metrics = test_model(
+                self.model,
                 self.model.history,
-                X=X_combined, 
+                X=X_combined,
                 y=y_combined,
                 q=None,
-                X_test=self.X_test, 
-                y_test=self.y_test, 
+                X_test=self.X_test,
+                y_test=self.y_test,
                 q_test=None,
                 show_plots=self.show_plots)
-            
+
             for metric, value in metrics.items():
                 if isinstance(value, dict):
                     mlflow.log_dict(value, f'metrics/{metric}')

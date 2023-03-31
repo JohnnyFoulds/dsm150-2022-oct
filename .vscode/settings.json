@@ -4,7 +4,9 @@
         "autolog",
         "convnet",
         "covnet",
+        "fscore",
         "hyperparameters",
+        "pyplot",
         "regularizers"
     ]
 }
