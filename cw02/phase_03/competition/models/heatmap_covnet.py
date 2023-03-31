@@ -4,11 +4,16 @@ using a Convolutional Neural Network to classify the data.
 """
 
 import logging
-from typing import Callable, Optional, Tuple, List
+from typing import Callable, Dict, Optional, Tuple, List
+import ast
 import mlflow
 
 import keras as k
 from keras import layers
+from keras import optimizers
+
+from keras_tuner import tuners
+from keras_tuner.engine import tuner as tuner_module
 
 import competition.model_definitions as mm
 import competition.model_layers as ml
@@ -166,3 +171,46 @@ class HeatmapCovnetModel():
                 metrics=self.metrics)
 
         return model
+    
+    def get_model_wrapper(self,
+                          hp,
+                          define_tune_parameters,
+                          optimizer:Optional[Callable]) -> k.Model:
+        """
+        This function takes the extra hyper parameter object that are required
+        for the build function.
+        """
+        # define the training parameters
+        define_tune_parameters(hp)
+
+        # get the model
+        return self.get_model(
+            covnet_block_count=hp['covnet_block_count'],
+            covnet_activation=mm.get_activation_layer(hp['covnet_activation']),
+            covnet_cov_count=hp['covnet_cov_count'],
+            covnet_channels=hp['covnet_channels'],
+            covnet_kernel_size=ast.literal_eval(hp['covnet_kernel_size']),
+            covnet_pool_size=ast.literal_eval(hp['covnet_pool_size']),
+            dense_layer_count=hp['dense_layer_count'],
+            dense_units=hp['dense_units'],
+            dense_activation=mm.get_activation_layer(hp['dense_activation']),
+            dense_l1_regularization=hp['dense_l1_regularization'],
+            dense_l2_regularization=hp['dense_l2_regularization'],
+            dense_dropout=hp['dense_dropout'],
+            compile_model=True,
+            optimizer=optimizer,
+            learning_rate=hp['learning_rate'])
+    
+
+    def tune_model(self,
+                   define_tune_parameters,
+                   dataset:Dict,
+                   max_trials:int,
+                   train_epochs:int,
+                   train_batch_size:int,
+                   train_optimizer:Optional[Callable],
+                   tuner_type:tuner_module.Tuner,
+                   tune_objective:str,
+                   tune_direction:str,
+                   train_class_weight:Optional[Dict]=None) -> k.Model:
+        pass
