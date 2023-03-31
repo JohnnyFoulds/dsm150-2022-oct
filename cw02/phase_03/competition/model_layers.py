@@ -1,5 +1,12 @@
+"""
+Define layer architectures that can be composed into models.s
+"""
+
 import logging
-import keras as k
+from typing import Tuple
+
+from keras import layers
+from keras import regularizers
 
 def define_dense_layers(parent,
                         layer_count:int=1,
@@ -36,18 +43,18 @@ def define_dense_layers(parent,
     assert layer_count > 0, 'layer_count must be greater than 0'
 
     # add the first layer
-    layers = k.layers.Dense(
+    model_layers = layers.Dense(
         units=dense_units,
         activation=activation,
-        kernel_regularizer=k.regularizers.l1_l2(l1_regularization, l2_regularization))(parent)
+        kernel_regularizer=regularizers.l1_l2(l1_regularization, l2_regularization))(parent)
 
     if dropout > 0:
-        layers = k.layers.Dropout(dropout)(layers)
+        model_layers = layers.Dropout(dropout)(model_layers)
 
     # add additional layers if required
     for _ in range(layer_count - 1):
-        layers= define_dense_layers(
-            parent=layers,
+        model_layers= define_dense_layers(
+            parent=model_layers,
             layer_count=1,
             dense_units=dense_units,
             activation=activation,
@@ -55,15 +62,15 @@ def define_dense_layers(parent,
             l2_regularization=l2_regularization,
             dropout=dropout)
 
-    return layers
+    return model_layers
 
 def define_convnet_layers(parent,
-                          block_count:int=1,
-                          activation:str='relu',
-                          cov_count:int=1,
-                          channels:int=32,
-                          kernel_size=(3, 3),
-                          pool_size=(2, 2)):
+                          block_count:int,
+                          activation:str,
+                          cov_count:int,
+                          channels:int,
+                          kernel_size:Tuple[int, int],
+                          pool_size:Tuple[int, int]):
     """
     Create convolutional layer blocks.
     
@@ -91,22 +98,21 @@ def define_convnet_layers(parent,
     """
     assert block_count > 0, 'block_count must be greater than 0'
 
-    layer = parent
+    model_layer = parent
     for block in range(block_count):
-        logging.info(f'block {block}')
+        logging.info('block %s', block)
         for cov in range(cov_count):
-            logging.info(f'cov {cov}')
-            layer = k.layers.Conv2D(
+            logging.info('cov %d', cov)
+            model_layer = layers.Conv2D(
                 filters=channels,
                 kernel_size=kernel_size,
                 padding='same',
-                activation=activation)(layer)
-            
+                activation=activation)(model_layer)
+
         # add a pooling layer
-        layer = k.layers.MaxPooling2D(pool_size=pool_size)(layer)
+        model_layer = layers.MaxPooling2D(pool_size=pool_size)(model_layer)
 
     # flatten for the last layer
-    layer = k.layers.Flatten()(layer)
+    model_layer = layers.Flatten()(model_layer)
 
-    return layer
-                       
+    return model_layer

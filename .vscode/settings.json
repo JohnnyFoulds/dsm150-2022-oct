@@ -2,6 +2,9 @@
     "python.analysis.typeCheckingMode": "basic",
     "cSpell.words": [
         "autolog",
-        "hyperparameters"
+        "convnet",
+        "covnet",
+        "hyperparameters",
+        "regularizers"
     ]
 }

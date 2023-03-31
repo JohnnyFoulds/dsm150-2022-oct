@@ -2,7 +2,7 @@ import tensorflow as tf
 from keras import layers
 import keras as k
 from keras.optimizers import Adam
-import kerastuner as kt
+import keras_tuner as kt
 from typing import List
 
 import competition.model_training as mt
