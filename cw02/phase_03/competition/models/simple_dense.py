@@ -6,6 +6,7 @@ from keras import layers
 from keras import optimizers
 
 import kerastuner as kt
+from keras_tuner.engine import tuner as tuner_module
 import mlflow
 from functools import partial
 
@@ -13,7 +14,7 @@ import competition.model_definitions as mm
 import competition.model_layers as ml
 import competition.model_training as mt
 
-from typing import Optional, Callable, Dict, List
+from typing import Optional, Callable, Dict, List, Type
 
 def get_model(input_shape,
               output_shape,
@@ -140,7 +141,7 @@ def tune_model(define_tune_parameters,
                train_loss:str='binary_crossentropy',
                train_metrics: Optional[List] = None,
                train_class_weight:Optional[Dict]=None,
-               tuner_type=kt.tuners.RandomSearch,
+               tuner_type:Type[tuner_module.Tuner]=kt.tuners.RandomSearch,
                tune_objective:str='val_accuracy',
                tune_direction:str='max') -> k.Model:
     """
