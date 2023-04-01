@@ -214,7 +214,7 @@ def tune_model(define_tune_parameters,
             epochs=train_epochs,
             batch_size=train_batch_size,
             class_weight=train_class_weight,
-            callbacks=[test_callback, tf.keras.callbacks.EarlyStopping(patience=50, mode=tune_direction, monitor=tune_objective)])
+            callbacks=[test_callback, tf.keras.callbacks.EarlyStopping(patience=100, mode=tune_direction, monitor=tune_objective)])
             #callbacks=[test_callback, tf.keras.callbacks.EarlyStopping(patience=2)])
 
         # log the best hyperparameters
