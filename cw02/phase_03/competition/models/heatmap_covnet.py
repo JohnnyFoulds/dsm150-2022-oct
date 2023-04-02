@@ -255,6 +255,7 @@ class HeatmapCovnetModel():
                 objective=Objective(tune_objective, direction=tune_direction),
                 max_trials=max_trials,
                 executions_per_trial=1,
+                directory='./untitled_project/heatmap_covnet',
                 overwrite=True)
 
             run_id = run.info.run_id
