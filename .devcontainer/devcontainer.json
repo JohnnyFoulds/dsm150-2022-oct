@@ -11,6 +11,11 @@
 		"all"
 	],
 
+	"mounts": [
+        "source=/media/johnny/seagull_returns/mlflow/dsm150/cw02/phase_03/mlruns/,target=/workspaces/dsm150-2022-oct/cw02/phase_03/mlruns,type=bind",
+		"source=/media/johnny/seagull_returns/mlflow/dsm150/cw02/phase_03/untitled_project/,target=/workspaces/dsm150-2022-oct/cw02/phase_03/untitled_project,type=bind"
+    ],
+
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
 
