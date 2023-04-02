@@ -196,6 +196,7 @@ def tune_model(define_tune_parameters,
             objective=kt.Objective(tune_objective, direction=tune_direction),
             max_trials=max_trials,
             executions_per_trial=1,
+            directory='./untitled_project/simple_dense',
             overwrite=True)
 
         run_id = run.info.run_id
