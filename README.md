@@ -34,34 +34,17 @@ In the VS Code `settings` for the remote tab you need to set the search path to 
  # activate conda environment
  conda activate pycaret
 
-# install pycaret
- pip install pycaret==3.0.0
-
  # if you want jupyter lab
- conda install -c conda-forge jupyterlab
- python -m ipykernel install --user --name pycaret --display-name "pycaret"
+conda install -c conda-forge jupyterlab
+python -m ipykernel install --user --name pycaret --display-name "pycaret"
 jupyter lab --allow-root
 
-# install tensorflow
-pip install tensorflow==2.11.0
-pip install tensorflow-addons==0.19.0
-pip install keras-tuner==1.3.0
-
-pip install mlflow==2.2.2
-pip install seaborn==0.12.2
-
-pip install pandas-profiling==3.6.6
-pip install pygwalker==0.1.6.1
-pip install dtale==2.13.0
-
-# pep 8
-pip install pep8
-pip install pylint
+pip install -r requirements_pycaret.txt
 ```
 
 Please note that the newest Jupyter extension at the time of writing this is not rendering the HTML output Pycaret. A version confirmed where this is working is `v2022.11.1003412109` which you can downgrade to in the extensions tab.
 
-If they `tqdm` prograss does not work try `pip install ipywidgets==7.6.6`.
+If the `tqdm` prograss does not work try `pip install ipywidgets==7.6.6`.
 
 
 # Original Readme
