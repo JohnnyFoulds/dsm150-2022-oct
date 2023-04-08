@@ -5,6 +5,7 @@ This module implements a base class to use for prediction.
 from abc import ABC, abstractmethod
 from typing import List
 import pandas as pd
+from tqdm.auto import tqdm
 
 # create an abstract base class
 class PredictionBase(ABC):
@@ -37,16 +38,15 @@ class PredictionBase(ABC):
         df_predictions = labels.copy()
         label_predictions = []
 
-        # perform the feature engineering
-        feature_set = self.feature_engineering(data, labels)
-
         # process each row in the labels data
-        for index, row in labels.iterrows():
-            session_features = [df_features[df_features.session_id == row.session_id]
-                                for df_features in feature_set]
-                                
-            question_features = [df_features[df_features.level_group == row.level_group]
-                                 for df_features in session_features]
+        for index, row in tqdm(labels.iterrows(), total=labels.shape[0]):
+            df_session = data[data.session_id == row.session_id]
+            df_question = df_session[df_session.level_group == row.level_group]
+                              
+            # perform the feature engineering
+            question_features = self.feature_engineering(
+                data=df_question,
+                labels=labels.loc[[index]])
 
             # predict the target variable
             label = self.predict_question(question_features, row.question_num)

@@ -64,7 +64,8 @@ def create_feature_dataset(df_features:pd.DataFrame,
                            feature_list:list,
                            level_group:Optional[str]=None,
                            include_question:bool=True,
-                           expand_question:bool=False) -> np.ndarray:
+                           expand_question:bool=False,
+                           verbose:bool=True) -> np.ndarray:
     """
     Creates the feature dataset for the given level group and session list.
     If the level group is not specified it will create the dataset for all level groups.
@@ -95,11 +96,11 @@ def create_feature_dataset(df_features:pd.DataFrame,
     """
     # get the features and labels for the given level group
     if level_group is None:
-        logging.info('Creating the dataset for all level groups')
+        if verbose: logging.info('Creating the dataset for all level groups')
         df_features_group = df_features.query('session_id in @session_list')
         df_labels_group = df_source_labels.query('session_id in @session_list')
     else:
-        logging.info('Creating the dataset for level group: %s', level_group)
+        if verbose: logging.info('Creating the dataset for level group: %s', level_group)
         df_features_group = df_features.query('level_group == @level_group and session_id in @session_list')
         df_labels_group = df_source_labels.query('level_group == @level_group and session_id in @session_list')
 
@@ -112,7 +113,7 @@ def create_feature_dataset(df_features:pd.DataFrame,
     current_session_id = None
     df_session_features:pd.DataFrame = None
 
-    for index, row in tqdm(df_labels_group.iterrows(), total=df_labels_group.shape[0]):        
+    for index, row in tqdm(df_labels_group.iterrows(), total=df_labels_group.shape[0], disable=not verbose):
         session_id = int(row['session_id'])
         session_level_group = row['level_group']
         question_num = int(row['question_num'])

@@ -338,7 +338,8 @@ def add_screen_heatmap_feature(features:pd.DataFrame,
                                X:pd.DataFrame,
                                bins:int=HEATMAP_BINS,
                                min_value:int=0,
-                               max_value:int=HEATMAP_MAX) -> pd.DataFrame:
+                               max_value:int=HEATMAP_MAX,
+                               verbose:bool=True) -> pd.DataFrame:
     """
     Adds the screen heatmap feature to the features dataset.
 
@@ -361,7 +362,7 @@ def add_screen_heatmap_feature(features:pd.DataFrame,
         The features dataset with the screen heatmap feature added.
     """
     heatmaps_feature = []
-    for session_id in tqdm(features['session_id'].unique()):
+    for session_id in tqdm(features['session_id'].unique(), disable=not verbose):
         df_session = X[X['session_id'] == session_id]
         df_session_features = features[features['session_id'] == session_id]
 
