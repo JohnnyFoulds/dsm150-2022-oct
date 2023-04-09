@@ -266,3 +266,54 @@ def labels_to_categorical(dataset:dict) -> dict:
         new_dataset[key]['y'] = tf.keras.utils.to_categorical(new_dataset[key]['y'], num_classes=2)
 
     return new_dataset
+
+def get_question_dataset(features: pd.DataFrame,
+                         labels: pd.DataFrame,
+                         question_num: int) -> Tuple[pd.DataFrame, pd.DataFrame]:
+    """
+    Returns a dataset containing only the specified question_num.
+
+    Parameters
+    ----------
+    features : pd.DataFrame
+        The features dataset with prepared and normalized data.
+    labels : pd.DataFrame
+        The labels dataset containing the target variable.
+    question_num : int
+        The question number to filter on.
+
+    Returns
+    -------
+    Tuple[pd.DataFrame, pd.DataFrame]
+        The filtered features and labels datasets.
+    """
+    # combine the features and labels datasets
+    df_combined = labels.merge(
+        right=features, 
+        on=['session_id', 'level_group'],
+        how='left')
+
+    # filter the combined dataset on the specified question_num
+    df_question = df_combined[df_combined['question_num'] == question_num]
+
+    # convert the "heatmap" column to a list
+    screen_heatmap_feature = pd.DataFrame()
+    if 'screen_heatmap_feature' in df_question.columns:
+        logging.info('Temporarily removing the "screen_heatmap_feature" column')
+        screen_heatmap_feature = df_question['screen_heatmap_feature']
+
+    # split the combined dataset into features and labels again
+    df_question_features = df_question \
+        .drop(columns=['question_num', 'correct', 'screen_heatmap_feature']) \
+        .drop_duplicates()
+    
+    # add the heatmap feature to df_question_features
+    if 'screen_heatmap_feature' in df_question.columns:
+        logging.info('Adding back the "screen_heatmap_feature" column')
+        df_question_features = df_question_features.join(screen_heatmap_feature, how='left')
+
+    df_question_labels = df_question[['session_id', 'question_num', 
+                                     'correct', 'level_group']]        
+    
+    # return the filtered features and labels datasets
+    return df_question_features, df_question_labels

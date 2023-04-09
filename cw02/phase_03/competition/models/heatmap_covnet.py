@@ -215,7 +215,8 @@ class HeatmapCovnetModel():
                    tuner_type:Type[tuner_module.Tuner],
                    tune_objective:str,
                    tune_direction:str,
-                   train_class_weight:Optional[Dict]=None) -> k.Model:
+                   train_class_weight:Optional[Dict]=None,
+                   tune_patience:int=100) -> k.Model:
         """
         Find the optimal hyper parameters using the KerasTuner API.
         """
@@ -277,7 +278,7 @@ class HeatmapCovnetModel():
                 epochs=train_epochs,
                 batch_size=train_batch_size,
                 class_weight=train_class_weight,
-                callbacks=[test_callback, tf.keras.callbacks.EarlyStopping(patience=10, mode=tune_direction, monitor=tune_objective)])
+                callbacks=[test_callback, tf.keras.callbacks.EarlyStopping(patience=tune_patience, mode=tune_direction, monitor=tune_objective)])
 
             # log the best hyperparameters
             best_hp = tuner.get_best_hyperparameters()[0].values

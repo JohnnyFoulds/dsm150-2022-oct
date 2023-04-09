@@ -143,7 +143,8 @@ def tune_model(define_tune_parameters,
                train_class_weight:Optional[Dict]=None,
                tuner_type:Type[tuner_module.Tuner]=kt.tuners.RandomSearch,
                tune_objective:str='val_accuracy',
-               tune_direction:str='max') -> k.Model:
+               tune_direction:str='max',
+               tune_patience:int=100) -> k.Model:
     """
     Find the optimal hyper parameters using the KerasTuner API.
     """
@@ -201,7 +202,7 @@ def tune_model(define_tune_parameters,
 
         run_id = run.info.run_id
     mlflow.end_run()
-    mlflow.delete_run(run_id)            
+    mlflow.delete_run(run_id)
 
     # start the search
     with mlflow.start_run():
@@ -215,7 +216,7 @@ def tune_model(define_tune_parameters,
             epochs=train_epochs,
             batch_size=train_batch_size,
             class_weight=train_class_weight,
-            callbacks=[test_callback, tf.keras.callbacks.EarlyStopping(patience=10, mode=tune_direction, monitor=tune_objective)])
+            callbacks=[test_callback, tf.keras.callbacks.EarlyStopping(patience=tune_patience, mode=tune_direction, monitor=tune_objective)])
             #callbacks=[test_callback, tf.keras.callbacks.EarlyStopping(patience=2)])
 
         # log the best hyperparameters
@@ -228,8 +229,6 @@ def tune_model(define_tune_parameters,
         val_loss, val_objective = best_model.evaluate(dataset['val']['X'], dataset['val']['y'])
         mlflow.log_metric("val_loss", val_loss)
         mlflow.log_metric(tune_objective, val_objective)
-
-    mlflow.end_run()    
 
     return best_model
 

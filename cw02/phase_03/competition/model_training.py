@@ -28,6 +28,10 @@ def mflush():
     # Clear the lines after displaying the markdown
     _markdown_lines = []
 
+def mclear():
+    global _markdown_lines
+    _markdown_lines = []
+
 def plot_loss(history:History,
               figsize:Tuple[int, int] = (5, 3)) -> None:
     """
