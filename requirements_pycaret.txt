@@ -9,4 +9,6 @@ pygwalker==0.1.6.1
 dtale==2.13.0
 pep8
 pylint
+
+# maybe, but it changes the look of the plots
 ipykernel==6.22.0

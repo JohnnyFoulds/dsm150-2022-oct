@@ -60,7 +60,13 @@ def get_model(input_shape,
 
     mlflow.log_param('dense_layer_count', dense_layer_count)
     mlflow.log_param('dense_units', dense_units)
-    mlflow.log_param('dense_activation', dense_activation)
+
+    # if the dense_activation is an object then get the name
+    if isinstance(dense_activation, k.layers.Layer):
+        mlflow.log_param('dense_activation', dense_activation.__class__.__name__)
+    else:
+        mlflow.log_param('dense_activation', dense_activation)
+
     mlflow.log_param('dense_l1_regularization', dense_l1_regularization)
     mlflow.log_param('dense_l2_regularization', dense_l2_regularization)
     mlflow.log_param('dense_dropout', dense_dropout)
@@ -175,7 +181,7 @@ def tune_model(define_tune_parameters,
         y_val=dataset['val']['y'],
         X_test=dataset['test']['X'],
         y_test=dataset['test']['y'],
-        show_plots=True)    
+        show_plots=True)
 
     class CustomSearch(tuner_type):
         def on_trial_begin(self, trial):
@@ -203,6 +209,7 @@ def tune_model(define_tune_parameters,
         run_id = run.info.run_id
     mlflow.end_run()
     mlflow.delete_run(run_id)
+    mlflow.end_run()
 
     # start the search
     with mlflow.start_run():

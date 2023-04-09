@@ -119,14 +119,24 @@ class HeatmapCovnetModel():
 
         # log the model parameters
         mlflow.log_param('covnet_block_count', covnet_block_count)
-        mlflow.log_param('covnet_activation', covnet_activation)
+
+        if isinstance(covnet_activation, layers.Layer):
+            mlflow.log_param('covnet_activation', covnet_activation.__class__.__name__)
+        else:
+            mlflow.log_param('covnet_activation', covnet_activation)
+                
         mlflow.log_param('covnet_cov_count', covnet_cov_count)
         mlflow.log_param('covnet_channels', covnet_channels)
         mlflow.log_param('covnet_kernel_size', covnet_kernel_size)
         mlflow.log_param('covnet_pool_size', covnet_pool_size)
         mlflow.log_param('dense_layer_count', dense_layer_count)
         mlflow.log_param('dense_units', dense_units)
-        mlflow.log_param('dense_activation', dense_activation)
+
+        if isinstance(dense_activation, layers.Layer):
+            mlflow.log_param('dense_activation', dense_activation.__class__.__name__)
+        else:
+            mlflow.log_param('dense_activation', dense_activation)
+        
         mlflow.log_param('dense_l1_regularization', dense_l1_regularization)
         mlflow.log_param('dense_l2_regularization', dense_l2_regularization)
         mlflow.log_param('dense_dropout', dense_dropout)
