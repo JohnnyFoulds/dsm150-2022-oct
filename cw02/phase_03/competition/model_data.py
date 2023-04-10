@@ -60,7 +60,7 @@ def select_sessions(
 
 def create_feature_dataset(df_features:pd.DataFrame,
                            df_source_labels:pd.DataFrame,
-                           session_list: list,
+                           session_list: List[np.ndarray],
                            feature_list:list,
                            level_group:Optional[str]=None,
                            include_question:bool=True,
