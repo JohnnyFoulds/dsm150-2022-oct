@@ -26,4 +26,17 @@ _Note: Notice in particular the `page` columns which we completely ignored. _
 
 _Note: It is a bit subtle to see, but each fold is used to predict a subset of the validation set. In essence, for each question K=5 models are created(one in each fold), and for validation each subset of K is predicted using the corresponding model. So we could say this is already and ensemble model albeit with the singe RF algorithm._
 
-> This is an interesting technique and we can try to incorporate it into our training pipeline. But perhaps we use the top 5 models we get during hyperparameter tuning.
+> - This is an interesting technique and we can try to incorporate it into our training pipeline. But perhaps we use the top 5 models we get during hyperparameter tuning.
+> - **Note** though that it like for submission he only uses the models from the last fold for prediction, so perhaps the complexity of adding the CV is not worth it; will need to investigate.
+
+### LightGBM baseline with aggregated log data :: 002
+
+_by [DATAMANYO](https://www.kaggle.com/code/kimtaehun/lightgbm-baseline-with-aggregated-log-data)_
+
+- `def summary(df)` is a pretty neat function, I can use this to get a quick overview of the data.
+
+#### Feature Engineering
+
+ - Added one-hot encoding of `event_name`.
+ - For the categorical values `text` is used as opposed to `text_fqid` in `001`. This make sense as we know now there are slight variations in the game types being played.
+ - Additional features to `001` is the `sum` that are created from the one-hot features: `['navigate_click','person_click','cutscene_click','object_click','map_hover','notification_click', 'map_click','observation_click','checkpoint','elapsed_time']`.
