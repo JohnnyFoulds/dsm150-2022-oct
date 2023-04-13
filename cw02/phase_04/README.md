@@ -20,6 +20,10 @@ _Note: Notice in particular the `page` columns which we completely ignored. _
 
 #### Training
 
-- KFold Cross Validation is used (although I don't see how he actually uses the separate model created in each fold for each question).
+- KFold Cross Validation is used.
 - A separate model is trained for each question.
 - Each question is predicted using its own model, but to optimize the f1 score, a single threshold is applied across all question correct probabilities.
+
+_Note: It is a bit subtle to see, but each fold is used to predict a subset of the validation set. In essence, for each question K=5 models are created(one in each fold), and for validation each subset of K is predicted using the corresponding model. So we could say this is already and ensemble model albeit with the singe RF algorithm._
+
+> This is an interesting technique and we can try to incorporate it into our training pipeline. But perhaps we use the top 5 models we get during hyperparameter tuning.
