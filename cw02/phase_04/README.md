@@ -4,7 +4,7 @@
 
 source: https://www.kaggle.com/competitions/predict-student-performance-from-game-play/code?competitionId=45533&sortBy=dateRun
 
-### Random Forest Baseline - [0.664] :: 001
+### Random Forest Baseline - [0.664] :: 0100
 
 _by [CHRIS DEOTTE](https://www.kaggle.com/code/cdeotte/random-forest-baseline-0-664)_
 
@@ -29,7 +29,7 @@ _Note: It is a bit subtle to see, but each fold is used to predict a subset of t
 > - This is an interesting technique and we can try to incorporate it into our training pipeline. But perhaps we use the top 5 models we get during hyperparameter tuning.
 > - **Note** though that it like for submission he only uses the models from the last fold for prediction, so perhaps the complexity of adding the CV is not worth it; will need to investigate.
 
-### LightGBM baseline with aggregated log data :: 002
+### LightGBM baseline with aggregated log data :: 0200
 
 _by [DATAMANYO](https://www.kaggle.com/code/kimtaehun/lightgbm-baseline-with-aggregated-log-data)_
 
