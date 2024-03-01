@@ -1,3 +1,4 @@
-tensorflow==2.15.0
+tensorflow[and-cuda]==2.15.0.post1
 tensorflow-recommenders==0.7.3
 pandas==2.2.1
+matplotlib==3.8.3
